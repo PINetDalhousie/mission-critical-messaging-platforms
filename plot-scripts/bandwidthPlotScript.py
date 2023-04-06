@@ -1,4 +1,4 @@
-# smaple command to run this script: sudo python3 plot-scripts/bandwidthPlotScript.py --port-type access-port --message-rate 30 --ntopics 2
+# smaple command to run this script: sudo python3 plot-scripts/bandwidthPlotScript.py --message-rate 30 --ntopics 2 --nodeList 10,20 --logDirectoryList logs/bandwidth-scenario-30/,logs/bandwidth-scenario-31/
 #!/usr/bin/python3
 
 import os
@@ -14,7 +14,6 @@ from matplotlib.font_manager import FontProperties
 import numpy as np
 
 interval = 5
-inputBarDraw = 0
 
 def clearExistingPlot():
     # clear the previous figure
@@ -95,16 +94,6 @@ def aggregatedPlot(portFlag,x,y, yLeaderLess, yLabel, msgSize, countX):
         elif args.switches == 20 and y[i] <= 40:
             newXValues.append(x[i])
             newYValues.append(y[i])
-     
-    # plt.plot(newXValues,newYValues, label = "output (with leader)")
-
-    # dataRateList = plotInputDataRate(msgSize, args.mRate, countX, args.switches)
-    # dataRateList = [x / 1000000 for x in dataRateList]
-
-    # plt.xlabel('Time (s)')
-    # plt.ylabel(yLabel)
-    
-    # plt.ylim(bottom=0)
 
     return newXValues, newYValues
 
@@ -163,26 +152,26 @@ def parseInput(portSwitchId):
 
 # if __name__ == '__main__': 
 parser = argparse.ArgumentParser(description='Script for plotting individual port log.')
-# parser.add_argument('--number-of-switches', dest='switches', type=int, default=0,
-#                 help='Number of switches')
-# parser.add_argument('--switch-ports', dest='switchPorts', type=str, help='Plot bandwidth vs time in a port wise and aggregated manner')
-parser.add_argument('--port-type', dest='portType', default="access-port", type=str, help='Plot bandwidth for access/trunc ports')
 parser.add_argument('--message-size', dest='mSizeString', type=str, default='fixed,10', help='Message size distribution (fixed, gaussian)')
 parser.add_argument('--message-rate', dest='mRate', type=float, default=1.0, help='Message rate in msgs/second')
 parser.add_argument('--ntopics', dest='nTopics', type=int, default=1, help='Number of topics')
-# parser.add_argument('--replication', dest='replication', type=int, default=1, help='Replication factor')
-# parser.add_argument('--log-dir', dest='logDir', type=str, help='Producer log directory')
+parser.add_argument('--nodeList', dest='nodeList', type=str, default="10,20", help='Number of nodes for different scenarios')
+parser.add_argument('--logDirectoryList', dest='logDirectoryList', type=str, default="logs/bandwidth-scenario-30/,logs/bandwidth-scenario-31/", help='Log directory for each scenario')
 
 args = parser.parse_args()
 
 
 # create switchPorts for switch 10 and 20
-switchList = [10,20]
-band10 ={}
-band20 ={}
-for i in switchList:
-    args.switches = i
-    args.replication = i
+nodeList = args.nodeList.split(',')
+logDirectoryList = args.logDirectoryList.split(',')
+bandDict ={}
+maxBandY = -1
+fileName = ""
+
+for index, val in enumerate(nodeList):
+    nNode = int(val)
+    args.switches = nNode
+    args.replication = nNode
     switchPorts = ""
     portCount = 1
     for pc in range(args.switches-1):
@@ -190,34 +179,40 @@ for i in switchList:
     switchPorts = switchPorts +"S"+str(args.switches)+"-P1"
     args.switchPorts = switchPorts
 
-    if i == 10:
-        logDirectory = "logs/bandwidth-scenario-30/"
-        newXValues, newYValues = overheadCheckPlot()      #for aggregated plot   
-        band10["X"] = newXValues
-        band10["Y"] = newYValues
-    else:
-        logDirectory = "logs/bandwidth-scenario-31/"
-        newXValues, newYValues = overheadCheckPlot()      #for aggregated plot   
-        band20["X"] = newXValues
-        band20["Y"] = newYValues
+    logDirectory = logDirectoryList[index]
+    fileName = fileName + "-scenario"+logDirectory.split('-')[-1].split('/')[0]
+    newXValues, newYValues = overheadCheckPlot()      #for aggregated plot   
+    bandDict["X"] = newXValues
+    bandDict["Y"] = newYValues
+    if max(newYValues) > maxBandY:
+        maxBandY = max(newYValues)
+    print(maxBandY)
+    plt.plot(bandDict["X"],bandDict["Y"], label = val)
 
-    
-plt.plot(band10["X"],band10["Y"], label = "10")
-plt.plot(band20["X"],band20["Y"], label = "20")
 plt.xlabel('Time (s)', fontsize=22, fontweight='bold', labelpad=10)
 plt.ylabel('Throughput (Mbps)', fontsize=22, fontweight='bold')
 
 plt.ylim(bottom=0)
-plt.legend(title="Nodes", loc='upper left', frameon=False, fontsize=18, markerscale=2.0)
+plt.legend(title="Nodes", loc='upper left', fontsize=18, markerscale=2.0)
 
+# Setting the ticks
 ax = plt.gca()
-ax.xaxis.set_ticks(np.arange(0, 451, 150))
+
 ax.xaxis.set_tick_params(labelsize=18)
-ax.yaxis.set_ticks(np.arange(0, 31, 5))
 ax.yaxis.set_tick_params(labelsize=18)
 
-ax.set_ylim([0, 30])
-ax.set_xlim([0, 450])
+# Setting the limit
+if maxBandY > 25:
+    ax.xaxis.set_ticks(np.arange(0, 501, 125))
+    ax.yaxis.set_ticks(np.arange(0, 31, 5))
+    ax.set_ylim([0, 30])
+    ax.set_xlim([0, 500])
+else:
+    ax.xaxis.set_ticks(np.arange(0, 501, 125))
+    ax.yaxis.set_ticks(np.arange(0, 11, 5))
+    ax.set_ylim([0, 10])
+    ax.set_xlim([0, 500])
 
-plt.savefig("plots/"+"aggregated-rx-bytes.pdf",bbox_inches="tight")
+
+plt.savefig("plots/"+"aggregated-rx-bytes"+fileName+".pdf",bbox_inches="tight")
 print("Aggregated plot created.")
