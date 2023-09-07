@@ -1,0 +1,1280 @@
+<h2>: [2023-02-25 08:28:19,899] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+<h2>: [2023-02-25 08:28:20,209] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+<h2>: [2023-02-25 08:28:20,662] INFO [LogLoader partition=__cluster_metadata-0, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h2>: [2023-02-25 08:28:20,663] INFO [LogLoader partition=__cluster_metadata-0, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+<h2>: [2023-02-25 08:28:20,664] INFO [LogLoader partition=__cluster_metadata-0, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2] Producer state recovery took 1ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+<h2>: [2023-02-25 08:28:20,753] INFO [raft-expiration-reaper]: Starting (kafka.raft.TimingWheelExpirationService$ExpiredOperationReaper)
+<h2>: [2023-02-25 08:28:21,031] INFO [RaftManager nodeId=2] Completed transition to Unattached(epoch=0, voters=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], electionTimeoutMs=14415) (org.apache.kafka.raft.QuorumState)
+<h2>: [2023-02-25 08:28:21,054] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+<h2>: [2023-02-25 08:28:21,062] INFO [kafka-raft-outbound-request-thread]: Starting (kafka.raft.RaftSendThread)
+<h2>: [2023-02-25 08:28:21,062] INFO [kafka-raft-io-thread]: Starting (kafka.raft.KafkaRaftManager$RaftIoThread)
+<h2>: [2023-02-25 08:28:21,063] INFO Starting controller (kafka.server.ControllerServer)
+<h2>: [2023-02-25 08:28:21,435] INFO Updated connection-accept-rate max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+<h2>: [2023-02-25 08:28:21,441] INFO Awaiting socket connections on 10.0.0.2:19093. (kafka.network.Acceptor)
+<h2>: [2023-02-25 08:28:21,477] INFO [SocketServer listenerType=CONTROLLER, nodeId=2] Created data-plane acceptor and processors for endpoint : ListenerName(CONTROLLER) (kafka.network.SocketServer)
+<h2>: [2023-02-25 08:28:21,503] INFO [RaftManager nodeId=2] Registered the listener org.apache.kafka.controller.QuorumController$QuorumMetaLogListener@1468422210 (org.apache.kafka.raft.KafkaRaftClient)
+<h2>: [2023-02-25 08:28:21,511] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h2>: [2023-02-25 08:28:21,513] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h2>: [2023-02-25 08:28:21,516] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h2>: [2023-02-25 08:28:21,519] INFO [ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h2>: [2023-02-25 08:28:21,539] INFO [ExpirationReaper-2-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h2>: [2023-02-25 08:28:21,568] INFO [SocketServer listenerType=CONTROLLER, nodeId=2] Starting socket server acceptors and processors (kafka.network.SocketServer)
+<h2>: [2023-02-25 08:28:21,580] INFO [SocketServer listenerType=CONTROLLER, nodeId=2] Started data-plane acceptor and processor(s) for endpoint : ListenerName(CONTROLLER) (kafka.network.SocketServer)
+<h2>: [2023-02-25 08:28:21,581] INFO [SocketServer listenerType=CONTROLLER, nodeId=2] Started socket server acceptors and processors (kafka.network.SocketServer)
+<h2>: [2023-02-25 08:28:21,581] INFO [BrokerServer id=2] Transition from SHUTDOWN to STARTING (kafka.server.BrokerServer)
+<h2>: [2023-02-25 08:28:21,582] INFO [BrokerServer id=2] Starting broker (kafka.server.BrokerServer)
+<h2>: [2023-02-25 08:28:21,598] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h2>: [2023-02-25 08:28:21,600] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h2>: [2023-02-25 08:28:21,600] INFO [ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h2>: [2023-02-25 08:28:21,600] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h2>: [2023-02-25 08:28:21,662] INFO [BrokerToControllerChannelManager broker=2 name=forwarding]: Starting (kafka.server.BrokerToControllerRequestThread)
+<h2>: [2023-02-25 08:28:21,710] INFO Updated connection-accept-rate max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+<h2>: [2023-02-25 08:28:21,711] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+<h2>: [2023-02-25 08:28:21,719] INFO [SocketServer listenerType=BROKER, nodeId=2] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+<h2>: [2023-02-25 08:28:21,733] INFO [BrokerToControllerChannelManager broker=2 name=alterIsr]: Starting (kafka.server.BrokerToControllerRequestThread)
+<h2>: [2023-02-25 08:28:21,750] INFO [ExpirationReaper-2-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h2>: [2023-02-25 08:28:21,751] INFO [ExpirationReaper-2-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h2>: [2023-02-25 08:28:21,755] INFO [ExpirationReaper-2-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h2>: [2023-02-25 08:28:21,759] INFO [ExpirationReaper-2-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h2>: [2023-02-25 08:28:21,786] INFO [ExpirationReaper-2-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h2>: [2023-02-25 08:28:21,788] INFO [ExpirationReaper-2-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h2>: [2023-02-25 08:28:21,848] INFO [RaftManager nodeId=2] Registered the listener kafka.server.metadata.BrokerMetadataListener@1862437999 (org.apache.kafka.raft.KafkaRaftClient)
+<h2>: [2023-02-25 08:28:21,851] INFO [BrokerToControllerChannelManager broker=2 name=heartbeat]: Starting (kafka.server.BrokerToControllerRequestThread)
+<h2>: [2023-02-25 08:28:21,855] INFO [BrokerLifecycleManager id=2] Incarnation X8jyo9nzSDiMNmlwdyB4aA of broker 2 in cluster JmL9ihFRQmSabrNWrYSpjg is now STARTING. (kafka.server.BrokerLifecycleManager)
+<h2>: [2023-02-25 08:28:21,903] INFO [ExpirationReaper-2-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h2>: [2023-02-25 08:28:35,246] INFO [RaftManager nodeId=2] Completed transition to CandidateState(localId=2, epoch=1, retries=1, electionTimeoutMs=10925) (org.apache.kafka.raft.QuorumState)
+<h2>: [2023-02-25 08:28:35,294] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:35,349] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:35,468] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:35,663] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:36,036] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:36,625] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:37,164] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:37,713] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:38,166] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:38,593] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:39,128] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:39,245] INFO [RaftManager nodeId=2] Vote request VoteRequestData(clusterId='JmL9ihFRQmSabrNWrYSpjg', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=1, candidateId=4, lastOffsetEpoch=0, lastOffset=0)])]) with epoch 1 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+<h2>: [2023-02-25 08:28:39,609] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:40,067] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:40,657] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:41,277] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:41,325] INFO [RaftManager nodeId=2] Insufficient remaining votes to become leader (rejected by [1, 3, 5, 6, 9]). We will backoff before retrying election again (org.apache.kafka.raft.KafkaRaftClient)
+<h2>: [2023-02-25 08:28:41,412] INFO [RaftManager nodeId=2] Vote request VoteRequestData(clusterId='JmL9ihFRQmSabrNWrYSpjg', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=1, candidateId=1, lastOffsetEpoch=0, lastOffset=0)])]) with epoch 1 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+<h2>: [2023-02-25 08:28:41,425] INFO [RaftManager nodeId=2] Re-elect as candidate after election backoff has completed (org.apache.kafka.raft.KafkaRaftClient)
+<h2>: [2023-02-25 08:28:41,483] INFO [RaftManager nodeId=2] Completed transition to CandidateState(localId=2, epoch=2, retries=2, electionTimeoutMs=14732) (org.apache.kafka.raft.QuorumState)
+<h2>: [2023-02-25 08:28:41,734] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:42,191] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:42,747] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:43,197] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:43,751] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:43,833] INFO [RaftManager nodeId=2] Completed transition to Leader(localId=2, epoch=2, epochStartOffset=0, highWatermark=Optional.empty, voterStates={1=ReplicaState(nodeId=1, endOffset=Optional.empty, lastFetchTimestamp=OptionalLong.empty, hasAcknowledgedLeader=false), 2=ReplicaState(nodeId=2, endOffset=Optional.empty, lastFetchTimestamp=OptionalLong.empty, hasAcknowledgedLeader=true), 3=ReplicaState(nodeId=3, endOffset=Optional.empty, lastFetchTimestamp=OptionalLong.empty, hasAcknowledgedLeader=false), 4=ReplicaState(nodeId=4, endOffset=Optional.empty, lastFetchTimestamp=OptionalLong.empty, hasAcknowledgedLeader=false), 5=ReplicaState(nodeId=5, endOffset=Optional.empty, lastFetchTimestamp=OptionalLong.empty, hasAcknowledgedLeader=false), 6=ReplicaState(nodeId=6, endOffset=Optional.empty, lastFetchTimestamp=OptionalLong.empty, hasAcknowledgedLeader=false), 7=ReplicaState(nodeId=7, endOffset=Optional.empty, lastFetchTimestamp=OptionalLong.empty, hasAcknowledgedLeader=false), 8=ReplicaState(nodeId=8, endOffset=Optional.empty, lastFetchTimestamp=OptionalLong.empty, hasAcknowledgedLeader=false), 9=ReplicaState(nodeId=9, endOffset=Optional.empty, lastFetchTimestamp=OptionalLong.empty, hasAcknowledgedLeader=false), 10=ReplicaState(nodeId=10, endOffset=Optional.empty, lastFetchTimestamp=OptionalLong.empty, hasAcknowledgedLeader=false)}) (org.apache.kafka.raft.QuorumState)
+<h2>: [2023-02-25 08:28:43,834] INFO [BrokerToControllerChannelManager broker=2 name=alterIsr]: Recorded new controller, from now on will use broker 10.0.0.2:19093 (id: 2 rack: null) (kafka.server.BrokerToControllerRequestThread)
+<h2>: [2023-02-25 08:28:43,834] INFO [BrokerToControllerChannelManager broker=2 name=heartbeat]: Recorded new controller, from now on will use broker 10.0.0.2:19093 (id: 2 rack: null) (kafka.server.BrokerToControllerRequestThread)
+<h2>: [2023-02-25 08:28:43,836] INFO [Controller 2] Becoming the active controller at epoch 2, committed offset -1 and committed epoch -1. (org.apache.kafka.controller.QuorumController)
+<h2>: [2023-02-25 08:28:43,855] INFO [BrokerToControllerChannelManager broker=2 name=forwarding]: Recorded new controller, from now on will use broker 10.0.0.2:19093 (id: 2 rack: null) (kafka.server.BrokerToControllerRequestThread)
+<h2>: [2023-02-25 08:28:43,861] INFO [Controller 2] Registered new broker: RegisterBrokerRecord(brokerId=2, incarnationId=X8jyo9nzSDiMNmlwdyB4aA, brokerEpoch=0, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.2', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:28:44,221] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:44,781] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:45,259] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:45,734] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:46,252] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:46,856] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:47,455] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:48,014] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:48,511] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:49,087] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:49,614] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:50,176] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:50,243] INFO [Controller 2] Registered new broker: RegisterBrokerRecord(brokerId=4, incarnationId=s-FsC5kbQZC2B9nRA2scLw, brokerEpoch=1, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.4', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:28:50,695] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:51,278] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:51,738] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:52,217] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:52,421] INFO [BrokerLifecycleManager id=2] Successfully registered broker 2 with broker epoch 0 (kafka.server.BrokerLifecycleManager)
+<h2>: [2023-02-25 08:28:52,776] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:52,901] INFO [Controller 2] Registered new broker: RegisterBrokerRecord(brokerId=1, incarnationId=jlj8QGmFTTS1WsXQpFDGKw, brokerEpoch=3, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.1', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:28:52,909] INFO [Controller 2] Registered new broker: RegisterBrokerRecord(brokerId=6, incarnationId=GXPVAwIuTCS09Qo2tRaeVg, brokerEpoch=4, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.6', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:28:52,911] INFO [Controller 2] Registered new broker: RegisterBrokerRecord(brokerId=8, incarnationId=kld-8GNFS1KLMn6OtsLiyA, brokerEpoch=5, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.8', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:28:52,928] INFO [Controller 2] Registered new broker: RegisterBrokerRecord(brokerId=3, incarnationId=q5hgdguMTtqZCYyGBkPLOA, brokerEpoch=6, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.3', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:28:52,929] INFO [Controller 2] Registered new broker: RegisterBrokerRecord(brokerId=9, incarnationId=oAh6uIpXTBOM633LhzBp3w, brokerEpoch=7, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.9', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:28:52,930] INFO [Controller 2] Registered new broker: RegisterBrokerRecord(brokerId=7, incarnationId=bSoSTyXuQD2610AoCjC8tg, brokerEpoch=8, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.7', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:28:52,964] INFO [Controller 2] Registered new broker: RegisterBrokerRecord(brokerId=5, incarnationId=xOjI9Dp0SuC1RN3O115Y2g, brokerEpoch=9, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.5', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:28:53,217] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:53,762] WARN [RaftManager nodeId=2] Error connecting to node 10.0.0.10:19101:9093 (id: 10 rack: null) (org.apache.kafka.clients.NetworkClient)
+<h2>: java.net.UnknownHostException: 10.0.0.10:19101: invalid IPv6 address
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1355)
+<h2>: 	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+<h2>: 	at org.apache.kafka.clients.DefaultHostResolver.resolve(DefaultHostResolver.java:27)
+<h2>: 	at org.apache.kafka.clients.ClientUtils.resolve(ClientUtils.java:110)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.currentAddress(ClusterConnectionStates.java:511)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates$NodeConnectionState.access$200(ClusterConnectionStates.java:468)
+<h2>: 	at org.apache.kafka.clients.ClusterConnectionStates.currentAddress(ClusterConnectionStates.java:173)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:984)
+<h2>: 	at org.apache.kafka.clients.NetworkClient.ready(NetworkClient.java:301)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1(InterBrokerSendThread.scala:103)
+<h2>: 	at kafka.common.InterBrokerSendThread.$anonfun$sendRequests$1$adapted(InterBrokerSendThread.scala:99)
+<h2>: 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+<h2>: 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+<h2>: 	at scala.collection.AbstractIterable.foreach(Iterable.scala:919)
+<h2>: 	at kafka.common.InterBrokerSendThread.sendRequests(InterBrokerSendThread.scala:99)
+<h2>: 	at kafka.common.InterBrokerSendThread.pollOnce(InterBrokerSendThread.scala:73)
+<h2>: 	at kafka.common.InterBrokerSendThread.doWork(InterBrokerSendThread.scala:94)
+<h2>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h2>: [2023-02-25 08:28:56,626] INFO [BrokerLifecycleManager id=2] The broker has caught up. Transitioning from STARTING to RECOVERY. (kafka.server.BrokerLifecycleManager)
+<h2>: [2023-02-25 08:28:56,630] INFO [BrokerMetadataListener id=2] Starting to publish metadata events at offset 9. (kafka.server.metadata.BrokerMetadataListener)
+<h2>: [2023-02-25 08:28:56,632] INFO [BrokerMetadataPublisher id=2] Publishing initial metadata at offset OffsetAndEpoch(offset=9, epoch=2). (kafka.server.metadata.BrokerMetadataPublisher)
+<h2>: [2023-02-25 08:28:56,634] INFO Loading logs from log dirs ArraySeq(/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2) (kafka.log.LogManager)
+<h2>: [2023-02-25 08:28:56,636] INFO Attempting recovery for all logs in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2 since no clean shutdown file was found (kafka.log.LogManager)
+<h2>: [2023-02-25 08:28:56,639] INFO [BrokerLifecycleManager id=2] The broker is in RECOVERY. (kafka.server.BrokerLifecycleManager)
+<h2>: [2023-02-25 08:28:56,648] INFO Loaded 0 logs in 14ms. (kafka.log.LogManager)
+<h2>: [2023-02-25 08:28:56,648] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+<h2>: [2023-02-25 08:28:56,649] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+<h2>: [2023-02-25 08:28:56,747] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+<h2>: [2023-02-25 08:28:56,747] INFO [GroupCoordinator 2]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+<h2>: [2023-02-25 08:28:56,749] INFO [GroupCoordinator 2]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+<h2>: [2023-02-25 08:28:56,750] INFO [TransactionCoordinator id=2] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+<h2>: [2023-02-25 08:28:56,754] INFO [Transaction Marker Channel Manager 2]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+<h2>: [2023-02-25 08:28:56,754] INFO [TransactionCoordinator id=2] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+<h2>: [2023-02-25 08:28:56,761] INFO KafkaConfig values: 
+<h2>: 	advertised.listeners = PLAINTEXT://10.0.0.2:9092
+<h2>: 	alter.config.policy.class.name = null
+<h2>: 	alter.log.dirs.replication.quota.window.num = 11
+<h2>: 	alter.log.dirs.replication.quota.window.size.seconds = 1
+<h2>: 	authorizer.class.name = 
+<h2>: 	auto.create.topics.enable = true
+<h2>: 	auto.leader.rebalance.enable = true
+<h2>: 	background.threads = 10
+<h2>: 	broker.heartbeat.interval.ms = 2000
+<h2>: 	broker.id = 2
+<h2>: 	broker.id.generation.enable = true
+<h2>: 	broker.rack = null
+<h2>: 	broker.session.timeout.ms = 120000
+<h2>: 	client.quota.callback.class = null
+<h2>: 	compression.type = producer
+<h2>: 	connection.failed.authentication.delay.ms = 100
+<h2>: 	connections.max.idle.ms = 600000
+<h2>: 	connections.max.reauth.ms = 0
+<h2>: 	control.plane.listener.name = null
+<h2>: 	controlled.shutdown.enable = true
+<h2>: 	controlled.shutdown.max.retries = 3
+<h2>: 	controlled.shutdown.retry.backoff.ms = 5000
+<h2>: 	controller.listener.names = CONTROLLER
+<h2>: 	controller.quorum.append.linger.ms = 25
+<h2>: 	controller.quorum.election.backoff.max.ms = 10000
+<h2>: 	controller.quorum.election.timeout.ms = 10000
+<h2>: 	controller.quorum.fetch.timeout.ms = 20000
+<h2>: 	controller.quorum.request.timeout.ms = 120000
+<h2>: 	controller.quorum.retry.backoff.ms = 20
+<h2>: 	controller.quorum.voters = [1@10.0.0.1:19092, 2@10.0.0.2:19093, 3@10.0.0.3:19094, 4@10.0.0.4:19095, 5@10.0.0.5:19096, 6@10.0.0.6:19097, 7@10.0.0.7:19098, 8@10.0.0.8:19099, 9@10.0.0.9:19100, 10@10.0.0.10:19101:9093]
+<h2>: 	controller.quota.window.num = 11
+<h2>: 	controller.quota.window.size.seconds = 1
+<h2>: 	controller.socket.timeout.ms = 300000
+<h2>: 	create.topic.policy.class.name = null
+<h2>: 	default.replication.factor = 1
+<h2>: 	delegation.token.expiry.check.interval.ms = 3600000
+<h2>: 	delegation.token.expiry.time.ms = 86400000
+<h2>: 	delegation.token.master.key = null
+<h2>: 	delegation.token.max.lifetime.ms = 604800000
+<h2>: 	delegation.token.secret.key = null
+<h2>: 	delete.records.purgatory.purge.interval.requests = 1
+<h2>: 	delete.topic.enable = true
+<h2>: 	fetch.max.bytes = 57671680
+<h2>: 	fetch.purgatory.purge.interval.requests = 1000
+<h2>: 	group.initial.rebalance.delay.ms = 3000
+<h2>: 	group.max.session.timeout.ms = 1800000
+<h2>: 	group.max.size = 2147483647
+<h2>: 	group.min.session.timeout.ms = 6000
+<h2>: 	initial.broker.registration.timeout.ms = 180000
+<h2>: 	inter.broker.listener.name = PLAINTEXT
+<h2>: 	inter.broker.protocol.version = 3.1-IV0
+<h2>: 	kafka.metrics.polling.interval.secs = 10
+<h2>: 	kafka.metrics.reporters = []
+<h2>: 	leader.imbalance.check.interval.seconds = 300
+<h2>: 	leader.imbalance.per.broker.percentage = 10
+<h2>: 	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+<h2>: 	listeners = PLAINTEXT://:9092,CONTROLLER://10.0.0.2:19093
+<h2>: 	log.cleaner.backoff.ms = 15000
+<h2>: 	log.cleaner.dedupe.buffer.size = 134217728
+<h2>: 	log.cleaner.delete.retention.ms = 86400000
+<h2>: 	log.cleaner.enable = true
+<h2>: 	log.cleaner.io.buffer.load.factor = 0.9
+<h2>: 	log.cleaner.io.buffer.size = 524288
+<h2>: 	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+<h2>: 	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+<h2>: 	log.cleaner.min.cleanable.ratio = 0.5
+<h2>: 	log.cleaner.min.compaction.lag.ms = 0
+<h2>: 	log.cleaner.threads = 1
+<h2>: 	log.cleanup.policy = [delete]
+<h2>: 	log.dir = /tmp/kafka-logs
+<h2>: 	log.dirs = ./kafka-3.1.0/logs/kafka2
+<h2>: 	log.flush.interval.messages = 9223372036854775807
+<h2>: 	log.flush.interval.ms = null
+<h2>: 	log.flush.offset.checkpoint.interval.ms = 60000
+<h2>: 	log.flush.scheduler.interval.ms = 9223372036854775807
+<h2>: 	log.flush.start.offset.checkpoint.interval.ms = 60000
+<h2>: 	log.index.interval.bytes = 4096
+<h2>: 	log.index.size.max.bytes = 10485760
+<h2>: 	log.message.downconversion.enable = true
+<h2>: 	log.message.format.version = 3.0-IV1
+<h2>: 	log.message.timestamp.difference.max.ms = 9223372036854775807
+<h2>: 	log.message.timestamp.type = CreateTime
+<h2>: 	log.preallocate = false
+<h2>: 	log.retention.bytes = -1
+<h2>: 	log.retention.check.interval.ms = 300000
+<h2>: 	log.retention.hours = 168
+<h2>: 	log.retention.minutes = null
+<h2>: 	log.retention.ms = null
+<h2>: 	log.roll.hours = 168
+<h2>: 	log.roll.jitter.hours = 0
+<h2>: 	log.roll.jitter.ms = null
+<h2>: 	log.roll.ms = null
+<h2>: 	log.segment.bytes = 1073741824
+<h2>: 	log.segment.delete.delay.ms = 60000
+<h2>: 	max.connection.creation.rate = 2147483647
+<h2>: 	max.connections = 2147483647
+<h2>: 	max.connections.per.ip = 2147483647
+<h2>: 	max.connections.per.ip.overrides = 
+<h2>: 	max.incremental.fetch.session.cache.slots = 1000
+<h2>: 	message.max.bytes = 1048588
+<h2>: 	metadata.log.dir = null
+<h2>: 	metadata.log.max.record.bytes.between.snapshots = 20971520
+<h2>: 	metadata.log.segment.bytes = 1073741824
+<h2>: 	metadata.log.segment.min.bytes = 8388608
+<h2>: 	metadata.log.segment.ms = 604800000
+<h2>: 	metadata.max.retention.bytes = -1
+<h2>: 	metadata.max.retention.ms = 604800000
+<h2>: 	metric.reporters = []
+<h2>: 	metrics.num.samples = 2
+<h2>: 	metrics.recording.level = INFO
+<h2>: 	metrics.sample.window.ms = 30000
+<h2>: 	min.insync.replicas = 1
+<h2>: 	node.id = 2
+<h2>: 	num.io.threads = 8
+<h2>: 	num.network.threads = 3
+<h2>: 	num.partitions = 1
+<h2>: 	num.recovery.threads.per.data.dir = 1
+<h2>: 	num.replica.alter.log.dirs.threads = null
+<h2>: 	num.replica.fetchers = 1
+<h2>: 	offset.metadata.max.bytes = 4096
+<h2>: 	offsets.commit.required.acks = -1
+<h2>: 	offsets.commit.timeout.ms = 5000
+<h2>: 	offsets.load.buffer.size = 5242880
+<h2>: 	offsets.retention.check.interval.ms = 600000
+<h2>: 	offsets.retention.minutes = 10080
+<h2>: 	offsets.topic.compression.codec = 0
+<h2>: 	offsets.topic.num.partitions = 50
+<h2>: 	offsets.topic.replication.factor = 1
+<h2>: 	offsets.topic.segment.bytes = 104857600
+<h2>: 	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+<h2>: 	password.encoder.iterations = 4096
+<h2>: 	password.encoder.key.length = 128
+<h2>: 	password.encoder.keyfactory.algorithm = null
+<h2>: 	password.encoder.old.secret = null
+<h2>: 	password.encoder.secret = null
+<h2>: 	principal.builder.class = class org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder
+<h2>: 	process.roles = [broker, controller]
+<h2>: 	producer.purgatory.purge.interval.requests = 1000
+<h2>: 	queued.max.request.bytes = -1
+<h2>: 	queued.max.requests = 500
+<h2>: 	quota.window.num = 11
+<h2>: 	quota.window.size.seconds = 1
+<h2>: 	remote.log.index.file.cache.total.size.bytes = 1073741824
+<h2>: 	remote.log.manager.task.interval.ms = 30000
+<h2>: 	remote.log.manager.task.retry.backoff.max.ms = 30000
+<h2>: 	remote.log.manager.task.retry.backoff.ms = 500
+<h2>: 	remote.log.manager.task.retry.jitter = 0.2
+<h2>: 	remote.log.manager.thread.pool.size = 10
+<h2>: 	remote.log.metadata.manager.class.name = null
+<h2>: 	remote.log.metadata.manager.class.path = null
+<h2>: 	remote.log.metadata.manager.impl.prefix = null
+<h2>: 	remote.log.metadata.manager.listener.name = null
+<h2>: 	remote.log.reader.max.pending.tasks = 100
+<h2>: 	remote.log.reader.threads = 10
+<h2>: 	remote.log.storage.manager.class.name = null
+<h2>: 	remote.log.storage.manager.class.path = null
+<h2>: 	remote.log.storage.manager.impl.prefix = null
+<h2>: 	remote.log.storage.system.enable = false
+<h2>: 	replica.fetch.backoff.ms = 1000
+<h2>: 	replica.fetch.max.bytes = 1048576
+<h2>: 	replica.fetch.min.bytes = 200000
+<h2>: 	replica.fetch.response.max.bytes = 10485760
+<h2>: 	replica.fetch.wait.max.ms = 5000
+<h2>: 	replica.high.watermark.checkpoint.interval.ms = 5000
+<h2>: 	replica.lag.time.max.ms = 30000
+<h2>: 	replica.selector.class = null
+<h2>: 	replica.socket.receive.buffer.bytes = 65536
+<h2>: 	replica.socket.timeout.ms = 30000
+<h2>: 	replication.quota.window.num = 11
+<h2>: 	replication.quota.window.size.seconds = 1
+<h2>: 	request.timeout.ms = 300000
+<h2>: 	reserved.broker.max.id = 1000
+<h2>: 	sasl.client.callback.handler.class = null
+<h2>: 	sasl.enabled.mechanisms = [GSSAPI]
+<h2>: 	sasl.jaas.config = null
+<h2>: 	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+<h2>: 	sasl.kerberos.min.time.before.relogin = 60000
+<h2>: 	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+<h2>: 	sasl.kerberos.service.name = null
+<h2>: 	sasl.kerberos.ticket.renew.jitter = 0.05
+<h2>: 	sasl.kerberos.ticket.renew.window.factor = 0.8
+<h2>: 	sasl.login.callback.handler.class = null
+<h2>: 	sasl.login.class = null
+<h2>: 	sasl.login.connect.timeout.ms = null
+<h2>: 	sasl.login.read.timeout.ms = null
+<h2>: 	sasl.login.refresh.buffer.seconds = 300
+<h2>: 	sasl.login.refresh.min.period.seconds = 60
+<h2>: 	sasl.login.refresh.window.factor = 0.8
+<h2>: 	sasl.login.refresh.window.jitter = 0.05
+<h2>: 	sasl.login.retry.backoff.max.ms = 10000
+<h2>: 	sasl.login.retry.backoff.ms = 100
+<h2>: 	sasl.mechanism.controller.protocol = GSSAPI
+<h2>: 	sasl.mechanism.inter.broker.protocol = GSSAPI
+<h2>: 	sasl.oauthbearer.clock.skew.seconds = 30
+<h2>: 	sasl.oauthbearer.expected.audience = null
+<h2>: 	sasl.oauthbearer.expected.issuer = null
+<h2>: 	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+<h2>: 	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+<h2>: 	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+<h2>: 	sasl.oauthbearer.jwks.endpoint.url = null
+<h2>: 	sasl.oauthbearer.scope.claim.name = scope
+<h2>: 	sasl.oauthbearer.sub.claim.name = sub
+<h2>: 	sasl.oauthbearer.token.endpoint.url = null
+<h2>: 	sasl.server.callback.handler.class = null
+<h2>: 	security.inter.broker.protocol = PLAINTEXT
+<h2>: 	security.providers = null
+<h2>: 	socket.connection.setup.timeout.max.ms = 300000
+<h2>: 	socket.connection.setup.timeout.ms = 120000
+<h2>: 	socket.receive.buffer.bytes = 102400
+<h2>: 	socket.request.max.bytes = 104857600
+<h2>: 	socket.send.buffer.bytes = 102400
+<h2>: 	ssl.cipher.suites = []
+<h2>: 	ssl.client.auth = none
+<h2>: 	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+<h2>: 	ssl.endpoint.identification.algorithm = https
+<h2>: 	ssl.engine.factory.class = null
+<h2>: 	ssl.key.password = null
+<h2>: 	ssl.keymanager.algorithm = SunX509
+<h2>: 	ssl.keystore.certificate.chain = null
+<h2>: 	ssl.keystore.key = null
+<h2>: 	ssl.keystore.location = null
+<h2>: 	ssl.keystore.password = null
+<h2>: 	ssl.keystore.type = JKS
+<h2>: 	ssl.principal.mapping.rules = DEFAULT
+<h2>: 	ssl.protocol = TLSv1.3
+<h2>: 	ssl.provider = null
+<h2>: 	ssl.secure.random.implementation = null
+<h2>: 	ssl.trustmanager.algorithm = PKIX
+<h2>: 	ssl.truststore.certificates = null
+<h2>: 	ssl.truststore.location = null
+<h2>: 	ssl.truststore.password = null
+<h2>: 	ssl.truststore.type = JKS
+<h2>: 	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+<h2>: 	transaction.max.timeout.ms = 900000
+<h2>: 	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+<h2>: 	transaction.state.log.load.buffer.size = 5242880
+<h2>: 	transaction.state.log.min.isr = 1
+<h2>: 	transaction.state.log.num.partitions = 50
+<h2>: 	transaction.state.log.replication.factor = 1
+<h2>: 	transaction.state.log.segment.bytes = 104857600
+<h2>: 	transactional.id.expiration.ms = 604800000
+<h2>: 	unclean.leader.election.enable = false
+<h2>: 	zookeeper.clientCnxnSocket = null
+<h2>: 	zookeeper.connect = null
+<h2>: 	zookeeper.connection.timeout.ms = null
+<h2>: 	zookeeper.max.in.flight.requests = 10
+<h2>: 	zookeeper.session.timeout.ms = 18000
+<h2>: 	zookeeper.set.acl = false
+<h2>: 	zookeeper.ssl.cipher.suites = null
+<h2>: 	zookeeper.ssl.client.enable = false
+<h2>: 	zookeeper.ssl.crl.enable = false
+<h2>: 	zookeeper.ssl.enabled.protocols = null
+<h2>: 	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+<h2>: 	zookeeper.ssl.keystore.location = null
+<h2>: 	zookeeper.ssl.keystore.password = null
+<h2>: 	zookeeper.ssl.keystore.type = null
+<h2>: 	zookeeper.ssl.ocsp.enable = false
+<h2>: 	zookeeper.ssl.protocol = TLSv1.2
+<h2>: 	zookeeper.ssl.truststore.location = null
+<h2>: 	zookeeper.ssl.truststore.password = null
+<h2>: 	zookeeper.ssl.truststore.type = null
+<h2>: 	zookeeper.sync.time.ms = 2000
+<h2>:  (kafka.server.KafkaConfig)
+<h2>: [2023-02-25 08:28:56,766] INFO [SocketServer listenerType=BROKER, nodeId=2] Starting socket server acceptors and processors (kafka.network.SocketServer)
+<h2>: [2023-02-25 08:28:56,782] INFO [SocketServer listenerType=BROKER, nodeId=2] Started data-plane acceptor and processor(s) for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+<h2>: [2023-02-25 08:28:56,783] INFO [SocketServer listenerType=BROKER, nodeId=2] Started socket server acceptors and processors (kafka.network.SocketServer)
+<h2>: [2023-02-25 08:28:56,784] INFO [BrokerServer id=2] Transition from STARTING to STARTED (kafka.server.BrokerServer)
+<h2>: [2023-02-25 08:28:56,784] INFO Kafka version: 3.1.0 (org.apache.kafka.common.utils.AppInfoParser)
+<h2>: [2023-02-25 08:28:56,784] INFO Kafka commitId: unknown (org.apache.kafka.common.utils.AppInfoParser)
+<h2>: [2023-02-25 08:28:56,784] INFO Kafka startTimeMs: 1677328136784 (org.apache.kafka.common.utils.AppInfoParser)
+<h2>: [2023-02-25 08:28:56,784] INFO [Controller 2] The request from broker 2 to unfence has been granted because it has caught up with the last committed metadata offset 9. (org.apache.kafka.controller.BrokerHeartbeatManager)
+<h2>: [2023-02-25 08:28:56,786] INFO Kafka Server started (kafka.server.KafkaRaftServer)
+<h2>: [2023-02-25 08:28:56,789] INFO [Controller 2] Unfenced broker: UnfenceBrokerRecord(id=2, epoch=0) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:28:58,197] INFO [Controller 2] Registered new broker: RegisterBrokerRecord(brokerId=10, incarnationId=rLCFjtnWTVqQECF-l9hTag, brokerEpoch=11, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.10', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:28:58,913] INFO [BrokerLifecycleManager id=2] The broker has been unfenced. Transitioning from RECOVERY to RUNNING. (kafka.server.BrokerLifecycleManager)
+<h2>: [2023-02-25 08:29:09,073] INFO [Controller 2] The request from broker 6 to unfence has been granted because it has caught up with the last committed metadata offset 11. (org.apache.kafka.controller.BrokerHeartbeatManager)
+<h2>: [2023-02-25 08:29:09,073] INFO [Controller 2] Unfenced broker: UnfenceBrokerRecord(id=6, epoch=4) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:29:09,074] INFO [Controller 2] The request from broker 7 to unfence has been granted because it has caught up with the last committed metadata offset 11. (org.apache.kafka.controller.BrokerHeartbeatManager)
+<h2>: [2023-02-25 08:29:09,074] INFO [Controller 2] Unfenced broker: UnfenceBrokerRecord(id=7, epoch=8) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:29:09,074] INFO [Controller 2] The request from broker 10 to unfence has been granted because it has caught up with the last committed metadata offset 11. (org.apache.kafka.controller.BrokerHeartbeatManager)
+<h2>: [2023-02-25 08:29:09,074] INFO [Controller 2] Unfenced broker: UnfenceBrokerRecord(id=10, epoch=11) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:29:09,074] INFO [Controller 2] The request from broker 4 to unfence has been granted because it has caught up with the last committed metadata offset 11. (org.apache.kafka.controller.BrokerHeartbeatManager)
+<h2>: [2023-02-25 08:29:09,075] INFO [Controller 2] Unfenced broker: UnfenceBrokerRecord(id=4, epoch=1) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:29:09,075] INFO [Controller 2] The request from broker 8 to unfence has been granted because it has caught up with the last committed metadata offset 11. (org.apache.kafka.controller.BrokerHeartbeatManager)
+<h2>: [2023-02-25 08:29:09,076] INFO [Controller 2] Unfenced broker: UnfenceBrokerRecord(id=8, epoch=5) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:29:09,076] INFO [Controller 2] The request from broker 3 to unfence has been granted because it has caught up with the last committed metadata offset 11. (org.apache.kafka.controller.BrokerHeartbeatManager)
+<h2>: [2023-02-25 08:29:09,076] INFO [Controller 2] Unfenced broker: UnfenceBrokerRecord(id=3, epoch=6) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:29:09,076] INFO [Controller 2] The request from broker 1 to unfence has been granted because it has caught up with the last committed metadata offset 11. (org.apache.kafka.controller.BrokerHeartbeatManager)
+<h2>: [2023-02-25 08:29:09,077] INFO [Controller 2] Unfenced broker: UnfenceBrokerRecord(id=1, epoch=3) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:29:09,078] INFO [Controller 2] The request from broker 5 to unfence has been granted because it has caught up with the last committed metadata offset 11. (org.apache.kafka.controller.BrokerHeartbeatManager)
+<h2>: [2023-02-25 08:29:09,078] INFO [Controller 2] Unfenced broker: UnfenceBrokerRecord(id=5, epoch=9) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:29:09,080] INFO [Controller 2] The request from broker 9 to unfence has been granted because it has caught up with the last committed metadata offset 11. (org.apache.kafka.controller.BrokerHeartbeatManager)
+<h2>: [2023-02-25 08:29:09,081] INFO [Controller 2] Unfenced broker: UnfenceBrokerRecord(id=9, epoch=7) (org.apache.kafka.controller.ClusterControlManager)
+<h2>: [2023-02-25 08:29:11,602] INFO [Controller 2] CreateTopics result(s): CreatableTopic(name='topic-0', numPartitions=1, replicationFactor=10, assignments=[], configs=[]): SUCCESS (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:11,603] INFO [Controller 2] Created topic topic-0 with topic ID RWLaG1ONR4uovZcW1uvo0A. (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:11,603] INFO [Controller 2] Created partition topic-0-0 with topic ID RWLaG1ONR4uovZcW1uvo0A and PartitionRegistration(replicas=[9, 10, 1, 2, 3, 4, 5, 6, 7, 8], isr=[9, 10, 1, 2, 3, 4, 5, 6, 7, 8], removingReplicas=[], addingReplicas=[], leader=9, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:15,294] INFO [LogLoader partition=topic-0-0, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h2>: [2023-02-25 08:29:15,299] INFO Created log for partition topic-0-0 in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2/topic-0-0 with properties {} (kafka.log.LogManager)
+<h2>: [2023-02-25 08:29:15,300] INFO [Partition topic-0-0 broker=2] No checkpointed highwatermark is found for partition topic-0-0 (kafka.cluster.Partition)
+<h2>: [2023-02-25 08:29:15,301] INFO [Partition topic-0-0 broker=2] Log loaded for partition topic-0-0 with initial high watermark 0 (kafka.cluster.Partition)
+<h2>: [2023-02-25 08:29:15,302] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(topic-0-0) (kafka.server.ReplicaFetcherManager)
+<h2>: [2023-02-25 08:29:15,321] INFO [ReplicaFetcher replicaId=2, leaderId=9, fetcherId=0] Starting (kafka.server.ReplicaFetcherThread)
+<h2>: [2023-02-25 08:29:15,324] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 9 for partitions HashMap(topic-0-0 -> InitialFetchState(Some(RWLaG1ONR4uovZcW1uvo0A),BrokerEndPoint(id=9, host=10.0.0.9:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+<h2>: [2023-02-25 08:29:15,327] INFO [ReplicaFetcher replicaId=2, leaderId=9, fetcherId=0] Truncating partition topic-0-0 with TruncationState(offset=0, completed=true) due to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+<h2>: [2023-02-25 08:29:15,330] INFO [UnifiedLog partition=topic-0-0, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.UnifiedLog)
+<h2>: [2023-02-25 08:29:28,548] INFO [Controller 2] CreateTopics result(s): CreatableTopic(name='topic-1', numPartitions=1, replicationFactor=10, assignments=[], configs=[]): SUCCESS (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:28,548] INFO [Controller 2] Created topic topic-1 with topic ID 8PUsaoK_ThKuut8ozl205w. (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:28,549] INFO [Controller 2] Created partition topic-1-0 with topic ID 8PUsaoK_ThKuut8ozl205w and PartitionRegistration(replicas=[10, 1, 2, 3, 4, 5, 6, 7, 8, 9], isr=[10, 1, 2, 3, 4, 5, 6, 7, 8, 9], removingReplicas=[], addingReplicas=[], leader=10, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:32,448] INFO [LogLoader partition=topic-1-0, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h2>: [2023-02-25 08:29:32,449] INFO Created log for partition topic-1-0 in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2/topic-1-0 with properties {} (kafka.log.LogManager)
+<h2>: [2023-02-25 08:29:32,450] INFO [Partition topic-1-0 broker=2] No checkpointed highwatermark is found for partition topic-1-0 (kafka.cluster.Partition)
+<h2>: [2023-02-25 08:29:32,450] INFO [Partition topic-1-0 broker=2] Log loaded for partition topic-1-0 with initial high watermark 0 (kafka.cluster.Partition)
+<h2>: [2023-02-25 08:29:32,452] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(topic-1-0) (kafka.server.ReplicaFetcherManager)
+<h2>: [2023-02-25 08:29:32,457] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 10 for partitions HashMap(topic-1-0 -> InitialFetchState(Some(8PUsaoK_ThKuut8ozl205w),BrokerEndPoint(id=10, host=10.0.0.10:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+<h2>: [2023-02-25 08:29:32,457] INFO [ReplicaFetcher replicaId=2, leaderId=10, fetcherId=0] Starting (kafka.server.ReplicaFetcherThread)
+<h2>: [2023-02-25 08:29:32,457] INFO [ReplicaFetcher replicaId=2, leaderId=10, fetcherId=0] Truncating partition topic-1-0 with TruncationState(offset=0, completed=true) due to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+<h2>: [2023-02-25 08:29:32,457] INFO [UnifiedLog partition=topic-1-0, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.UnifiedLog)
+<h2>: [2023-02-25 08:29:35,117] INFO Sent auto-creation request for Set(__consumer_offsets) to the active controller. (kafka.server.DefaultAutoTopicCreationManager)
+<h2>: [2023-02-25 08:29:35,123] INFO [Controller 2] CreateTopics result(s): CreatableTopic(name='__consumer_offsets', numPartitions=50, replicationFactor=1, assignments=[], configs=[CreateableTopicConfig(name='compression.type', value='producer'), CreateableTopicConfig(name='cleanup.policy', value='compact'), CreateableTopicConfig(name='segment.bytes', value='104857600')]): SUCCESS (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,124] INFO [Controller 2] ConfigResource(type=TOPIC, name='__consumer_offsets'): set configuration compression.type to producer (org.apache.kafka.controller.ConfigurationControlManager)
+<h2>: [2023-02-25 08:29:35,124] INFO [Controller 2] ConfigResource(type=TOPIC, name='__consumer_offsets'): set configuration cleanup.policy to compact (org.apache.kafka.controller.ConfigurationControlManager)
+<h2>: [2023-02-25 08:29:35,125] INFO [Controller 2] ConfigResource(type=TOPIC, name='__consumer_offsets'): set configuration segment.bytes to 104857600 (org.apache.kafka.controller.ConfigurationControlManager)
+<h2>: [2023-02-25 08:29:35,125] INFO [Controller 2] Created topic __consumer_offsets with topic ID OBnyneoTRYi2E2vJGxP6Nw. (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,125] INFO [Controller 2] Created partition __consumer_offsets-0 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[4], isr=[4], removingReplicas=[], addingReplicas=[], leader=4, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,125] INFO [Controller 2] Created partition __consumer_offsets-1 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[5], isr=[5], removingReplicas=[], addingReplicas=[], leader=5, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,125] INFO [Controller 2] Created partition __consumer_offsets-2 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[6], isr=[6], removingReplicas=[], addingReplicas=[], leader=6, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,125] INFO [Controller 2] Created partition __consumer_offsets-3 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[7], isr=[7], removingReplicas=[], addingReplicas=[], leader=7, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,125] INFO [Controller 2] Created partition __consumer_offsets-4 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[8], isr=[8], removingReplicas=[], addingReplicas=[], leader=8, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,125] INFO [Controller 2] Created partition __consumer_offsets-5 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[9], isr=[9], removingReplicas=[], addingReplicas=[], leader=9, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,125] INFO [Controller 2] Created partition __consumer_offsets-6 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[10], isr=[10], removingReplicas=[], addingReplicas=[], leader=10, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,125] INFO [Controller 2] Created partition __consumer_offsets-7 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[1], isr=[1], removingReplicas=[], addingReplicas=[], leader=1, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,125] INFO [Controller 2] Created partition __consumer_offsets-8 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[2], isr=[2], removingReplicas=[], addingReplicas=[], leader=2, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,125] INFO [Controller 2] Created partition __consumer_offsets-9 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[3], isr=[3], removingReplicas=[], addingReplicas=[], leader=3, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,125] INFO [Controller 2] Created partition __consumer_offsets-10 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[7], isr=[7], removingReplicas=[], addingReplicas=[], leader=7, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,126] INFO [Controller 2] Created partition __consumer_offsets-11 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[8], isr=[8], removingReplicas=[], addingReplicas=[], leader=8, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,126] INFO [Controller 2] Created partition __consumer_offsets-12 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[5], isr=[5], removingReplicas=[], addingReplicas=[], leader=5, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,126] INFO [Controller 2] Created partition __consumer_offsets-13 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[10], isr=[10], removingReplicas=[], addingReplicas=[], leader=10, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,126] INFO [Controller 2] Created partition __consumer_offsets-14 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[1], isr=[1], removingReplicas=[], addingReplicas=[], leader=1, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,126] INFO [Controller 2] Created partition __consumer_offsets-15 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[6], isr=[6], removingReplicas=[], addingReplicas=[], leader=6, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,126] INFO [Controller 2] Created partition __consumer_offsets-16 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[9], isr=[9], removingReplicas=[], addingReplicas=[], leader=9, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,126] INFO [Controller 2] Created partition __consumer_offsets-17 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[3], isr=[3], removingReplicas=[], addingReplicas=[], leader=3, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,126] INFO [Controller 2] Created partition __consumer_offsets-18 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[4], isr=[4], removingReplicas=[], addingReplicas=[], leader=4, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,126] INFO [Controller 2] Created partition __consumer_offsets-19 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[2], isr=[2], removingReplicas=[], addingReplicas=[], leader=2, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,126] INFO [Controller 2] Created partition __consumer_offsets-20 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[6], isr=[6], removingReplicas=[], addingReplicas=[], leader=6, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,126] INFO [Controller 2] Created partition __consumer_offsets-21 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[4], isr=[4], removingReplicas=[], addingReplicas=[], leader=4, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,126] INFO [Controller 2] Created partition __consumer_offsets-22 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[7], isr=[7], removingReplicas=[], addingReplicas=[], leader=7, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,126] INFO [Controller 2] Created partition __consumer_offsets-23 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[3], isr=[3], removingReplicas=[], addingReplicas=[], leader=3, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,126] INFO [Controller 2] Created partition __consumer_offsets-24 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[5], isr=[5], removingReplicas=[], addingReplicas=[], leader=5, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,127] INFO [Controller 2] Created partition __consumer_offsets-25 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[10], isr=[10], removingReplicas=[], addingReplicas=[], leader=10, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,127] INFO [Controller 2] Created partition __consumer_offsets-26 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[1], isr=[1], removingReplicas=[], addingReplicas=[], leader=1, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,127] INFO [Controller 2] Created partition __consumer_offsets-27 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[9], isr=[9], removingReplicas=[], addingReplicas=[], leader=9, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,127] INFO [Controller 2] Created partition __consumer_offsets-28 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[2], isr=[2], removingReplicas=[], addingReplicas=[], leader=2, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,127] INFO [Controller 2] Created partition __consumer_offsets-29 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[8], isr=[8], removingReplicas=[], addingReplicas=[], leader=8, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,127] INFO [Controller 2] Created partition __consumer_offsets-30 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[8], isr=[8], removingReplicas=[], addingReplicas=[], leader=8, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,127] INFO [Controller 2] Created partition __consumer_offsets-31 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[1], isr=[1], removingReplicas=[], addingReplicas=[], leader=1, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,127] INFO [Controller 2] Created partition __consumer_offsets-32 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[9], isr=[9], removingReplicas=[], addingReplicas=[], leader=9, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,127] INFO [Controller 2] Created partition __consumer_offsets-33 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[2], isr=[2], removingReplicas=[], addingReplicas=[], leader=2, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,127] INFO [Controller 2] Created partition __consumer_offsets-34 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[10], isr=[10], removingReplicas=[], addingReplicas=[], leader=10, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,128] INFO [Controller 2] Created partition __consumer_offsets-35 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[7], isr=[7], removingReplicas=[], addingReplicas=[], leader=7, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,128] INFO [Controller 2] Created partition __consumer_offsets-36 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[4], isr=[4], removingReplicas=[], addingReplicas=[], leader=4, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,128] INFO [Controller 2] Created partition __consumer_offsets-37 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[3], isr=[3], removingReplicas=[], addingReplicas=[], leader=3, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,128] INFO [Controller 2] Created partition __consumer_offsets-38 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[5], isr=[5], removingReplicas=[], addingReplicas=[], leader=5, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,128] INFO [Controller 2] Created partition __consumer_offsets-39 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[6], isr=[6], removingReplicas=[], addingReplicas=[], leader=6, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,128] INFO [Controller 2] Created partition __consumer_offsets-40 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[9], isr=[9], removingReplicas=[], addingReplicas=[], leader=9, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,128] INFO [Controller 2] Created partition __consumer_offsets-41 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[4], isr=[4], removingReplicas=[], addingReplicas=[], leader=4, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,128] INFO [Controller 2] Created partition __consumer_offsets-42 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[1], isr=[1], removingReplicas=[], addingReplicas=[], leader=1, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,128] INFO [Controller 2] Created partition __consumer_offsets-43 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[10], isr=[10], removingReplicas=[], addingReplicas=[], leader=10, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,128] INFO [Controller 2] Created partition __consumer_offsets-44 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[7], isr=[7], removingReplicas=[], addingReplicas=[], leader=7, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,128] INFO [Controller 2] Created partition __consumer_offsets-45 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[5], isr=[5], removingReplicas=[], addingReplicas=[], leader=5, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,129] INFO [Controller 2] Created partition __consumer_offsets-46 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[3], isr=[3], removingReplicas=[], addingReplicas=[], leader=3, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,129] INFO [Controller 2] Created partition __consumer_offsets-47 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[8], isr=[8], removingReplicas=[], addingReplicas=[], leader=8, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,129] INFO [Controller 2] Created partition __consumer_offsets-48 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[2], isr=[2], removingReplicas=[], addingReplicas=[], leader=2, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:35,129] INFO [Controller 2] Created partition __consumer_offsets-49 with topic ID OBnyneoTRYi2E2vJGxP6Nw and PartitionRegistration(replicas=[6], isr=[6], removingReplicas=[], addingReplicas=[], leader=6, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:36,112] INFO [Controller 2] CreateTopics result(s): CreatableTopic(name='__consumer_offsets', numPartitions=50, replicationFactor=1, assignments=[], configs=[CreateableTopicConfig(name='compression.type', value='producer'), CreateableTopicConfig(name='cleanup.policy', value='compact'), CreateableTopicConfig(name='segment.bytes', value='104857600')]): TOPIC_ALREADY_EXISTS (Topic '__consumer_offsets' already exists.) (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:37,275] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(__consumer_offsets-48, __consumer_offsets-8, __consumer_offsets-19, __consumer_offsets-28, __consumer_offsets-33) (kafka.server.ReplicaFetcherManager)
+<h2>: [2023-02-25 08:29:37,281] INFO [LogLoader partition=__consumer_offsets-48, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h2>: [2023-02-25 08:29:37,282] INFO Created log for partition __consumer_offsets-48 in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2/__consumer_offsets-48 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+<h2>: [2023-02-25 08:29:37,282] INFO [Partition __consumer_offsets-48 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-48 (kafka.cluster.Partition)
+<h2>: [2023-02-25 08:29:37,282] INFO [Partition __consumer_offsets-48 broker=2] Log loaded for partition __consumer_offsets-48 with initial high watermark 0 (kafka.cluster.Partition)
+<h2>: [2023-02-25 08:29:37,413] INFO [LogLoader partition=__consumer_offsets-8, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h2>: [2023-02-25 08:29:37,415] INFO Created log for partition __consumer_offsets-8 in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2/__consumer_offsets-8 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+<h2>: [2023-02-25 08:29:37,418] INFO [Partition __consumer_offsets-8 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-8 (kafka.cluster.Partition)
+<h2>: [2023-02-25 08:29:37,418] INFO [Partition __consumer_offsets-8 broker=2] Log loaded for partition __consumer_offsets-8 with initial high watermark 0 (kafka.cluster.Partition)
+<h2>: [2023-02-25 08:29:37,609] INFO [LogLoader partition=__consumer_offsets-19, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h2>: [2023-02-25 08:29:37,610] INFO Created log for partition __consumer_offsets-19 in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2/__consumer_offsets-19 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+<h2>: [2023-02-25 08:29:37,610] INFO [Partition __consumer_offsets-19 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-19 (kafka.cluster.Partition)
+<h2>: [2023-02-25 08:29:37,610] INFO [Partition __consumer_offsets-19 broker=2] Log loaded for partition __consumer_offsets-19 with initial high watermark 0 (kafka.cluster.Partition)
+<h2>: [2023-02-25 08:29:37,710] INFO [LogLoader partition=__consumer_offsets-28, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h2>: [2023-02-25 08:29:37,711] INFO Created log for partition __consumer_offsets-28 in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2/__consumer_offsets-28 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+<h2>: [2023-02-25 08:29:37,712] INFO [Partition __consumer_offsets-28 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-28 (kafka.cluster.Partition)
+<h2>: [2023-02-25 08:29:37,712] INFO [Partition __consumer_offsets-28 broker=2] Log loaded for partition __consumer_offsets-28 with initial high watermark 0 (kafka.cluster.Partition)
+<h2>: [2023-02-25 08:29:37,822] INFO [LogLoader partition=__consumer_offsets-33, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h2>: [2023-02-25 08:29:37,824] INFO Created log for partition __consumer_offsets-33 in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka2/__consumer_offsets-33 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+<h2>: [2023-02-25 08:29:37,825] INFO [Partition __consumer_offsets-33 broker=2] No checkpointed highwatermark is found for partition __consumer_offsets-33 (kafka.cluster.Partition)
+<h2>: [2023-02-25 08:29:37,825] INFO [Partition __consumer_offsets-33 broker=2] Log loaded for partition __consumer_offsets-33 with initial high watermark 0 (kafka.cluster.Partition)
+<h2>: [2023-02-25 08:29:37,928] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 48 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+<h2>: [2023-02-25 08:29:37,929] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-48 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+<h2>: [2023-02-25 08:29:37,931] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 28 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+<h2>: [2023-02-25 08:29:37,931] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-28 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+<h2>: [2023-02-25 08:29:37,931] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 8 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+<h2>: [2023-02-25 08:29:37,931] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-8 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+<h2>: [2023-02-25 08:29:37,931] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 19 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+<h2>: [2023-02-25 08:29:37,931] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-19 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+<h2>: [2023-02-25 08:29:37,931] INFO [GroupCoordinator 2]: Elected as the group coordinator for partition 33 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+<h2>: [2023-02-25 08:29:37,931] INFO [GroupMetadataManager brokerId=2] Scheduling loading of offsets and group metadata from __consumer_offsets-33 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+<h2>: [2023-02-25 08:29:37,941] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-48 in 11 milliseconds for epoch 0, of which 4 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+<h2>: [2023-02-25 08:29:37,942] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-28 in 11 milliseconds for epoch 0, of which 11 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+<h2>: [2023-02-25 08:29:37,942] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-8 in 11 milliseconds for epoch 0, of which 11 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+<h2>: [2023-02-25 08:29:37,943] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-19 in 12 milliseconds for epoch 0, of which 11 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+<h2>: [2023-02-25 08:29:37,943] INFO [GroupMetadataManager brokerId=2] Finished loading offsets and group metadata from __consumer_offsets-33 in 12 milliseconds for epoch 0, of which 12 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+<h2>: [2023-02-25 08:29:39,463] INFO [Controller 2] CreateTopics result(s): CreatableTopic(name='__consumer_offsets', numPartitions=50, replicationFactor=1, assignments=[], configs=[CreateableTopicConfig(name='compression.type', value='producer'), CreateableTopicConfig(name='cleanup.policy', value='compact'), CreateableTopicConfig(name='segment.bytes', value='104857600')]): TOPIC_ALREADY_EXISTS (Topic '__consumer_offsets' already exists.) (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:40,133] INFO [Controller 2] CreateTopics result(s): CreatableTopic(name='__consumer_offsets', numPartitions=50, replicationFactor=1, assignments=[], configs=[CreateableTopicConfig(name='compression.type', value='producer'), CreateableTopicConfig(name='cleanup.policy', value='compact'), CreateableTopicConfig(name='segment.bytes', value='104857600')]): TOPIC_ALREADY_EXISTS (Topic '__consumer_offsets' already exists.) (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:46,124] INFO [Controller 2] CreateTopics result(s): CreatableTopic(name='__consumer_offsets', numPartitions=50, replicationFactor=1, assignments=[], configs=[CreateableTopicConfig(name='compression.type', value='producer'), CreateableTopicConfig(name='cleanup.policy', value='compact'), CreateableTopicConfig(name='segment.bytes', value='104857600')]): TOPIC_ALREADY_EXISTS (Topic '__consumer_offsets' already exists.) (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:46,133] INFO [Controller 2] CreateTopics result(s): CreatableTopic(name='__consumer_offsets', numPartitions=50, replicationFactor=1, assignments=[], configs=[CreateableTopicConfig(name='compression.type', value='producer'), CreateableTopicConfig(name='cleanup.policy', value='compact'), CreateableTopicConfig(name='segment.bytes', value='104857600')]): TOPIC_ALREADY_EXISTS (Topic '__consumer_offsets' already exists.) (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:46,134] INFO [Controller 2] CreateTopics result(s): CreatableTopic(name='__consumer_offsets', numPartitions=50, replicationFactor=1, assignments=[], configs=[CreateableTopicConfig(name='compression.type', value='producer'), CreateableTopicConfig(name='cleanup.policy', value='compact'), CreateableTopicConfig(name='segment.bytes', value='104857600')]): TOPIC_ALREADY_EXISTS (Topic '__consumer_offsets' already exists.) (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:46,134] INFO [Controller 2] CreateTopics result(s): CreatableTopic(name='__consumer_offsets', numPartitions=50, replicationFactor=1, assignments=[], configs=[CreateableTopicConfig(name='compression.type', value='producer'), CreateableTopicConfig(name='cleanup.policy', value='compact'), CreateableTopicConfig(name='segment.bytes', value='104857600')]): TOPIC_ALREADY_EXISTS (Topic '__consumer_offsets' already exists.) (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:46,157] INFO [Controller 2] CreateTopics result(s): CreatableTopic(name='__consumer_offsets', numPartitions=50, replicationFactor=1, assignments=[], configs=[CreateableTopicConfig(name='compression.type', value='producer'), CreateableTopicConfig(name='cleanup.policy', value='compact'), CreateableTopicConfig(name='segment.bytes', value='104857600')]): TOPIC_ALREADY_EXISTS (Topic '__consumer_offsets' already exists.) (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:46,162] INFO [Controller 2] CreateTopics result(s): CreatableTopic(name='__consumer_offsets', numPartitions=50, replicationFactor=1, assignments=[], configs=[CreateableTopicConfig(name='compression.type', value='producer'), CreateableTopicConfig(name='cleanup.policy', value='compact'), CreateableTopicConfig(name='segment.bytes', value='104857600')]): TOPIC_ALREADY_EXISTS (Topic '__consumer_offsets' already exists.) (org.apache.kafka.controller.ReplicationControlManager)
+<h2>: [2023-02-25 08:29:46,163] INFO [Controller 2] CreateTopics result(s): CreatableTopic(name='__consumer_offsets', numPartitions=50, replicationFactor=1, assignments=[], configs=[CreateableTopicConfig(name='compression.type', value='producer'), CreateableTopicConfig(name='cleanup.policy', value='compact'), CreateableTopicConfig(name='segment.bytes', value='104857600')]): TOPIC_ALREADY_EXISTS (Topic '__consumer_offsets' already exists.) (org.apache.kafka.controller.ReplicationControlManager)

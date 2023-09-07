@@ -1,0 +1,455 @@
+INFO:Test args:
+ Namespace(acks=1, batchSize=16384, captureAll=False, compression='None', consumerRate=0.5, consumerSetupSleep=120, createPlots=False, disconnectDuration=60, disconnectHosts=None, disconnectKraftLeader=False, disconnectRandom=0, disconnectTopicLeaders=0, disconnectZkLeader=False, duration=300, fetchMaxWait=500, fetchMinBytes=1, kraft=True, kraftBrokerSleep=0, latencyAfterSetup=False, linger=0, mRate=30.0, mSizeString='fixed,10', messageFilePath='message-data/xml/Cars103.xml', nBroker=20, nTopics=2, nZk=20, offsetsTopicReplication=1, relocate=False, replicaMaxWait=500, replicaMinBytes=1, replication=20, requestTimeout=30000, sessionTimeout=10000, singleConsumer=True, tClassString='1', topicCheckInterval=0.1, topo='tests/input/star-no-latency/star-twenty-node-topo.graphml')
+INFO:Network started at 2023-02-26 20:28:22.637649
+Level 25:*** Ping: testing ping reachability
+
+Level 25:h1 -> 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h2 -> 
+Level 25:h1 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h3 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h4 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h5 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h6 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h7 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h8 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h9 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h10 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h11 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h12 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h13 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h14 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h15 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h16 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h17 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h18 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h18 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h19 
+Level 25:h20 
+Level 25:
+
+Level 25:h19 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h20 
+Level 25:
+
+Level 25:h20 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:h11 
+Level 25:h12 
+Level 25:h13 
+Level 25:h14 
+Level 25:h15 
+Level 25:h16 
+Level 25:h17 
+Level 25:h18 
+Level 25:h19 
+Level 25:
+
+Level 25:*** Results: 0% dropped (380/380 received)
+
+INFO:topic-0 leader is node h7
+INFO:topic-1 leader is node h14
+INFO:Starting workload at 2023-02-26 20:32:07.777744
+INFO:topic-0 leader is node h7
+INFO:topic-1 leader is node h14
+INFO:Workload finished at 2023-02-26 20:37:12.830349
+INFO:Simulation complete at 2023-02-26 20:37:12.830410
+INFO:Network stopped at 2023-02-26 20:37:18.504247

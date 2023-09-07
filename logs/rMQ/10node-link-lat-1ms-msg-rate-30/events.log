@@ -1,0 +1,1492 @@
+2023-08-29 15:55:41,470 INFO:Started simulation
+2023-08-29 15:55:41,470 INFO:Config values:
+2023-08-29 15:55:41,470 INFO:debug = True
+2023-08-29 15:55:41,470 INFO:test_duration = 300
+2023-08-29 15:55:41,470 INFO:topology_file = star-ten-node-topo-no-lat.graphml
+2023-08-29 15:55:41,470 INFO:prefetch_count = 1
+2023-08-29 15:55:41,470 INFO:queue_type = stream
+2023-08-29 15:55:41,470 INFO:single_queue = False
+2023-08-29 15:55:41,470 INFO:wireshark_capture = False
+2023-08-29 15:55:41,470 INFO:async_clients = True
+2023-08-29 15:55:41,470 INFO:traffic_classes = 1
+2023-08-29 15:55:41,470 INFO:message_size = fixed,1000
+2023-08-29 15:55:41,471 INFO:message_rate = 30
+2023-08-29 15:55:41,471 INFO:num_topics = 2
+2023-08-29 15:55:41,471 INFO:message_file = message-data/xml/Cars103.xml
+2023-08-29 15:55:41,471 INFO:Config values:
+2023-08-29 15:55:41,471 INFO:disconnect_random = 0
+2023-08-29 15:55:41,471 INFO:disconnect_hosts = None
+2023-08-29 15:55:41,471 INFO:disconnect_duration = 30
+2023-08-29 15:55:43,721 INFO:*** Creating network
+
+2023-08-29 15:55:43,721 INFO:*** Adding controller
+
+2023-08-29 15:55:43,732 WARNING:Unable to contact the remote controller at 127.0.0.1:6653
+
+2023-08-29 15:55:43,734 WARNING:Unable to contact the remote controller at 127.0.0.1:6633
+
+2023-08-29 15:55:43,734 WARNING:Setting remote controller to 127.0.0.1:6653
+
+2023-08-29 15:55:43,735 INFO:*** Adding hosts:
+
+2023-08-29 15:55:43,744 INFO:h1 
+2023-08-29 15:55:43,751 INFO:h2 
+2023-08-29 15:55:43,758 INFO:h3 
+2023-08-29 15:55:43,765 INFO:h4 
+2023-08-29 15:55:43,772 INFO:h5 
+2023-08-29 15:55:43,781 INFO:h6 
+2023-08-29 15:55:43,790 INFO:h7 
+2023-08-29 15:55:43,798 INFO:h8 
+2023-08-29 15:55:43,806 INFO:h9 
+2023-08-29 15:55:43,813 INFO:h10 
+2023-08-29 15:55:43,813 INFO:
+*** Adding switches:
+
+2023-08-29 15:55:43,828 INFO:s1 
+2023-08-29 15:55:43,836 INFO:s2 
+2023-08-29 15:55:43,844 INFO:s3 
+2023-08-29 15:55:43,852 INFO:s4 
+2023-08-29 15:55:43,859 INFO:s5 
+2023-08-29 15:55:43,866 INFO:s6 
+2023-08-29 15:55:43,874 INFO:s7 
+2023-08-29 15:55:43,882 INFO:s8 
+2023-08-29 15:55:43,889 INFO:s9 
+2023-08-29 15:55:43,897 INFO:s10 
+2023-08-29 15:55:43,897 INFO:
+*** Adding links:
+
+2023-08-29 15:55:43,905 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:43,918 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:43,924 INFO:(h1, s1) 
+2023-08-29 15:55:43,931 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:43,942 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:43,947 INFO:(h2, s2) 
+2023-08-29 15:55:43,954 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:43,965 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:43,970 INFO:(h3, s3) 
+2023-08-29 15:55:43,977 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:43,987 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:43,993 INFO:(h4, s4) 
+2023-08-29 15:55:43,999 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,010 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,015 INFO:(h5, s5) 
+2023-08-29 15:55:44,022 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,032 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,037 INFO:(h6, s6) 
+2023-08-29 15:55:44,044 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,055 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,061 INFO:(h7, s7) 
+2023-08-29 15:55:44,067 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,078 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,084 INFO:(h8, s8) 
+2023-08-29 15:55:44,091 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,103 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,108 INFO:(h9, s9) 
+2023-08-29 15:55:44,115 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,126 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,132 INFO:(h10, s10) 
+2023-08-29 15:55:44,139 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,154 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,160 INFO:(s1, s2) 
+2023-08-29 15:55:44,171 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,184 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,190 INFO:(s1, s3) 
+2023-08-29 15:55:44,201 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,213 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,219 INFO:(s1, s4) 
+2023-08-29 15:55:44,228 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,242 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,276 INFO:(s1, s5) 
+2023-08-29 15:55:44,290 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,302 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,307 INFO:(s1, s6) 
+2023-08-29 15:55:44,321 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,337 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,343 INFO:(s1, s7) 
+2023-08-29 15:55:44,353 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,367 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,373 INFO:(s1, s8) 
+2023-08-29 15:55:44,386 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,399 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,404 INFO:(s1, s9) 
+2023-08-29 15:55:44,411 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,428 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,434 INFO:(s1, s10) 
+2023-08-29 15:55:44,434 INFO:
+
+2023-08-29 15:55:44,434 INFO:*** Configuring hosts
+
+2023-08-29 15:55:44,434 INFO:h1 
+2023-08-29 15:55:44,441 INFO:h2 
+2023-08-29 15:55:44,446 INFO:h3 
+2023-08-29 15:55:44,451 INFO:h4 
+2023-08-29 15:55:44,457 INFO:h5 
+2023-08-29 15:55:44,462 INFO:h6 
+2023-08-29 15:55:44,467 INFO:h7 
+2023-08-29 15:55:44,473 INFO:h8 
+2023-08-29 15:55:44,478 INFO:h9 
+2023-08-29 15:55:44,483 INFO:h10 
+2023-08-29 15:55:44,489 INFO:
+
+2023-08-29 15:55:44,567 INFO:*** Starting controller
+
+2023-08-29 15:55:44,567 INFO:c0 
+2023-08-29 15:55:44,567 INFO:
+
+2023-08-29 15:55:44,567 INFO:*** Starting 10 switches
+
+2023-08-29 15:55:44,567 INFO:s1 
+2023-08-29 15:55:44,567 INFO:s2 
+2023-08-29 15:55:44,567 INFO:s3 
+2023-08-29 15:55:44,567 INFO:s4 
+2023-08-29 15:55:44,567 INFO:s5 
+2023-08-29 15:55:44,567 INFO:s6 
+2023-08-29 15:55:44,567 INFO:s7 
+2023-08-29 15:55:44,568 INFO:s8 
+2023-08-29 15:55:44,568 INFO:s9 
+2023-08-29 15:55:44,568 INFO:s10 
+2023-08-29 15:55:44,568 INFO:...
+2023-08-29 15:55:44,666 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,675 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,684 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,693 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,702 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,711 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,720 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,730 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,739 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,748 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,757 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,767 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,776 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,786 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,795 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,805 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,815 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,825 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,835 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,845 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,855 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,866 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,875 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,886 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,896 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,906 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,918 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,927 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,934 INFO:
+
+2023-08-29 15:55:44,950 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,962 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,974 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,987 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:44,999 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,014 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,027 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,040 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,053 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,066 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,092 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,106 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,131 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,143 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,169 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,183 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,209 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,222 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,243 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,255 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,277 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,290 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,312 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,324 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,387 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,399 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,419 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,430 INFO:(1000.00Mbit 1ms delay) 
+2023-08-29 15:55:45,441 INFO:(1ms delay) 
+2023-08-29 15:55:45,449 INFO:(1ms delay) 
+2023-08-29 15:55:45,458 INFO:(1ms delay) 
+2023-08-29 15:55:45,465 INFO:(1ms delay) 
+2023-08-29 15:55:45,472 INFO:(1ms delay) 
+2023-08-29 15:55:45,480 INFO:(1ms delay) 
+2023-08-29 15:55:45,489 INFO:(1ms delay) 
+2023-08-29 15:55:45,496 INFO:(1ms delay) 
+2023-08-29 15:55:45,504 INFO:(1ms delay) 
+2023-08-29 15:55:45,512 INFO:(1ms delay) 
+2023-08-29 15:55:45,521 INFO:(1ms delay) 
+2023-08-29 15:55:45,530 INFO:(1ms delay) 
+2023-08-29 15:55:45,539 INFO:(1ms delay) 
+2023-08-29 15:55:45,546 INFO:(1ms delay) 
+2023-08-29 15:55:45,554 INFO:(1ms delay) 
+2023-08-29 15:55:45,562 INFO:(1ms delay) 
+2023-08-29 15:55:45,570 INFO:(1ms delay) 
+2023-08-29 15:55:45,578 INFO:(1ms delay) 
+2023-08-29 15:55:45,586 INFO:(1ms delay) 
+2023-08-29 15:55:45,594 INFO:(1ms delay) 
+2023-08-29 15:55:45,602 INFO:(1ms delay) 
+2023-08-29 15:55:45,611 INFO:(1ms delay) 
+2023-08-29 15:55:45,619 INFO:(1ms delay) 
+2023-08-29 15:55:45,627 INFO:(1ms delay) 
+2023-08-29 15:55:45,635 INFO:(1ms delay) 
+2023-08-29 15:55:45,643 INFO:(1ms delay) 
+2023-08-29 15:55:45,651 INFO:(1ms delay) 
+2023-08-29 15:55:45,659 INFO:(1ms delay) 
+2023-08-29 15:55:45,667 INFO:(1ms delay) 
+2023-08-29 15:55:45,674 INFO:(1ms delay) 
+2023-08-29 15:55:45,683 INFO:(1ms delay) 
+2023-08-29 15:55:45,691 INFO:(1ms delay) 
+2023-08-29 15:55:45,700 INFO:(1ms delay) 
+2023-08-29 15:55:45,709 INFO:(1ms delay) 
+2023-08-29 15:55:45,718 INFO:(1ms delay) 
+2023-08-29 15:55:45,726 INFO:(1ms delay) 
+2023-08-29 15:55:45,730 Level 25:*** Ping: testing ping reachability
+
+2023-08-29 15:55:45,730 Level 25:h1 -> 
+2023-08-29 15:55:45,739 Level 25:h2 
+2023-08-29 15:55:45,747 Level 25:h3 
+2023-08-29 15:55:45,755 Level 25:h4 
+2023-08-29 15:55:45,764 Level 25:h5 
+2023-08-29 15:55:45,772 Level 25:h6 
+2023-08-29 15:55:45,779 Level 25:h7 
+2023-08-29 15:55:45,788 Level 25:h8 
+2023-08-29 15:55:45,797 Level 25:h9 
+2023-08-29 15:55:45,805 Level 25:h10 
+2023-08-29 15:55:45,805 Level 25:
+
+2023-08-29 15:55:45,805 Level 25:h2 -> 
+2023-08-29 15:55:45,813 Level 25:h1 
+2023-08-29 15:55:45,823 Level 25:h3 
+2023-08-29 15:55:45,835 Level 25:h4 
+2023-08-29 15:55:45,846 Level 25:h5 
+2023-08-29 15:55:45,857 Level 25:h6 
+2023-08-29 15:55:45,868 Level 25:h7 
+2023-08-29 15:55:45,879 Level 25:h8 
+2023-08-29 15:55:45,890 Level 25:h9 
+2023-08-29 15:55:45,901 Level 25:h10 
+2023-08-29 15:55:45,902 Level 25:
+
+2023-08-29 15:55:45,902 Level 25:h3 -> 
+2023-08-29 15:55:45,910 Level 25:h1 
+2023-08-29 15:55:45,920 Level 25:h2 
+2023-08-29 15:55:45,931 Level 25:h4 
+2023-08-29 15:55:45,942 Level 25:h5 
+2023-08-29 15:55:45,953 Level 25:h6 
+2023-08-29 15:55:45,964 Level 25:h7 
+2023-08-29 15:55:45,974 Level 25:h8 
+2023-08-29 15:55:45,984 Level 25:h9 
+2023-08-29 15:55:45,996 Level 25:h10 
+2023-08-29 15:55:45,996 Level 25:
+
+2023-08-29 15:55:45,996 Level 25:h4 -> 
+2023-08-29 15:55:46,004 Level 25:h1 
+2023-08-29 15:55:46,015 Level 25:h2 
+2023-08-29 15:55:46,025 Level 25:h3 
+2023-08-29 15:55:46,036 Level 25:h5 
+2023-08-29 15:55:46,047 Level 25:h6 
+2023-08-29 15:55:46,058 Level 25:h7 
+2023-08-29 15:55:46,069 Level 25:h8 
+2023-08-29 15:55:46,080 Level 25:h9 
+2023-08-29 15:55:46,091 Level 25:h10 
+2023-08-29 15:55:46,091 Level 25:
+
+2023-08-29 15:55:46,092 Level 25:h5 -> 
+2023-08-29 15:55:46,100 Level 25:h1 
+2023-08-29 15:55:46,110 Level 25:h2 
+2023-08-29 15:55:46,121 Level 25:h3 
+2023-08-29 15:55:46,131 Level 25:h4 
+2023-08-29 15:55:46,143 Level 25:h6 
+2023-08-29 15:55:46,154 Level 25:h7 
+2023-08-29 15:55:46,164 Level 25:h8 
+2023-08-29 15:55:46,175 Level 25:h9 
+2023-08-29 15:55:46,186 Level 25:h10 
+2023-08-29 15:55:46,186 Level 25:
+
+2023-08-29 15:55:46,186 Level 25:h6 -> 
+2023-08-29 15:55:46,195 Level 25:h1 
+2023-08-29 15:55:46,206 Level 25:h2 
+2023-08-29 15:55:46,216 Level 25:h3 
+2023-08-29 15:55:46,226 Level 25:h4 
+2023-08-29 15:55:46,237 Level 25:h5 
+2023-08-29 15:55:46,248 Level 25:h7 
+2023-08-29 15:55:46,259 Level 25:h8 
+2023-08-29 15:55:46,271 Level 25:h9 
+2023-08-29 15:55:46,281 Level 25:h10 
+2023-08-29 15:55:46,282 Level 25:
+
+2023-08-29 15:55:46,282 Level 25:h7 -> 
+2023-08-29 15:55:46,290 Level 25:h1 
+2023-08-29 15:55:46,301 Level 25:h2 
+2023-08-29 15:55:46,312 Level 25:h3 
+2023-08-29 15:55:46,322 Level 25:h4 
+2023-08-29 15:55:46,333 Level 25:h5 
+2023-08-29 15:55:46,343 Level 25:h6 
+2023-08-29 15:55:46,354 Level 25:h8 
+2023-08-29 15:55:46,366 Level 25:h9 
+2023-08-29 15:55:46,378 Level 25:h10 
+2023-08-29 15:55:46,378 Level 25:
+
+2023-08-29 15:55:46,378 Level 25:h8 -> 
+2023-08-29 15:55:46,386 Level 25:h1 
+2023-08-29 15:55:46,397 Level 25:h2 
+2023-08-29 15:55:46,408 Level 25:h3 
+2023-08-29 15:55:46,418 Level 25:h4 
+2023-08-29 15:55:46,429 Level 25:h5 
+2023-08-29 15:55:46,439 Level 25:h6 
+2023-08-29 15:55:46,472 Level 25:h7 
+2023-08-29 15:55:46,483 Level 25:h9 
+2023-08-29 15:55:46,494 Level 25:h10 
+2023-08-29 15:55:46,494 Level 25:
+
+2023-08-29 15:55:46,494 Level 25:h9 -> 
+2023-08-29 15:55:46,503 Level 25:h1 
+2023-08-29 15:55:46,513 Level 25:h2 
+2023-08-29 15:55:46,523 Level 25:h3 
+2023-08-29 15:55:46,533 Level 25:h4 
+2023-08-29 15:55:46,542 Level 25:h5 
+2023-08-29 15:55:46,553 Level 25:h6 
+2023-08-29 15:55:46,563 Level 25:h7 
+2023-08-29 15:55:46,574 Level 25:h8 
+2023-08-29 15:55:46,586 Level 25:h10 
+2023-08-29 15:55:46,586 Level 25:
+
+2023-08-29 15:55:46,586 Level 25:h10 -> 
+2023-08-29 15:55:46,594 Level 25:h1 
+2023-08-29 15:55:46,605 Level 25:h2 
+2023-08-29 15:55:46,615 Level 25:h3 
+2023-08-29 15:55:46,626 Level 25:h4 
+2023-08-29 15:55:46,636 Level 25:h5 
+2023-08-29 15:55:46,648 Level 25:h6 
+2023-08-29 15:55:46,658 Level 25:h7 
+2023-08-29 15:55:46,669 Level 25:h8 
+2023-08-29 15:55:46,679 Level 25:h9 
+2023-08-29 15:55:46,680 Level 25:
+
+2023-08-29 15:55:46,680 Level 25:*** Results: 0% dropped (90/90 received)
+
+2023-08-29 15:56:16,711 INFO:Sending command to mininet node:
+RABBITMQ_NODE_PORT=5672 RABBITMQ_NODENAME=rabbit@10.0.0.1 rabbitmq-server -detached
+2023-08-29 15:56:16,746 INFO:Output: 
+2023-08-29 15:56:36,764 INFO:Diagnostics status
+2023-08-29 15:56:37,401 INFO:Status of node rabbit@10.0.0.1 ...
+[1mRuntime[0m
+
+OS PID: 1464144
+OS: Linux
+Uptime (seconds): 20
+Is under maintenance?: false
+RabbitMQ version: 3.9.13
+Node name: rabbit@10.0.0.1
+Erlang configuration: Erlang/OTP 24 [erts-12.2.1] [source] [64-bit] [smp:10:10] [ds:10:10:10] [async-threads:1] [jit]
+Erlang processes: 286 used, 1048576 limit
+Scheduler run queue: 1
+Cluster heartbeat timeout (net_ticktime): 60
+
+[1mPlugins[0m
+
+Enabled plugin file: /etc/rabbitmq/enabled_plugins
+Enabled plugins:
+
+
+[1mData directory[0m
+
+Node data directory: /var/lib/rabbitmq/mnesia/rabbit@10.0.0.1
+Raft data directory: /var/lib/rabbitmq/mnesia/rabbit@10.0.0.1/quorum/rabbit@10.0.0.1
+
+[1mConfig files[0m
+
+ * /etc/rabbitmq/rabbitmq.conf
+
+[1mLog file(s)[0m
+
+ * /var/log/rabbitmq/rabbit@10.0.0.1.log
+ * /var/log/rabbitmq/rabbit@10.0.0.1_upgrade.log
+ * <stdout>
+
+[1mAlarms[0m
+
+(none)
+
+[1mMemory[0m
+
+Total memory used: 0.133 gb
+Calculation strategy: rss
+Memory high watermark setting: 0.4 of available memory, computed to: 13.3164 gb
+
+reserved_unallocated: 0.0743 gb (55.9 %)
+code: 0.032 gb (24.05 %)
+other_proc: 0.018 gb (13.5 %)
+other_system: 0.0169 gb (12.73 %)
+other_ets: 0.003 gb (2.24 %)
+atom: 0.0013 gb (1.01 %)
+metrics: 2.0e-4 gb (0.16 %)
+binary: 2.0e-4 gb (0.12 %)
+mnesia: 1.0e-4 gb (0.07 %)
+plugins: 0.0 gb (0.03 %)
+quorum_ets: 0.0 gb (0.02 %)
+msg_index: 0.0 gb (0.02 %)
+stream_queue_procs: 0.0 gb (0.0 %)
+stream_queue_replica_reader_procs: 0.0 gb (0.0 %)
+allocated_unused: 0.0 gb (0.0 %)
+connection_channels: 0.0 gb (0.0 %)
+connection_other: 0.0 gb (0.0 %)
+connection_readers: 0.0 gb (0.0 %)
+connection_writers: 0.0 gb (0.0 %)
+mgmt_db: 0.0 gb (0.0 %)
+queue_procs: 0.0 gb (0.0 %)
+queue_slave_procs: 0.0 gb (0.0 %)
+quorum_queue_procs: 0.0 gb (0.0 %)
+stream_queue_coordinator_procs: 0.0 gb (0.0 %)
+
+[1mFile Descriptors[0m
+
+Total: 2, limit: 927
+Sockets: 0, limit: 832
+
+[1mFree Disk Space[0m
+
+Low free disk space watermark: 0.05 gb
+Free disk space: 22.3839 gb
+
+[1mTotals[0m
+
+Connection count: 0
+Queue count: 0
+Virtual host count: 1
+
+[1mListeners[0m
+
+Interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+
+2023-08-29 15:56:40,943 INFO:Cluster status of node 1:
+Cluster status of node rabbit@10.0.0.1 ...
+[1mBasics[0m
+
+Cluster name: rabbit@qiang-gpu4
+
+[1mDisk Nodes[0m
+
+rabbit@10.0.0.1
+
+[1mRunning Nodes[0m
+
+rabbit@10.0.0.1
+
+[1mVersions[0m
+
+rabbit@10.0.0.1: RabbitMQ 3.9.13 on Erlang 24.2.1
+
+[1mMaintenance status[0m
+
+Node: rabbit@10.0.0.1, status: not under maintenance
+
+[1mAlarms[0m
+
+(none)
+
+[1mNetwork Partitions[0m
+
+(none)
+
+[1mListeners[0m
+
+Node: rabbit@10.0.0.1, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.1, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+
+[1mFeature flags[0m
+
+Flag: implicit_default_bindings, state: enabled
+Flag: maintenance_mode_status, state: enabled
+Flag: quorum_queue, state: enabled
+Flag: stream_queue, state: enabled
+Flag: user_limits, state: enabled
+Flag: virtual_host_metadata, state: enabled
+
+2023-08-29 15:56:40,943 INFO:Sending command to mininet node:
+RABBITMQ_NODE_PORT=5672 RABBITMQ_NODENAME=rabbit@10.0.0.2 rabbitmq-server -detached
+2023-08-29 15:56:40,968 INFO:Output: 
+2023-08-29 15:57:01,638 INFO:Stopping rabbit application on node rabbit@10.0.0.2 ...
+
+2023-08-29 15:57:02,226 INFO:Resetting node rabbit@10.0.0.2 ...
+
+2023-08-29 15:57:04,243 INFO:Clustering node rabbit@10.0.0.2 with rabbit@10.0.0.1
+
+15:57:02.936 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.2-feature_flags`:
+
+15:57:02.936 [warn]  Feature flags:   - list of previously disabled feature flags now marked as such: [:maintenance_mode_status]
+
+15:57:04.194 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.2-feature_flags`:
+
+15:57:04.194 [warn]  Feature flags:   - list of previously enabled feature flags now marked as such: [:maintenance_mode_status]
+
+15:57:04.224 [error] Failed to create a tracked connection table for node :"rabbit@10.0.0.2": {:node_not_running, :"rabbit@10.0.0.2"}
+
+15:57:04.224 [error] Failed to create a per-vhost tracked connection table for node :"rabbit@10.0.0.2": {:node_not_running, :"rabbit@10.0.0.2"}
+
+15:57:04.224 [error] Failed to create a per-user tracked connection table for node :"rabbit@10.0.0.2": {:node_not_running, :"rabbit@10.0.0.2"}
+
+2023-08-29 15:57:06,380 INFO:Starting node rabbit@10.0.0.2 ...
+
+2023-08-29 15:57:10,623 INFO:Cluster status of node 2:
+Cluster status of node rabbit@10.0.0.2 ...
+[1mBasics[0m
+
+Cluster name: rabbit@qiang-gpu4
+
+[1mDisk Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+
+[1mRunning Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+
+[1mVersions[0m
+
+rabbit@10.0.0.1: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.2: RabbitMQ 3.9.13 on Erlang 24.2.1
+
+[1mMaintenance status[0m
+
+Node: rabbit@10.0.0.1, status: not under maintenance
+Node: rabbit@10.0.0.2, status: not under maintenance
+
+[1mAlarms[0m
+
+(none)
+
+[1mNetwork Partitions[0m
+
+(none)
+
+[1mListeners[0m
+
+Node: rabbit@10.0.0.1, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.1, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.2, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.2, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+
+[1mFeature flags[0m
+
+Flag: implicit_default_bindings, state: enabled
+Flag: maintenance_mode_status, state: enabled
+Flag: quorum_queue, state: enabled
+Flag: stream_queue, state: enabled
+Flag: user_limits, state: enabled
+Flag: virtual_host_metadata, state: enabled
+
+2023-08-29 15:57:10,623 INFO:Sending command to mininet node:
+RABBITMQ_NODE_PORT=5672 RABBITMQ_NODENAME=rabbit@10.0.0.3 rabbitmq-server -detached
+2023-08-29 15:57:10,656 INFO:Output: 
+2023-08-29 15:57:31,348 INFO:Stopping rabbit application on node rabbit@10.0.0.3 ...
+
+2023-08-29 15:57:31,967 INFO:Resetting node rabbit@10.0.0.3 ...
+
+2023-08-29 15:57:35,056 INFO:Clustering node rabbit@10.0.0.3 with rabbit@10.0.0.1
+
+15:57:32.764 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.3-feature_flags`:
+
+15:57:32.764 [warn]  Feature flags:   - list of previously disabled feature flags now marked as such: [:maintenance_mode_status]
+
+15:57:34.983 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.3-feature_flags`:
+
+15:57:34.983 [warn]  Feature flags:   - list of previously enabled feature flags now marked as such: [:maintenance_mode_status]
+
+15:57:35.029 [error] Failed to create a tracked connection table for node :"rabbit@10.0.0.3": {:node_not_running, :"rabbit@10.0.0.3"}
+
+15:57:35.030 [error] Failed to create a per-vhost tracked connection table for node :"rabbit@10.0.0.3": {:node_not_running, :"rabbit@10.0.0.3"}
+
+15:57:35.030 [error] Failed to create a per-user tracked connection table for node :"rabbit@10.0.0.3": {:node_not_running, :"rabbit@10.0.0.3"}
+
+2023-08-29 15:57:37,858 INFO:Starting node rabbit@10.0.0.3 ...
+
+2023-08-29 15:57:41,759 INFO:Cluster status of node 3:
+Cluster status of node rabbit@10.0.0.3 ...
+[1mBasics[0m
+
+Cluster name: rabbit@qiang-gpu4
+
+[1mDisk Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+
+[1mRunning Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+
+[1mVersions[0m
+
+rabbit@10.0.0.1: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.2: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.3: RabbitMQ 3.9.13 on Erlang 24.2.1
+
+[1mMaintenance status[0m
+
+Node: rabbit@10.0.0.1, status: not under maintenance
+Node: rabbit@10.0.0.2, status: not under maintenance
+Node: rabbit@10.0.0.3, status: not under maintenance
+
+[1mAlarms[0m
+
+(none)
+
+[1mNetwork Partitions[0m
+
+(none)
+
+[1mListeners[0m
+
+Node: rabbit@10.0.0.1, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.1, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.2, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.2, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.3, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.3, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+
+[1mFeature flags[0m
+
+Flag: implicit_default_bindings, state: enabled
+Flag: maintenance_mode_status, state: enabled
+Flag: quorum_queue, state: enabled
+Flag: stream_queue, state: enabled
+Flag: user_limits, state: enabled
+Flag: virtual_host_metadata, state: enabled
+
+2023-08-29 15:57:41,759 INFO:Sending command to mininet node:
+RABBITMQ_NODE_PORT=5672 RABBITMQ_NODENAME=rabbit@10.0.0.4 rabbitmq-server -detached
+2023-08-29 15:57:41,818 INFO:Output: 
+2023-08-29 15:58:02,442 INFO:Stopping rabbit application on node rabbit@10.0.0.4 ...
+
+2023-08-29 15:58:03,043 INFO:Resetting node rabbit@10.0.0.4 ...
+
+2023-08-29 15:58:06,612 INFO:Clustering node rabbit@10.0.0.4 with rabbit@10.0.0.1
+
+15:58:03.853 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.4-feature_flags`:
+
+15:58:03.853 [warn]  Feature flags:   - list of previously disabled feature flags now marked as such: [:maintenance_mode_status]
+
+15:58:06.548 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.4-feature_flags`:
+
+15:58:06.548 [warn]  Feature flags:   - list of previously enabled feature flags now marked as such: [:maintenance_mode_status]
+
+15:58:06.589 [error] Failed to create a tracked connection table for node :"rabbit@10.0.0.4": {:node_not_running, :"rabbit@10.0.0.4"}
+
+15:58:06.589 [error] Failed to create a per-vhost tracked connection table for node :"rabbit@10.0.0.4": {:node_not_running, :"rabbit@10.0.0.4"}
+
+15:58:06.590 [error] Failed to create a per-user tracked connection table for node :"rabbit@10.0.0.4": {:node_not_running, :"rabbit@10.0.0.4"}
+
+2023-08-29 15:58:09,504 INFO:Starting node rabbit@10.0.0.4 ...
+
+2023-08-29 15:58:13,575 INFO:Cluster status of node 4:
+Cluster status of node rabbit@10.0.0.4 ...
+[1mBasics[0m
+
+Cluster name: rabbit@qiang-gpu4
+
+[1mDisk Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+rabbit@10.0.0.4
+
+[1mRunning Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+rabbit@10.0.0.4
+
+[1mVersions[0m
+
+rabbit@10.0.0.1: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.2: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.3: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.4: RabbitMQ 3.9.13 on Erlang 24.2.1
+
+[1mMaintenance status[0m
+
+Node: rabbit@10.0.0.1, status: not under maintenance
+Node: rabbit@10.0.0.2, status: not under maintenance
+Node: rabbit@10.0.0.3, status: not under maintenance
+Node: rabbit@10.0.0.4, status: not under maintenance
+
+[1mAlarms[0m
+
+(none)
+
+[1mNetwork Partitions[0m
+
+(none)
+
+[1mListeners[0m
+
+Node: rabbit@10.0.0.1, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.1, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.2, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.2, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.3, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.3, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.4, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.4, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+
+[1mFeature flags[0m
+
+Flag: implicit_default_bindings, state: enabled
+Flag: maintenance_mode_status, state: enabled
+Flag: quorum_queue, state: enabled
+Flag: stream_queue, state: enabled
+Flag: user_limits, state: enabled
+Flag: virtual_host_metadata, state: enabled
+
+2023-08-29 15:58:13,575 INFO:Sending command to mininet node:
+RABBITMQ_NODE_PORT=5672 RABBITMQ_NODENAME=rabbit@10.0.0.5 rabbitmq-server -detached
+2023-08-29 15:58:13,609 INFO:Output: 
+2023-08-29 15:58:34,790 INFO:Stopping rabbit application on node rabbit@10.0.0.5 ...
+
+2023-08-29 15:58:35,376 INFO:Resetting node rabbit@10.0.0.5 ...
+
+2023-08-29 15:58:38,999 INFO:Clustering node rabbit@10.0.0.5 with rabbit@10.0.0.1
+
+15:58:36.225 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.5-feature_flags`:
+
+15:58:36.225 [warn]  Feature flags:   - list of previously disabled feature flags now marked as such: [:maintenance_mode_status]
+
+15:58:38.928 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.5-feature_flags`:
+
+15:58:38.929 [warn]  Feature flags:   - list of previously enabled feature flags now marked as such: [:maintenance_mode_status]
+
+15:58:38.976 [error] Failed to create a tracked connection table for node :"rabbit@10.0.0.5": {:node_not_running, :"rabbit@10.0.0.5"}
+
+15:58:38.976 [error] Failed to create a per-vhost tracked connection table for node :"rabbit@10.0.0.5": {:node_not_running, :"rabbit@10.0.0.5"}
+
+15:58:38.977 [error] Failed to create a per-user tracked connection table for node :"rabbit@10.0.0.5": {:node_not_running, :"rabbit@10.0.0.5"}
+
+2023-08-29 15:58:41,992 INFO:Starting node rabbit@10.0.0.5 ...
+
+2023-08-29 15:58:46,242 INFO:Cluster status of node 5:
+Cluster status of node rabbit@10.0.0.5 ...
+[1mBasics[0m
+
+Cluster name: rabbit@qiang-gpu4
+
+[1mDisk Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+rabbit@10.0.0.4
+rabbit@10.0.0.5
+
+[1mRunning Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+rabbit@10.0.0.4
+rabbit@10.0.0.5
+
+[1mVersions[0m
+
+rabbit@10.0.0.1: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.2: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.3: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.4: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.5: RabbitMQ 3.9.13 on Erlang 24.2.1
+
+[1mMaintenance status[0m
+
+Node: rabbit@10.0.0.1, status: not under maintenance
+Node: rabbit@10.0.0.2, status: not under maintenance
+Node: rabbit@10.0.0.3, status: not under maintenance
+Node: rabbit@10.0.0.4, status: not under maintenance
+Node: rabbit@10.0.0.5, status: not under maintenance
+
+[1mAlarms[0m
+
+(none)
+
+[1mNetwork Partitions[0m
+
+(none)
+
+[1mListeners[0m
+
+Node: rabbit@10.0.0.1, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.1, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.2, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.2, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.3, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.3, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.4, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.4, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.5, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.5, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+
+[1mFeature flags[0m
+
+Flag: implicit_default_bindings, state: enabled
+Flag: maintenance_mode_status, state: enabled
+Flag: quorum_queue, state: enabled
+Flag: stream_queue, state: enabled
+Flag: user_limits, state: enabled
+Flag: virtual_host_metadata, state: enabled
+
+2023-08-29 15:58:46,242 INFO:Sending command to mininet node:
+RABBITMQ_NODE_PORT=5672 RABBITMQ_NODENAME=rabbit@10.0.0.6 rabbitmq-server -detached
+2023-08-29 15:58:46,267 INFO:Output: 
+2023-08-29 15:59:06,937 INFO:Stopping rabbit application on node rabbit@10.0.0.6 ...
+
+2023-08-29 15:59:07,523 INFO:Resetting node rabbit@10.0.0.6 ...
+
+2023-08-29 15:59:12,161 INFO:Clustering node rabbit@10.0.0.6 with rabbit@10.0.0.1
+
+15:59:08.515 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.6-feature_flags`:
+
+15:59:08.515 [warn]  Feature flags:   - list of previously disabled feature flags now marked as such: [:maintenance_mode_status]
+
+15:59:12.093 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.6-feature_flags`:
+
+15:59:12.093 [warn]  Feature flags:   - list of previously enabled feature flags now marked as such: [:maintenance_mode_status]
+
+15:59:12.144 [error] Failed to create a tracked connection table for node :"rabbit@10.0.0.6": {:node_not_running, :"rabbit@10.0.0.6"}
+
+15:59:12.144 [error] Failed to create a per-vhost tracked connection table for node :"rabbit@10.0.0.6": {:node_not_running, :"rabbit@10.0.0.6"}
+
+15:59:12.145 [error] Failed to create a per-user tracked connection table for node :"rabbit@10.0.0.6": {:node_not_running, :"rabbit@10.0.0.6"}
+
+2023-08-29 15:59:15,398 INFO:Starting node rabbit@10.0.0.6 ...
+
+2023-08-29 15:59:19,859 INFO:Cluster status of node 6:
+Cluster status of node rabbit@10.0.0.6 ...
+[1mBasics[0m
+
+Cluster name: rabbit@qiang-gpu4
+
+[1mDisk Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+rabbit@10.0.0.4
+rabbit@10.0.0.5
+rabbit@10.0.0.6
+
+[1mRunning Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+rabbit@10.0.0.4
+rabbit@10.0.0.5
+rabbit@10.0.0.6
+
+[1mVersions[0m
+
+rabbit@10.0.0.1: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.2: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.3: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.4: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.5: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.6: RabbitMQ 3.9.13 on Erlang 24.2.1
+
+[1mMaintenance status[0m
+
+Node: rabbit@10.0.0.1, status: not under maintenance
+Node: rabbit@10.0.0.2, status: not under maintenance
+Node: rabbit@10.0.0.3, status: not under maintenance
+Node: rabbit@10.0.0.4, status: not under maintenance
+Node: rabbit@10.0.0.5, status: not under maintenance
+Node: rabbit@10.0.0.6, status: not under maintenance
+
+[1mAlarms[0m
+
+(none)
+
+[1mNetwork Partitions[0m
+
+(none)
+
+[1mListeners[0m
+
+Node: rabbit@10.0.0.1, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.1, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.2, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.2, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.3, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.3, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.4, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.4, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.5, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.5, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.6, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.6, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+
+[1mFeature flags[0m
+
+Flag: implicit_default_bindings, state: enabled
+Flag: maintenance_mode_status, state: enabled
+Flag: quorum_queue, state: enabled
+Flag: stream_queue, state: enabled
+Flag: user_limits, state: enabled
+Flag: virtual_host_metadata, state: enabled
+
+2023-08-29 15:59:19,859 INFO:Sending command to mininet node:
+RABBITMQ_NODE_PORT=5672 RABBITMQ_NODENAME=rabbit@10.0.0.7 rabbitmq-server -detached
+2023-08-29 15:59:19,891 INFO:Output: 
+2023-08-29 15:59:40,537 INFO:Stopping rabbit application on node rabbit@10.0.0.7 ...
+
+2023-08-29 15:59:41,136 INFO:Resetting node rabbit@10.0.0.7 ...
+
+2023-08-29 15:59:46,125 INFO:Clustering node rabbit@10.0.0.7 with rabbit@10.0.0.1
+
+15:59:42.169 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.7-feature_flags`:
+
+15:59:42.169 [warn]  Feature flags:   - list of previously disabled feature flags now marked as such: [:maintenance_mode_status]
+
+15:59:46.060 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.7-feature_flags`:
+
+15:59:46.061 [warn]  Feature flags:   - list of previously enabled feature flags now marked as such: [:maintenance_mode_status]
+
+15:59:46.101 [error] Failed to create a tracked connection table for node :"rabbit@10.0.0.7": {:node_not_running, :"rabbit@10.0.0.7"}
+
+15:59:46.101 [error] Failed to create a per-vhost tracked connection table for node :"rabbit@10.0.0.7": {:node_not_running, :"rabbit@10.0.0.7"}
+
+15:59:46.102 [error] Failed to create a per-user tracked connection table for node :"rabbit@10.0.0.7": {:node_not_running, :"rabbit@10.0.0.7"}
+
+2023-08-29 15:59:49,511 INFO:Starting node rabbit@10.0.0.7 ...
+
+2023-08-29 15:59:54,574 INFO:Cluster status of node 7:
+Cluster status of node rabbit@10.0.0.7 ...
+[1mBasics[0m
+
+Cluster name: rabbit@qiang-gpu4
+
+[1mDisk Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+rabbit@10.0.0.4
+rabbit@10.0.0.5
+rabbit@10.0.0.6
+rabbit@10.0.0.7
+
+[1mRunning Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+rabbit@10.0.0.4
+rabbit@10.0.0.5
+rabbit@10.0.0.6
+rabbit@10.0.0.7
+
+[1mVersions[0m
+
+rabbit@10.0.0.1: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.2: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.3: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.4: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.5: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.6: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.7: RabbitMQ 3.9.13 on Erlang 24.2.1
+
+[1mMaintenance status[0m
+
+Node: rabbit@10.0.0.1, status: not under maintenance
+Node: rabbit@10.0.0.2, status: not under maintenance
+Node: rabbit@10.0.0.3, status: not under maintenance
+Node: rabbit@10.0.0.4, status: not under maintenance
+Node: rabbit@10.0.0.5, status: not under maintenance
+Node: rabbit@10.0.0.6, status: not under maintenance
+Node: rabbit@10.0.0.7, status: not under maintenance
+
+[1mAlarms[0m
+
+(none)
+
+[1mNetwork Partitions[0m
+
+(none)
+
+[1mListeners[0m
+
+Node: rabbit@10.0.0.1, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.1, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.2, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.2, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.3, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.3, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.4, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.4, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.5, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.5, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.6, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.6, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.7, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.7, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+
+[1mFeature flags[0m
+
+Flag: implicit_default_bindings, state: enabled
+Flag: maintenance_mode_status, state: enabled
+Flag: quorum_queue, state: enabled
+Flag: stream_queue, state: enabled
+Flag: user_limits, state: enabled
+Flag: virtual_host_metadata, state: enabled
+
+2023-08-29 15:59:54,574 INFO:Sending command to mininet node:
+RABBITMQ_NODE_PORT=5672 RABBITMQ_NODENAME=rabbit@10.0.0.8 rabbitmq-server -detached
+2023-08-29 15:59:54,598 INFO:Output: 
+2023-08-29 16:00:15,219 INFO:Stopping rabbit application on node rabbit@10.0.0.8 ...
+
+2023-08-29 16:00:15,791 INFO:Resetting node rabbit@10.0.0.8 ...
+
+2023-08-29 16:00:21,201 INFO:Clustering node rabbit@10.0.0.8 with rabbit@10.0.0.1
+
+16:00:16.823 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.8-feature_flags`:
+
+16:00:16.823 [warn]  Feature flags:   - list of previously disabled feature flags now marked as such: [:maintenance_mode_status]
+
+16:00:21.139 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.8-feature_flags`:
+
+16:00:21.139 [warn]  Feature flags:   - list of previously enabled feature flags now marked as such: [:maintenance_mode_status]
+
+16:00:21.180 [error] Failed to create a tracked connection table for node :"rabbit@10.0.0.8": {:node_not_running, :"rabbit@10.0.0.8"}
+
+16:00:21.181 [error] Failed to create a per-vhost tracked connection table for node :"rabbit@10.0.0.8": {:node_not_running, :"rabbit@10.0.0.8"}
+
+16:00:21.181 [error] Failed to create a per-user tracked connection table for node :"rabbit@10.0.0.8": {:node_not_running, :"rabbit@10.0.0.8"}
+
+2023-08-29 16:00:24,862 INFO:Starting node rabbit@10.0.0.8 ...
+
+2023-08-29 16:00:29,744 INFO:Cluster status of node 8:
+Cluster status of node rabbit@10.0.0.8 ...
+[1mBasics[0m
+
+Cluster name: rabbit@qiang-gpu4
+
+[1mDisk Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+rabbit@10.0.0.4
+rabbit@10.0.0.5
+rabbit@10.0.0.6
+rabbit@10.0.0.7
+rabbit@10.0.0.8
+
+[1mRunning Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+rabbit@10.0.0.4
+rabbit@10.0.0.5
+rabbit@10.0.0.6
+rabbit@10.0.0.7
+rabbit@10.0.0.8
+
+[1mVersions[0m
+
+rabbit@10.0.0.1: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.2: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.3: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.4: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.5: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.6: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.7: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.8: RabbitMQ 3.9.13 on Erlang 24.2.1
+
+[1mMaintenance status[0m
+
+Node: rabbit@10.0.0.1, status: not under maintenance
+Node: rabbit@10.0.0.2, status: not under maintenance
+Node: rabbit@10.0.0.3, status: not under maintenance
+Node: rabbit@10.0.0.4, status: not under maintenance
+Node: rabbit@10.0.0.5, status: not under maintenance
+Node: rabbit@10.0.0.6, status: not under maintenance
+Node: rabbit@10.0.0.7, status: not under maintenance
+Node: rabbit@10.0.0.8, status: not under maintenance
+
+[1mAlarms[0m
+
+(none)
+
+[1mNetwork Partitions[0m
+
+(none)
+
+[1mListeners[0m
+
+Node: rabbit@10.0.0.1, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.1, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.2, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.2, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.3, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.3, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.4, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.4, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.5, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.5, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.6, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.6, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.7, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.7, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.8, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.8, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+
+[1mFeature flags[0m
+
+Flag: implicit_default_bindings, state: enabled
+Flag: maintenance_mode_status, state: enabled
+Flag: quorum_queue, state: enabled
+Flag: stream_queue, state: enabled
+Flag: user_limits, state: enabled
+Flag: virtual_host_metadata, state: enabled
+
+2023-08-29 16:00:29,744 INFO:Sending command to mininet node:
+RABBITMQ_NODE_PORT=5672 RABBITMQ_NODENAME=rabbit@10.0.0.9 rabbitmq-server -detached
+2023-08-29 16:00:29,778 INFO:Output: 
+2023-08-29 16:00:50,464 INFO:Stopping rabbit application on node rabbit@10.0.0.9 ...
+
+2023-08-29 16:00:51,096 INFO:Resetting node rabbit@10.0.0.9 ...
+
+2023-08-29 16:00:57,014 INFO:Clustering node rabbit@10.0.0.9 with rabbit@10.0.0.1
+
+16:00:52.208 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.9-feature_flags`:
+
+16:00:52.208 [warn]  Feature flags:   - list of previously disabled feature flags now marked as such: [:maintenance_mode_status]
+
+16:00:56.948 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.9-feature_flags`:
+
+16:00:56.948 [warn]  Feature flags:   - list of previously enabled feature flags now marked as such: [:maintenance_mode_status]
+
+16:00:56.987 [error] Failed to create a tracked connection table for node :"rabbit@10.0.0.9": {:node_not_running, :"rabbit@10.0.0.9"}
+
+16:00:56.988 [error] Failed to create a per-vhost tracked connection table for node :"rabbit@10.0.0.9": {:node_not_running, :"rabbit@10.0.0.9"}
+
+16:00:56.988 [error] Failed to create a per-user tracked connection table for node :"rabbit@10.0.0.9": {:node_not_running, :"rabbit@10.0.0.9"}
+
+2023-08-29 16:01:00,958 INFO:Starting node rabbit@10.0.0.9 ...
+
+2023-08-29 16:01:06,511 INFO:Cluster status of node 9:
+Cluster status of node rabbit@10.0.0.9 ...
+[1mBasics[0m
+
+Cluster name: rabbit@qiang-gpu4
+
+[1mDisk Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+rabbit@10.0.0.4
+rabbit@10.0.0.5
+rabbit@10.0.0.6
+rabbit@10.0.0.7
+rabbit@10.0.0.8
+rabbit@10.0.0.9
+
+[1mRunning Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+rabbit@10.0.0.4
+rabbit@10.0.0.5
+rabbit@10.0.0.6
+rabbit@10.0.0.7
+rabbit@10.0.0.8
+rabbit@10.0.0.9
+
+[1mVersions[0m
+
+rabbit@10.0.0.1: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.2: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.3: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.4: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.5: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.6: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.7: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.8: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.9: RabbitMQ 3.9.13 on Erlang 24.2.1
+
+[1mMaintenance status[0m
+
+Node: rabbit@10.0.0.1, status: not under maintenance
+Node: rabbit@10.0.0.2, status: not under maintenance
+Node: rabbit@10.0.0.3, status: not under maintenance
+Node: rabbit@10.0.0.4, status: not under maintenance
+Node: rabbit@10.0.0.5, status: not under maintenance
+Node: rabbit@10.0.0.6, status: not under maintenance
+Node: rabbit@10.0.0.7, status: not under maintenance
+Node: rabbit@10.0.0.8, status: not under maintenance
+Node: rabbit@10.0.0.9, status: not under maintenance
+
+[1mAlarms[0m
+
+(none)
+
+[1mNetwork Partitions[0m
+
+(none)
+
+[1mListeners[0m
+
+Node: rabbit@10.0.0.1, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.1, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.2, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.2, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.3, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.3, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.4, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.4, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.5, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.5, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.6, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.6, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.7, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.7, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.8, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.8, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.9, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.9, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+
+[1mFeature flags[0m
+
+Flag: implicit_default_bindings, state: enabled
+Flag: maintenance_mode_status, state: enabled
+Flag: quorum_queue, state: enabled
+Flag: stream_queue, state: enabled
+Flag: user_limits, state: enabled
+Flag: virtual_host_metadata, state: enabled
+
+2023-08-29 16:01:06,511 INFO:Sending command to mininet node:
+RABBITMQ_NODE_PORT=5672 RABBITMQ_NODENAME=rabbit@10.0.0.10 rabbitmq-server -detached
+2023-08-29 16:01:06,533 INFO:Output: 
+2023-08-29 16:01:27,200 INFO:Stopping rabbit application on node rabbit@10.0.0.10 ...
+
+2023-08-29 16:01:27,789 INFO:Resetting node rabbit@10.0.0.10 ...
+
+2023-08-29 16:01:34,188 INFO:Clustering node rabbit@10.0.0.10 with rabbit@10.0.0.1
+
+16:01:28.993 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.10-feature_flags`:
+
+16:01:28.993 [warn]  Feature flags:   - list of previously disabled feature flags now marked as such: [:maintenance_mode_status]
+
+16:01:34.117 [warn]  Feature flags: the previous instance of this node must have failed to write the `feature_flags` file at `/var/lib/rabbitmq/mnesia/rabbit@10.0.0.10-feature_flags`:
+
+16:01:34.118 [warn]  Feature flags:   - list of previously enabled feature flags now marked as such: [:maintenance_mode_status]
+
+16:01:34.164 [error] Failed to create a tracked connection table for node :"rabbit@10.0.0.10": {:node_not_running, :"rabbit@10.0.0.10"}
+
+16:01:34.164 [error] Failed to create a per-vhost tracked connection table for node :"rabbit@10.0.0.10": {:node_not_running, :"rabbit@10.0.0.10"}
+
+16:01:34.164 [error] Failed to create a per-user tracked connection table for node :"rabbit@10.0.0.10": {:node_not_running, :"rabbit@10.0.0.10"}
+
+2023-08-29 16:01:38,381 INFO:Starting node rabbit@10.0.0.10 ...
+
+2023-08-29 16:01:43,585 INFO:Cluster status of node 10:
+Cluster status of node rabbit@10.0.0.10 ...
+[1mBasics[0m
+
+Cluster name: rabbit@qiang-gpu4
+
+[1mDisk Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.10
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+rabbit@10.0.0.4
+rabbit@10.0.0.5
+rabbit@10.0.0.6
+rabbit@10.0.0.7
+rabbit@10.0.0.8
+rabbit@10.0.0.9
+
+[1mRunning Nodes[0m
+
+rabbit@10.0.0.1
+rabbit@10.0.0.10
+rabbit@10.0.0.2
+rabbit@10.0.0.3
+rabbit@10.0.0.4
+rabbit@10.0.0.5
+rabbit@10.0.0.6
+rabbit@10.0.0.7
+rabbit@10.0.0.8
+rabbit@10.0.0.9
+
+[1mVersions[0m
+
+rabbit@10.0.0.1: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.10: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.2: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.3: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.4: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.5: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.6: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.7: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.8: RabbitMQ 3.9.13 on Erlang 24.2.1
+rabbit@10.0.0.9: RabbitMQ 3.9.13 on Erlang 24.2.1
+
+[1mMaintenance status[0m
+
+Node: rabbit@10.0.0.1, status: not under maintenance
+Node: rabbit@10.0.0.10, status: not under maintenance
+Node: rabbit@10.0.0.2, status: not under maintenance
+Node: rabbit@10.0.0.3, status: not under maintenance
+Node: rabbit@10.0.0.4, status: not under maintenance
+Node: rabbit@10.0.0.5, status: not under maintenance
+Node: rabbit@10.0.0.6, status: not under maintenance
+Node: rabbit@10.0.0.7, status: not under maintenance
+Node: rabbit@10.0.0.8, status: not under maintenance
+Node: rabbit@10.0.0.9, status: not under maintenance
+
+[1mAlarms[0m
+
+(none)
+
+[1mNetwork Partitions[0m
+
+(none)
+
+[1mListeners[0m
+
+Node: rabbit@10.0.0.1, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.1, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.10, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.10, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.2, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.2, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.3, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.3, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.4, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.4, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.5, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.5, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.6, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.6, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.7, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.7, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.8, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.8, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+Node: rabbit@10.0.0.9, interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Node: rabbit@10.0.0.9, interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
+
+[1mFeature flags[0m
+
+Flag: implicit_default_bindings, state: enabled
+Flag: maintenance_mode_status, state: enabled
+Flag: quorum_queue, state: enabled
+Flag: stream_queue, state: enabled
+Flag: user_limits, state: enabled
+Flag: virtual_host_metadata, state: enabled
+
+2023-08-29 16:02:43,656 INFO:(1ms delay) 
+2023-08-29 16:02:43,668 INFO:(1ms delay) 
+2023-08-29 16:02:43,690 INFO:(1ms delay) 
+2023-08-29 16:02:43,699 INFO:(1ms delay) 
+2023-08-29 16:02:43,708 INFO:(1ms delay) 
+2023-08-29 16:02:43,716 INFO:(1ms delay) 
+2023-08-29 16:02:43,725 INFO:(1ms delay) 
+2023-08-29 16:02:43,733 INFO:(1ms delay) 
+2023-08-29 16:02:43,741 INFO:(1ms delay) 
+2023-08-29 16:02:43,750 INFO:(1ms delay) 
+2023-08-29 16:02:43,758 INFO:(1ms delay) 
+2023-08-29 16:02:43,766 INFO:(1ms delay) 
+2023-08-29 16:02:43,775 INFO:(1ms delay) 
+2023-08-29 16:02:43,784 INFO:(1ms delay) 
+2023-08-29 16:02:43,792 INFO:(1ms delay) 
+2023-08-29 16:02:43,801 INFO:(1ms delay) 
+2023-08-29 16:02:43,810 INFO:(1ms delay) 
+2023-08-29 16:02:43,819 INFO:(1ms delay) 
+2023-08-29 16:02:43,827 INFO:(1ms delay) 
+2023-08-29 16:02:43,835 INFO:(1ms delay) 
+2023-08-29 16:02:43,844 INFO:(1ms delay) 
+2023-08-29 16:02:43,855 INFO:(1ms delay) 
+2023-08-29 16:02:43,864 INFO:(1ms delay) 
+2023-08-29 16:02:43,873 INFO:(1ms delay) 
+2023-08-29 16:02:43,882 INFO:(1ms delay) 
+2023-08-29 16:02:43,892 INFO:(1ms delay) 
+2023-08-29 16:02:43,901 INFO:(1ms delay) 
+2023-08-29 16:02:43,911 INFO:(1ms delay) 
+2023-08-29 16:02:43,921 INFO:(1ms delay) 
+2023-08-29 16:02:43,931 INFO:(1ms delay) 
+2023-08-29 16:02:43,943 INFO:(1ms delay) 
+2023-08-29 16:02:43,954 INFO:(1ms delay) 
+2023-08-29 16:02:43,964 INFO:(1ms delay) 
+2023-08-29 16:02:43,974 INFO:(1ms delay) 
+2023-08-29 16:02:43,984 INFO:(1ms delay) 
+2023-08-29 16:02:43,994 INFO:(1ms delay) 
+2023-08-29 16:02:54,016 INFO:Simulation started at 2023-08-29 16:02:54.015998
+2023-08-29 16:07:54,310 INFO:Simulation complete at 2023-08-29 16:07:54.310418
+2023-08-29 16:07:56,809 INFO:*** Stopping 1 controllers
+
+2023-08-29 16:07:56,810 INFO:c0 
+2023-08-29 16:07:56,810 INFO:
+
+2023-08-29 16:07:56,810 INFO:*** Stopping 19 links
+
+2023-08-29 16:07:56,810 INFO:.
+2023-08-29 16:07:56,878 INFO:.
+2023-08-29 16:07:56,922 INFO:.
+2023-08-29 16:07:56,982 INFO:.
+2023-08-29 16:07:57,030 INFO:.
+2023-08-29 16:07:57,065 INFO:.
+2023-08-29 16:07:57,109 INFO:.
+2023-08-29 16:07:57,160 INFO:.
+2023-08-29 16:07:57,204 INFO:.
+2023-08-29 16:07:57,244 INFO:.
+2023-08-29 16:07:57,289 INFO:.
+2023-08-29 16:07:57,344 INFO:.
+2023-08-29 16:07:57,417 INFO:.
+2023-08-29 16:07:57,456 INFO:.
+2023-08-29 16:07:57,525 INFO:.
+2023-08-29 16:07:57,573 INFO:.
+2023-08-29 16:07:57,628 INFO:.
+2023-08-29 16:07:57,661 INFO:.
+2023-08-29 16:07:57,717 INFO:.
+2023-08-29 16:07:57,749 INFO:
+
+2023-08-29 16:07:57,749 INFO:*** Stopping 10 switches
+
+2023-08-29 16:07:58,684 INFO:s1 
+2023-08-29 16:07:58,684 INFO:s2 
+2023-08-29 16:07:58,684 INFO:s3 
+2023-08-29 16:07:58,684 INFO:s4 
+2023-08-29 16:07:58,684 INFO:s5 
+2023-08-29 16:07:58,684 INFO:s6 
+2023-08-29 16:07:58,684 INFO:s7 
+2023-08-29 16:07:58,684 INFO:s8 
+2023-08-29 16:07:58,684 INFO:s9 
+2023-08-29 16:07:58,684 INFO:s10 
+2023-08-29 16:07:58,684 INFO:
+
+2023-08-29 16:07:58,684 INFO:*** Stopping 10 hosts
+
+2023-08-29 16:07:58,684 INFO:h1 
+2023-08-29 16:07:58,685 INFO:h2 
+2023-08-29 16:07:58,685 INFO:h3 
+2023-08-29 16:07:58,686 INFO:h4 
+2023-08-29 16:07:58,686 INFO:h5 
+2023-08-29 16:07:58,687 INFO:h6 
+2023-08-29 16:07:58,687 INFO:h7 
+2023-08-29 16:07:58,688 INFO:h8 
+2023-08-29 16:07:58,688 INFO:h9 
+2023-08-29 16:07:58,689 INFO:h10 
+2023-08-29 16:07:58,689 INFO:
+*** Done
+
+2023-08-29 16:07:58,699 INFO:Network stopped at 2023-08-29 16:07:58.699735

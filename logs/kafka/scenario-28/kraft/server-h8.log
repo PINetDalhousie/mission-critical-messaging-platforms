@@ -1,0 +1,518 @@
+<h8>: [2023-02-25 09:16:37,076] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+<h8>: [2023-02-25 09:16:37,395] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+<h8>: [2023-02-25 09:16:37,868] INFO [LogLoader partition=__cluster_metadata-0, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h8>: [2023-02-25 09:16:37,868] INFO [LogLoader partition=__cluster_metadata-0, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8] Reloading from producer snapshot and rebuilding producer state from offset 0 (kafka.log.UnifiedLog$)
+<h8>: [2023-02-25 09:16:37,870] INFO [LogLoader partition=__cluster_metadata-0, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8] Producer state recovery took 2ms for snapshot load and 0ms for segment recovery from offset 0 (kafka.log.UnifiedLog$)
+<h8>: [2023-02-25 09:16:37,959] INFO [raft-expiration-reaper]: Starting (kafka.raft.TimingWheelExpirationService$ExpiredOperationReaper)
+<h8>: [2023-02-25 09:16:38,198] INFO [RaftManager nodeId=8] Completed transition to Unattached(epoch=0, voters=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], electionTimeoutMs=19511) (org.apache.kafka.raft.QuorumState)
+<h8>: [2023-02-25 09:16:38,226] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+<h8>: [2023-02-25 09:16:38,233] INFO [kafka-raft-outbound-request-thread]: Starting (kafka.raft.RaftSendThread)
+<h8>: [2023-02-25 09:16:38,233] INFO [kafka-raft-io-thread]: Starting (kafka.raft.KafkaRaftManager$RaftIoThread)
+<h8>: [2023-02-25 09:16:38,236] INFO Starting controller (kafka.server.ControllerServer)
+<h8>: [2023-02-25 09:16:38,609] INFO Updated connection-accept-rate max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+<h8>: [2023-02-25 09:16:38,615] INFO Awaiting socket connections on 10.0.0.8:19099. (kafka.network.Acceptor)
+<h8>: [2023-02-25 09:16:38,650] INFO [SocketServer listenerType=CONTROLLER, nodeId=8] Created data-plane acceptor and processors for endpoint : ListenerName(CONTROLLER) (kafka.network.SocketServer)
+<h8>: [2023-02-25 09:16:38,677] INFO [RaftManager nodeId=8] Registered the listener org.apache.kafka.controller.QuorumController$QuorumMetaLogListener@1749868410 (org.apache.kafka.raft.KafkaRaftClient)
+<h8>: [2023-02-25 09:16:38,684] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h8>: [2023-02-25 09:16:38,686] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h8>: [2023-02-25 09:16:38,687] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h8>: [2023-02-25 09:16:38,689] INFO [ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h8>: [2023-02-25 09:16:38,714] INFO [ExpirationReaper-8-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h8>: [2023-02-25 09:16:38,720] INFO [SocketServer listenerType=CONTROLLER, nodeId=8] Starting socket server acceptors and processors (kafka.network.SocketServer)
+<h8>: [2023-02-25 09:16:38,733] INFO [SocketServer listenerType=CONTROLLER, nodeId=8] Started data-plane acceptor and processor(s) for endpoint : ListenerName(CONTROLLER) (kafka.network.SocketServer)
+<h8>: [2023-02-25 09:16:38,734] INFO [SocketServer listenerType=CONTROLLER, nodeId=8] Started socket server acceptors and processors (kafka.network.SocketServer)
+<h8>: [2023-02-25 09:16:38,735] INFO [BrokerServer id=8] Transition from SHUTDOWN to STARTING (kafka.server.BrokerServer)
+<h8>: [2023-02-25 09:16:38,737] INFO [BrokerServer id=8] Starting broker (kafka.server.BrokerServer)
+<h8>: [2023-02-25 09:16:38,756] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h8>: [2023-02-25 09:16:38,760] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h8>: [2023-02-25 09:16:38,761] INFO [ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h8>: [2023-02-25 09:16:38,761] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+<h8>: [2023-02-25 09:16:38,812] INFO [BrokerToControllerChannelManager broker=8 name=forwarding]: Starting (kafka.server.BrokerToControllerRequestThread)
+<h8>: [2023-02-25 09:16:38,856] INFO Updated connection-accept-rate max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+<h8>: [2023-02-25 09:16:38,856] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+<h8>: [2023-02-25 09:16:38,865] INFO [SocketServer listenerType=BROKER, nodeId=8] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+<h8>: [2023-02-25 09:16:38,871] INFO [BrokerToControllerChannelManager broker=8 name=alterIsr]: Starting (kafka.server.BrokerToControllerRequestThread)
+<h8>: [2023-02-25 09:16:38,899] INFO [ExpirationReaper-8-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h8>: [2023-02-25 09:16:38,899] INFO [ExpirationReaper-8-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h8>: [2023-02-25 09:16:38,901] INFO [ExpirationReaper-8-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h8>: [2023-02-25 09:16:38,904] INFO [ExpirationReaper-8-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h8>: [2023-02-25 09:16:38,924] INFO [ExpirationReaper-8-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h8>: [2023-02-25 09:16:38,926] INFO [ExpirationReaper-8-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h8>: [2023-02-25 09:16:38,986] INFO [RaftManager nodeId=8] Registered the listener kafka.server.metadata.BrokerMetadataListener@1800946991 (org.apache.kafka.raft.KafkaRaftClient)
+<h8>: [2023-02-25 09:16:38,987] INFO [BrokerToControllerChannelManager broker=8 name=heartbeat]: Starting (kafka.server.BrokerToControllerRequestThread)
+<h8>: [2023-02-25 09:16:38,992] INFO [BrokerLifecycleManager id=8] Incarnation FCERQozVS06AfXhm5yGeYg of broker 8 in cluster JmL9ihFRQmSabrNWrYSpjg is now STARTING. (kafka.server.BrokerLifecycleManager)
+<h8>: [2023-02-25 09:16:39,019] INFO [ExpirationReaper-8-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+<h8>: [2023-02-25 09:16:43,864] INFO [RaftManager nodeId=8] Completed transition to Unattached(epoch=1, voters=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], electionTimeoutMs=13747) (org.apache.kafka.raft.QuorumState)
+<h8>: [2023-02-25 09:16:44,079] INFO [RaftManager nodeId=8] Completed transition to Voted(epoch=1, votedId=1, voters=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], electionTimeoutMs=11551) (org.apache.kafka.raft.QuorumState)
+<h8>: [2023-02-25 09:16:44,092] INFO [RaftManager nodeId=8] Vote request VoteRequestData(clusterId='JmL9ihFRQmSabrNWrYSpjg', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=1, candidateId=1, lastOffsetEpoch=0, lastOffset=0)])]) with epoch 1 is granted (org.apache.kafka.raft.KafkaRaftClient)
+<h8>: [2023-02-25 09:16:44,094] INFO [RaftManager nodeId=8] Vote request VoteRequestData(clusterId='JmL9ihFRQmSabrNWrYSpjg', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=1, candidateId=3, lastOffsetEpoch=0, lastOffset=0)])]) with epoch 1 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+<h8>: [2023-02-25 09:16:44,561] INFO [RaftManager nodeId=8] Completed transition to Unattached(epoch=2, voters=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], electionTimeoutMs=11005) (org.apache.kafka.raft.QuorumState)
+<h8>: [2023-02-25 09:16:44,646] INFO [RaftManager nodeId=8] Completed transition to Voted(epoch=2, votedId=3, voters=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], electionTimeoutMs=17676) (org.apache.kafka.raft.QuorumState)
+<h8>: [2023-02-25 09:16:44,646] INFO [RaftManager nodeId=8] Vote request VoteRequestData(clusterId='JmL9ihFRQmSabrNWrYSpjg', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=2, candidateId=3, lastOffsetEpoch=0, lastOffset=0)])]) with epoch 2 is granted (org.apache.kafka.raft.KafkaRaftClient)
+<h8>: [2023-02-25 09:16:45,007] INFO [RaftManager nodeId=8] Completed transition to FollowerState(fetchTimeoutMs=20000, epoch=2, leaderId=3, voters=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], highWatermark=Optional.empty, fetchingSnapshot=Optional.empty) (org.apache.kafka.raft.QuorumState)
+<h8>: [2023-02-25 09:16:45,013] INFO [BrokerToControllerChannelManager broker=8 name=alterIsr]: Recorded new controller, from now on will use broker 10.0.0.3:19094 (id: 3 rack: null) (kafka.server.BrokerToControllerRequestThread)
+<h8>: [2023-02-25 09:16:45,017] INFO [BrokerToControllerChannelManager broker=8 name=heartbeat]: Recorded new controller, from now on will use broker 10.0.0.3:19094 (id: 3 rack: null) (kafka.server.BrokerToControllerRequestThread)
+<h8>: [2023-02-25 09:16:45,049] INFO [BrokerToControllerChannelManager broker=8 name=forwarding]: Recorded new controller, from now on will use broker 10.0.0.3:19094 (id: 3 rack: null) (kafka.server.BrokerToControllerRequestThread)
+<h8>: [2023-02-25 09:16:45,557] INFO [Controller 8] Registered new broker: RegisterBrokerRecord(brokerId=3, incarnationId=It5_UZ_sTO6X_1bsY7tLFA, brokerEpoch=0, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.3', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:45,572] INFO [BrokerLifecycleManager id=8] Successfully registered broker 8 with broker epoch 3 (kafka.server.BrokerLifecycleManager)
+<h8>: [2023-02-25 09:16:46,066] INFO [Controller 8] Registered new broker: RegisterBrokerRecord(brokerId=1, incarnationId=CEwPCcPZTWSOQX4Ksh0bQw, brokerEpoch=2, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.1', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:46,066] INFO [Controller 8] Registered new broker: RegisterBrokerRecord(brokerId=8, incarnationId=FCERQozVS06AfXhm5yGeYg, brokerEpoch=3, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.8', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:46,066] INFO [Controller 8] Registered new broker: RegisterBrokerRecord(brokerId=9, incarnationId=oPZm9L18SdSQ7D3RW3Ql3g, brokerEpoch=4, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.9', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:46,066] INFO [Controller 8] Registered new broker: RegisterBrokerRecord(brokerId=7, incarnationId=KqlvJ4dVQbiuPmAZrs56Tg, brokerEpoch=5, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.7', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:46,067] INFO [Controller 8] Registered new broker: RegisterBrokerRecord(brokerId=4, incarnationId=emFy0K8aQzGRfHb2SCP3lA, brokerEpoch=6, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.4', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:46,067] INFO [Controller 8] Registered new broker: RegisterBrokerRecord(brokerId=6, incarnationId=uT7Gd04YTUSpKUEBmcUjsg, brokerEpoch=7, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.6', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:46,067] INFO [Controller 8] Registered new broker: RegisterBrokerRecord(brokerId=5, incarnationId=BxzCTH5xSiangvVUPol76Q, brokerEpoch=8, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.5', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:46,067] INFO [Controller 8] Registered new broker: RegisterBrokerRecord(brokerId=2, incarnationId=jLlp7Zd5R2mrzud6UkqoNg, brokerEpoch=9, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.2', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:46,584] INFO [Controller 8] Unfenced broker: UnfenceBrokerRecord(id=3, epoch=0) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:46,603] INFO [BrokerLifecycleManager id=8] The broker has caught up. Transitioning from STARTING to RECOVERY. (kafka.server.BrokerLifecycleManager)
+<h8>: [2023-02-25 09:16:46,609] INFO [BrokerMetadataListener id=8] Starting to publish metadata events at offset 10. (kafka.server.metadata.BrokerMetadataListener)
+<h8>: [2023-02-25 09:16:46,610] INFO [BrokerMetadataPublisher id=8] Publishing initial metadata at offset OffsetAndEpoch(offset=10, epoch=2). (kafka.server.metadata.BrokerMetadataPublisher)
+<h8>: [2023-02-25 09:16:46,611] INFO Loading logs from log dirs ArraySeq(/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8) (kafka.log.LogManager)
+<h8>: [2023-02-25 09:16:46,612] INFO Attempting recovery for all logs in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8 since no clean shutdown file was found (kafka.log.LogManager)
+<h8>: [2023-02-25 09:16:46,623] INFO Loaded 0 logs in 12ms. (kafka.log.LogManager)
+<h8>: [2023-02-25 09:16:46,624] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+<h8>: [2023-02-25 09:16:46,624] INFO [BrokerLifecycleManager id=8] The broker is in RECOVERY. (kafka.server.BrokerLifecycleManager)
+<h8>: [2023-02-25 09:16:46,627] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+<h8>: [2023-02-25 09:16:46,807] INFO [GroupCoordinator 8]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+<h8>: [2023-02-25 09:16:46,809] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+<h8>: [2023-02-25 09:16:46,809] INFO [GroupCoordinator 8]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+<h8>: [2023-02-25 09:16:46,810] INFO [TransactionCoordinator id=8] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+<h8>: [2023-02-25 09:16:46,813] INFO [TransactionCoordinator id=8] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+<h8>: [2023-02-25 09:16:46,860] INFO [Transaction Marker Channel Manager 8]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+<h8>: [2023-02-25 09:16:46,876] INFO KafkaConfig values: 
+<h8>: 	advertised.listeners = PLAINTEXT://10.0.0.8:9092
+<h8>: 	alter.config.policy.class.name = null
+<h8>: 	alter.log.dirs.replication.quota.window.num = 11
+<h8>: 	alter.log.dirs.replication.quota.window.size.seconds = 1
+<h8>: 	authorizer.class.name = 
+<h8>: 	auto.create.topics.enable = true
+<h8>: 	auto.leader.rebalance.enable = true
+<h8>: 	background.threads = 10
+<h8>: 	broker.heartbeat.interval.ms = 2000
+<h8>: 	broker.id = 8
+<h8>: 	broker.id.generation.enable = true
+<h8>: 	broker.rack = null
+<h8>: 	broker.session.timeout.ms = 120000
+<h8>: 	client.quota.callback.class = null
+<h8>: 	compression.type = producer
+<h8>: 	connection.failed.authentication.delay.ms = 100
+<h8>: 	connections.max.idle.ms = 600000
+<h8>: 	connections.max.reauth.ms = 0
+<h8>: 	control.plane.listener.name = null
+<h8>: 	controlled.shutdown.enable = true
+<h8>: 	controlled.shutdown.max.retries = 3
+<h8>: 	controlled.shutdown.retry.backoff.ms = 5000
+<h8>: 	controller.listener.names = CONTROLLER
+<h8>: 	controller.quorum.append.linger.ms = 25
+<h8>: 	controller.quorum.election.backoff.max.ms = 10000
+<h8>: 	controller.quorum.election.timeout.ms = 10000
+<h8>: 	controller.quorum.fetch.timeout.ms = 20000
+<h8>: 	controller.quorum.request.timeout.ms = 120000
+<h8>: 	controller.quorum.retry.backoff.ms = 20
+<h8>: 	controller.quorum.voters = [1@10.0.0.1:19092, 2@10.0.0.2:19093, 3@10.0.0.3:19094, 4@10.0.0.4:19095, 5@10.0.0.5:19096, 6@10.0.0.6:19097, 7@10.0.0.7:19098, 8@10.0.0.8:19099, 9@10.0.0.9:19100, 10@10.0.0.10:19101:9093]
+<h8>: 	controller.quota.window.num = 11
+<h8>: 	controller.quota.window.size.seconds = 1
+<h8>: 	controller.socket.timeout.ms = 300000
+<h8>: 	create.topic.policy.class.name = null
+<h8>: 	default.replication.factor = 1
+<h8>: 	delegation.token.expiry.check.interval.ms = 3600000
+<h8>: 	delegation.token.expiry.time.ms = 86400000
+<h8>: 	delegation.token.master.key = null
+<h8>: 	delegation.token.max.lifetime.ms = 604800000
+<h8>: 	delegation.token.secret.key = null
+<h8>: 	delete.records.purgatory.purge.interval.requests = 1
+<h8>: 	delete.topic.enable = true
+<h8>: 	fetch.max.bytes = 57671680
+<h8>: 	fetch.purgatory.purge.interval.requests = 1000
+<h8>: 	group.initial.rebalance.delay.ms = 3000
+<h8>: 	group.max.session.timeout.ms = 1800000
+<h8>: 	group.max.size = 2147483647
+<h8>: 	group.min.session.timeout.ms = 6000
+<h8>: 	initial.broker.registration.timeout.ms = 180000
+<h8>: 	inter.broker.listener.name = PLAINTEXT
+<h8>: 	inter.broker.protocol.version = 3.1-IV0
+<h8>: 	kafka.metrics.polling.interval.secs = 10
+<h8>: 	kafka.metrics.reporters = []
+<h8>: 	leader.imbalance.check.interval.seconds = 300
+<h8>: 	leader.imbalance.per.broker.percentage = 10
+<h8>: 	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+<h8>: 	listeners = PLAINTEXT://:9092,CONTROLLER://10.0.0.8:19099
+<h8>: 	log.cleaner.backoff.ms = 15000
+<h8>: 	log.cleaner.dedupe.buffer.size = 134217728
+<h8>: 	log.cleaner.delete.retention.ms = 86400000
+<h8>: 	log.cleaner.enable = true
+<h8>: 	log.cleaner.io.buffer.load.factor = 0.9
+<h8>: 	log.cleaner.io.buffer.size = 524288
+<h8>: 	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+<h8>: 	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+<h8>: 	log.cleaner.min.cleanable.ratio = 0.5
+<h8>: 	log.cleaner.min.compaction.lag.ms = 0
+<h8>: 	log.cleaner.threads = 1
+<h8>: 	log.cleanup.policy = [delete]
+<h8>: 	log.dir = /tmp/kafka-logs
+<h8>: 	log.dirs = ./kafka-3.1.0/logs/kafka8
+<h8>: 	log.flush.interval.messages = 9223372036854775807
+<h8>: 	log.flush.interval.ms = null
+<h8>: 	log.flush.offset.checkpoint.interval.ms = 60000
+<h8>: 	log.flush.scheduler.interval.ms = 9223372036854775807
+<h8>: 	log.flush.start.offset.checkpoint.interval.ms = 60000
+<h8>: 	log.index.interval.bytes = 4096
+<h8>: 	log.index.size.max.bytes = 10485760
+<h8>: 	log.message.downconversion.enable = true
+<h8>: 	log.message.format.version = 3.0-IV1
+<h8>: 	log.message.timestamp.difference.max.ms = 9223372036854775807
+<h8>: 	log.message.timestamp.type = CreateTime
+<h8>: 	log.preallocate = false
+<h8>: 	log.retention.bytes = -1
+<h8>: 	log.retention.check.interval.ms = 300000
+<h8>: 	log.retention.hours = 168
+<h8>: 	log.retention.minutes = null
+<h8>: 	log.retention.ms = null
+<h8>: 	log.roll.hours = 168
+<h8>: 	log.roll.jitter.hours = 0
+<h8>: 	log.roll.jitter.ms = null
+<h8>: 	log.roll.ms = null
+<h8>: 	log.segment.bytes = 1073741824
+<h8>: 	log.segment.delete.delay.ms = 60000
+<h8>: 	max.connection.creation.rate = 2147483647
+<h8>: 	max.connections = 2147483647
+<h8>: 	max.connections.per.ip = 2147483647
+<h8>: 	max.connections.per.ip.overrides = 
+<h8>: 	max.incremental.fetch.session.cache.slots = 1000
+<h8>: 	message.max.bytes = 1048588
+<h8>: 	metadata.log.dir = null
+<h8>: 	metadata.log.max.record.bytes.between.snapshots = 20971520
+<h8>: 	metadata.log.segment.bytes = 1073741824
+<h8>: 	metadata.log.segment.min.bytes = 8388608
+<h8>: 	metadata.log.segment.ms = 604800000
+<h8>: 	metadata.max.retention.bytes = -1
+<h8>: 	metadata.max.retention.ms = 604800000
+<h8>: 	metric.reporters = []
+<h8>: 	metrics.num.samples = 2
+<h8>: 	metrics.recording.level = INFO
+<h8>: 	metrics.sample.window.ms = 30000
+<h8>: 	min.insync.replicas = 1
+<h8>: 	node.id = 8
+<h8>: 	num.io.threads = 8
+<h8>: 	num.network.threads = 3
+<h8>: 	num.partitions = 1
+<h8>: 	num.recovery.threads.per.data.dir = 1
+<h8>: 	num.replica.alter.log.dirs.threads = null
+<h8>: 	num.replica.fetchers = 1
+<h8>: 	offset.metadata.max.bytes = 4096
+<h8>: 	offsets.commit.required.acks = -1
+<h8>: 	offsets.commit.timeout.ms = 5000
+<h8>: 	offsets.load.buffer.size = 5242880
+<h8>: 	offsets.retention.check.interval.ms = 600000
+<h8>: 	offsets.retention.minutes = 10080
+<h8>: 	offsets.topic.compression.codec = 0
+<h8>: 	offsets.topic.num.partitions = 50
+<h8>: 	offsets.topic.replication.factor = 1
+<h8>: 	offsets.topic.segment.bytes = 104857600
+<h8>: 	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+<h8>: 	password.encoder.iterations = 4096
+<h8>: 	password.encoder.key.length = 128
+<h8>: 	password.encoder.keyfactory.algorithm = null
+<h8>: 	password.encoder.old.secret = null
+<h8>: 	password.encoder.secret = null
+<h8>: 	principal.builder.class = class org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder
+<h8>: 	process.roles = [broker, controller]
+<h8>: 	producer.purgatory.purge.interval.requests = 1000
+<h8>: 	queued.max.request.bytes = -1
+<h8>: 	queued.max.requests = 500
+<h8>: 	quota.window.num = 11
+<h8>: 	quota.window.size.seconds = 1
+<h8>: 	remote.log.index.file.cache.total.size.bytes = 1073741824
+<h8>: 	remote.log.manager.task.interval.ms = 30000
+<h8>: 	remote.log.manager.task.retry.backoff.max.ms = 30000
+<h8>: 	remote.log.manager.task.retry.backoff.ms = 500
+<h8>: 	remote.log.manager.task.retry.jitter = 0.2
+<h8>: 	remote.log.manager.thread.pool.size = 10
+<h8>: 	remote.log.metadata.manager.class.name = null
+<h8>: 	remote.log.metadata.manager.class.path = null
+<h8>: 	remote.log.metadata.manager.impl.prefix = null
+<h8>: 	remote.log.metadata.manager.listener.name = null
+<h8>: 	remote.log.reader.max.pending.tasks = 100
+<h8>: 	remote.log.reader.threads = 10
+<h8>: 	remote.log.storage.manager.class.name = null
+<h8>: 	remote.log.storage.manager.class.path = null
+<h8>: 	remote.log.storage.manager.impl.prefix = null
+<h8>: 	remote.log.storage.system.enable = false
+<h8>: 	replica.fetch.backoff.ms = 1000
+<h8>: 	replica.fetch.max.bytes = 1048576
+<h8>: 	replica.fetch.min.bytes = 200000
+<h8>: 	replica.fetch.response.max.bytes = 10485760
+<h8>: 	replica.fetch.wait.max.ms = 5000
+<h8>: 	replica.high.watermark.checkpoint.interval.ms = 5000
+<h8>: 	replica.lag.time.max.ms = 30000
+<h8>: 	replica.selector.class = null
+<h8>: 	replica.socket.receive.buffer.bytes = 65536
+<h8>: 	replica.socket.timeout.ms = 30000
+<h8>: 	replication.quota.window.num = 11
+<h8>: 	replication.quota.window.size.seconds = 1
+<h8>: 	request.timeout.ms = 300000
+<h8>: 	reserved.broker.max.id = 1000
+<h8>: 	sasl.client.callback.handler.class = null
+<h8>: 	sasl.enabled.mechanisms = [GSSAPI]
+<h8>: 	sasl.jaas.config = null
+<h8>: 	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+<h8>: 	sasl.kerberos.min.time.before.relogin = 60000
+<h8>: 	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+<h8>: 	sasl.kerberos.service.name = null
+<h8>: 	sasl.kerberos.ticket.renew.jitter = 0.05
+<h8>: 	sasl.kerberos.ticket.renew.window.factor = 0.8
+<h8>: 	sasl.login.callback.handler.class = null
+<h8>: 	sasl.login.class = null
+<h8>: 	sasl.login.connect.timeout.ms = null
+<h8>: 	sasl.login.read.timeout.ms = null
+<h8>: 	sasl.login.refresh.buffer.seconds = 300
+<h8>: 	sasl.login.refresh.min.period.seconds = 60
+<h8>: 	sasl.login.refresh.window.factor = 0.8
+<h8>: 	sasl.login.refresh.window.jitter = 0.05
+<h8>: 	sasl.login.retry.backoff.max.ms = 10000
+<h8>: 	sasl.login.retry.backoff.ms = 100
+<h8>: 	sasl.mechanism.controller.protocol = GSSAPI
+<h8>: 	sasl.mechanism.inter.broker.protocol = GSSAPI
+<h8>: 	sasl.oauthbearer.clock.skew.seconds = 30
+<h8>: 	sasl.oauthbearer.expected.audience = null
+<h8>: 	sasl.oauthbearer.expected.issuer = null
+<h8>: 	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+<h8>: 	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+<h8>: 	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+<h8>: 	sasl.oauthbearer.jwks.endpoint.url = null
+<h8>: 	sasl.oauthbearer.scope.claim.name = scope
+<h8>: 	sasl.oauthbearer.sub.claim.name = sub
+<h8>: 	sasl.oauthbearer.token.endpoint.url = null
+<h8>: 	sasl.server.callback.handler.class = null
+<h8>: 	security.inter.broker.protocol = PLAINTEXT
+<h8>: 	security.providers = null
+<h8>: 	socket.connection.setup.timeout.max.ms = 300000
+<h8>: 	socket.connection.setup.timeout.ms = 120000
+<h8>: 	socket.receive.buffer.bytes = 102400
+<h8>: 	socket.request.max.bytes = 104857600
+<h8>: 	socket.send.buffer.bytes = 102400
+<h8>: 	ssl.cipher.suites = []
+<h8>: 	ssl.client.auth = none
+<h8>: 	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+<h8>: 	ssl.endpoint.identification.algorithm = https
+<h8>: 	ssl.engine.factory.class = null
+<h8>: 	ssl.key.password = null
+<h8>: 	ssl.keymanager.algorithm = SunX509
+<h8>: 	ssl.keystore.certificate.chain = null
+<h8>: 	ssl.keystore.key = null
+<h8>: 	ssl.keystore.location = null
+<h8>: 	ssl.keystore.password = null
+<h8>: 	ssl.keystore.type = JKS
+<h8>: 	ssl.principal.mapping.rules = DEFAULT
+<h8>: 	ssl.protocol = TLSv1.3
+<h8>: 	ssl.provider = null
+<h8>: 	ssl.secure.random.implementation = null
+<h8>: 	ssl.trustmanager.algorithm = PKIX
+<h8>: 	ssl.truststore.certificates = null
+<h8>: 	ssl.truststore.location = null
+<h8>: 	ssl.truststore.password = null
+<h8>: 	ssl.truststore.type = JKS
+<h8>: 	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+<h8>: 	transaction.max.timeout.ms = 900000
+<h8>: 	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+<h8>: 	transaction.state.log.load.buffer.size = 5242880
+<h8>: 	transaction.state.log.min.isr = 1
+<h8>: 	transaction.state.log.num.partitions = 50
+<h8>: 	transaction.state.log.replication.factor = 1
+<h8>: 	transaction.state.log.segment.bytes = 104857600
+<h8>: 	transactional.id.expiration.ms = 604800000
+<h8>: 	unclean.leader.election.enable = false
+<h8>: 	zookeeper.clientCnxnSocket = null
+<h8>: 	zookeeper.connect = null
+<h8>: 	zookeeper.connection.timeout.ms = null
+<h8>: 	zookeeper.max.in.flight.requests = 10
+<h8>: 	zookeeper.session.timeout.ms = 18000
+<h8>: 	zookeeper.set.acl = false
+<h8>: 	zookeeper.ssl.cipher.suites = null
+<h8>: 	zookeeper.ssl.client.enable = false
+<h8>: 	zookeeper.ssl.crl.enable = false
+<h8>: 	zookeeper.ssl.enabled.protocols = null
+<h8>: 	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+<h8>: 	zookeeper.ssl.keystore.location = null
+<h8>: 	zookeeper.ssl.keystore.password = null
+<h8>: 	zookeeper.ssl.keystore.type = null
+<h8>: 	zookeeper.ssl.ocsp.enable = false
+<h8>: 	zookeeper.ssl.protocol = TLSv1.2
+<h8>: 	zookeeper.ssl.truststore.location = null
+<h8>: 	zookeeper.ssl.truststore.password = null
+<h8>: 	zookeeper.ssl.truststore.type = null
+<h8>: 	zookeeper.sync.time.ms = 2000
+<h8>:  (kafka.server.KafkaConfig)
+<h8>: [2023-02-25 09:16:46,964] INFO [SocketServer listenerType=BROKER, nodeId=8] Starting socket server acceptors and processors (kafka.network.SocketServer)
+<h8>: [2023-02-25 09:16:46,980] INFO [SocketServer listenerType=BROKER, nodeId=8] Started data-plane acceptor and processor(s) for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+<h8>: [2023-02-25 09:16:46,980] INFO [SocketServer listenerType=BROKER, nodeId=8] Started socket server acceptors and processors (kafka.network.SocketServer)
+<h8>: [2023-02-25 09:16:46,981] INFO [BrokerServer id=8] Transition from STARTING to STARTED (kafka.server.BrokerServer)
+<h8>: [2023-02-25 09:16:46,981] INFO Kafka version: 3.1.0 (org.apache.kafka.common.utils.AppInfoParser)
+<h8>: [2023-02-25 09:16:46,981] INFO Kafka commitId: unknown (org.apache.kafka.common.utils.AppInfoParser)
+<h8>: [2023-02-25 09:16:46,981] INFO Kafka startTimeMs: 1677331006981 (org.apache.kafka.common.utils.AppInfoParser)
+<h8>: [2023-02-25 09:16:46,982] INFO Kafka Server started (kafka.server.KafkaRaftServer)
+<h8>: [2023-02-25 09:16:47,384] INFO [BrokerLifecycleManager id=8] The broker has been unfenced. Transitioning from RECOVERY to RUNNING. (kafka.server.BrokerLifecycleManager)
+<h8>: [2023-02-25 09:16:47,889] INFO [Controller 8] Unfenced broker: UnfenceBrokerRecord(id=6, epoch=7) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:47,889] INFO [Controller 8] Unfenced broker: UnfenceBrokerRecord(id=2, epoch=9) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:47,889] INFO [Controller 8] Unfenced broker: UnfenceBrokerRecord(id=5, epoch=8) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:47,889] INFO [Controller 8] Unfenced broker: UnfenceBrokerRecord(id=8, epoch=3) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:47,889] INFO [Controller 8] Unfenced broker: UnfenceBrokerRecord(id=7, epoch=5) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:47,889] INFO [Controller 8] Unfenced broker: UnfenceBrokerRecord(id=9, epoch=4) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:47,889] INFO [Controller 8] Unfenced broker: UnfenceBrokerRecord(id=1, epoch=2) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:47,889] INFO [Controller 8] Unfenced broker: UnfenceBrokerRecord(id=4, epoch=6) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:52,195] INFO [Controller 8] Registered new broker: RegisterBrokerRecord(brokerId=10, incarnationId=yNElGIcEQIuyQQIDVR8phA, brokerEpoch=19, endPoints=[BrokerEndpoint(name='PLAINTEXT', host='10.0.0.10', port=9092, securityProtocol=0)], features=[], rack=null, fenced=true) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:52,713] INFO [Controller 8] Unfenced broker: UnfenceBrokerRecord(id=10, epoch=19) (org.apache.kafka.controller.ClusterControlManager)
+<h8>: [2023-02-25 09:16:53,780] INFO [Controller 8] Created topic topic-1 with topic ID oGwPzbFSSIy6DAxOljWhiQ. (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:53,780] INFO [Controller 8] Created partition topic-1-0 with topic ID oGwPzbFSSIy6DAxOljWhiQ and PartitionRegistration(replicas=[5, 6, 7, 8, 9, 10, 1, 2, 3, 4], isr=[5, 6, 7, 8, 9, 10, 1, 2, 3, 4], removingReplicas=[], addingReplicas=[], leader=5, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:53,873] INFO [LogLoader partition=topic-1-0, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h8>: [2023-02-25 09:16:53,886] INFO Created log for partition topic-1-0 in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8/topic-1-0 with properties {} (kafka.log.LogManager)
+<h8>: [2023-02-25 09:16:53,894] INFO [Partition topic-1-0 broker=8] No checkpointed highwatermark is found for partition topic-1-0 (kafka.cluster.Partition)
+<h8>: [2023-02-25 09:16:53,902] INFO [Partition topic-1-0 broker=8] Log loaded for partition topic-1-0 with initial high watermark 0 (kafka.cluster.Partition)
+<h8>: [2023-02-25 09:16:53,904] INFO [ReplicaFetcherManager on broker 8] Removed fetcher for partitions Set(topic-1-0) (kafka.server.ReplicaFetcherManager)
+<h8>: [2023-02-25 09:16:53,984] INFO [ReplicaFetcherManager on broker 8] Added fetcher to broker 5 for partitions HashMap(topic-1-0 -> InitialFetchState(Some(oGwPzbFSSIy6DAxOljWhiQ),BrokerEndPoint(id=5, host=10.0.0.5:9092),0,0)) (kafka.server.ReplicaFetcherManager)
+<h8>: [2023-02-25 09:16:54,006] INFO [ReplicaFetcher replicaId=8, leaderId=5, fetcherId=0] Starting (kafka.server.ReplicaFetcherThread)
+<h8>: [2023-02-25 09:16:54,009] INFO [ReplicaFetcher replicaId=8, leaderId=5, fetcherId=0] Truncating partition topic-1-0 with TruncationState(offset=0, completed=true) due to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+<h8>: [2023-02-25 09:16:54,014] INFO [UnifiedLog partition=topic-1-0, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.UnifiedLog)
+<h8>: [2023-02-25 09:16:54,224] INFO Sent auto-creation request for Set(__consumer_offsets) to the active controller. (kafka.server.DefaultAutoTopicCreationManager)
+<h8>: [2023-02-25 09:16:54,328] INFO Sent auto-creation request for Set(__consumer_offsets) to the active controller. (kafka.server.DefaultAutoTopicCreationManager)
+<h8>: [2023-02-25 09:16:54,462] INFO Sent auto-creation request for Set(__consumer_offsets) to the active controller. (kafka.server.DefaultAutoTopicCreationManager)
+<h8>: [2023-02-25 09:16:54,573] INFO Sent auto-creation request for Set(__consumer_offsets) to the active controller. (kafka.server.DefaultAutoTopicCreationManager)
+<h8>: [2023-02-25 09:16:54,674] INFO Sent auto-creation request for Set(__consumer_offsets) to the active controller. (kafka.server.DefaultAutoTopicCreationManager)
+<h8>: [2023-02-25 09:16:54,766] INFO [ReplicaFetcherManager on broker 8] Removed fetcher for partitions Set(__consumer_offsets-7, __consumer_offsets-24, __consumer_offsets-35, __consumer_offsets-10, __consumer_offsets-42) (kafka.server.ReplicaFetcherManager)
+<h8>: [2023-02-25 09:16:54,776] INFO [Controller 8] ConfigResource(type=TOPIC, name='__consumer_offsets'): set configuration compression.type to producer (org.apache.kafka.controller.ConfigurationControlManager)
+<h8>: [2023-02-25 09:16:54,794] INFO [Controller 8] ConfigResource(type=TOPIC, name='__consumer_offsets'): set configuration cleanup.policy to compact (org.apache.kafka.controller.ConfigurationControlManager)
+<h8>: [2023-02-25 09:16:54,795] INFO [Controller 8] ConfigResource(type=TOPIC, name='__consumer_offsets'): set configuration segment.bytes to 104857600 (org.apache.kafka.controller.ConfigurationControlManager)
+<h8>: [2023-02-25 09:16:54,795] INFO [Controller 8] Created topic __consumer_offsets with topic ID veR5ItFETJyxVnb70roSfA. (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,795] INFO [Controller 8] Created partition __consumer_offsets-0 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[1], isr=[1], removingReplicas=[], addingReplicas=[], leader=1, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,795] INFO [Controller 8] Created partition __consumer_offsets-1 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[2], isr=[2], removingReplicas=[], addingReplicas=[], leader=2, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,795] INFO [Controller 8] Created partition __consumer_offsets-2 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[3], isr=[3], removingReplicas=[], addingReplicas=[], leader=3, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,795] INFO [Controller 8] Created partition __consumer_offsets-3 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[4], isr=[4], removingReplicas=[], addingReplicas=[], leader=4, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,795] INFO [Controller 8] Created partition __consumer_offsets-4 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[5], isr=[5], removingReplicas=[], addingReplicas=[], leader=5, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,795] INFO [Controller 8] Created partition __consumer_offsets-5 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[6], isr=[6], removingReplicas=[], addingReplicas=[], leader=6, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,795] INFO [Controller 8] Created partition __consumer_offsets-6 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[7], isr=[7], removingReplicas=[], addingReplicas=[], leader=7, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,795] INFO [Controller 8] Created partition __consumer_offsets-7 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[8], isr=[8], removingReplicas=[], addingReplicas=[], leader=8, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,795] INFO [Controller 8] Created partition __consumer_offsets-8 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[9], isr=[9], removingReplicas=[], addingReplicas=[], leader=9, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,795] INFO [Controller 8] Created partition __consumer_offsets-9 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[10], isr=[10], removingReplicas=[], addingReplicas=[], leader=10, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,795] INFO [Controller 8] Created partition __consumer_offsets-10 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[8], isr=[8], removingReplicas=[], addingReplicas=[], leader=8, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,795] INFO [Controller 8] Created partition __consumer_offsets-11 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[6], isr=[6], removingReplicas=[], addingReplicas=[], leader=6, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,796] INFO [Controller 8] Created partition __consumer_offsets-12 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[2], isr=[2], removingReplicas=[], addingReplicas=[], leader=2, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,796] INFO [Controller 8] Created partition __consumer_offsets-13 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[9], isr=[9], removingReplicas=[], addingReplicas=[], leader=9, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,796] INFO [Controller 8] Created partition __consumer_offsets-14 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[4], isr=[4], removingReplicas=[], addingReplicas=[], leader=4, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,796] INFO [Controller 8] Created partition __consumer_offsets-15 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[1], isr=[1], removingReplicas=[], addingReplicas=[], leader=1, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,796] INFO [Controller 8] Created partition __consumer_offsets-16 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[7], isr=[7], removingReplicas=[], addingReplicas=[], leader=7, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,796] INFO [Controller 8] Created partition __consumer_offsets-17 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[10], isr=[10], removingReplicas=[], addingReplicas=[], leader=10, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,796] INFO [Controller 8] Created partition __consumer_offsets-18 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[5], isr=[5], removingReplicas=[], addingReplicas=[], leader=5, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,796] INFO [Controller 8] Created partition __consumer_offsets-19 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[3], isr=[3], removingReplicas=[], addingReplicas=[], leader=3, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,796] INFO [Controller 8] Created partition __consumer_offsets-20 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[4], isr=[4], removingReplicas=[], addingReplicas=[], leader=4, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,796] INFO [Controller 8] Created partition __consumer_offsets-21 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[1], isr=[1], removingReplicas=[], addingReplicas=[], leader=1, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,796] INFO [Controller 8] Created partition __consumer_offsets-22 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[10], isr=[10], removingReplicas=[], addingReplicas=[], leader=10, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,796] INFO [Controller 8] Created partition __consumer_offsets-23 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[7], isr=[7], removingReplicas=[], addingReplicas=[], leader=7, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,796] INFO [Controller 8] Created partition __consumer_offsets-24 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[8], isr=[8], removingReplicas=[], addingReplicas=[], leader=8, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,797] INFO [Controller 8] Created partition __consumer_offsets-25 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[9], isr=[9], removingReplicas=[], addingReplicas=[], leader=9, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,797] INFO [Controller 8] Created partition __consumer_offsets-26 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[3], isr=[3], removingReplicas=[], addingReplicas=[], leader=3, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,797] INFO [Controller 8] Created partition __consumer_offsets-27 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[5], isr=[5], removingReplicas=[], addingReplicas=[], leader=5, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,797] INFO [Controller 8] Created partition __consumer_offsets-28 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[2], isr=[2], removingReplicas=[], addingReplicas=[], leader=2, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,797] INFO [Controller 8] Created partition __consumer_offsets-29 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[6], isr=[6], removingReplicas=[], addingReplicas=[], leader=6, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,797] INFO [Controller 8] Created partition __consumer_offsets-30 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[4], isr=[4], removingReplicas=[], addingReplicas=[], leader=4, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,806] INFO [LogLoader partition=__consumer_offsets-7, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h8>: [2023-02-25 09:16:54,806] INFO [Controller 8] Created partition __consumer_offsets-31 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[7], isr=[7], removingReplicas=[], addingReplicas=[], leader=7, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,807] INFO [Controller 8] Created partition __consumer_offsets-32 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[1], isr=[1], removingReplicas=[], addingReplicas=[], leader=1, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,807] INFO [Controller 8] Created partition __consumer_offsets-33 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[2], isr=[2], removingReplicas=[], addingReplicas=[], leader=2, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,807] INFO [Controller 8] Created partition __consumer_offsets-34 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[5], isr=[5], removingReplicas=[], addingReplicas=[], leader=5, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,807] INFO [Controller 8] Created partition __consumer_offsets-35 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[8], isr=[8], removingReplicas=[], addingReplicas=[], leader=8, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,807] INFO [Controller 8] Created partition __consumer_offsets-36 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[9], isr=[9], removingReplicas=[], addingReplicas=[], leader=9, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,807] INFO [Controller 8] Created partition __consumer_offsets-37 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[3], isr=[3], removingReplicas=[], addingReplicas=[], leader=3, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,807] INFO [Controller 8] Created partition __consumer_offsets-38 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[10], isr=[10], removingReplicas=[], addingReplicas=[], leader=10, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,807] INFO [Controller 8] Created partition __consumer_offsets-39 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[6], isr=[6], removingReplicas=[], addingReplicas=[], leader=6, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,808] INFO [Controller 8] Created partition __consumer_offsets-40 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[3], isr=[3], removingReplicas=[], addingReplicas=[], leader=3, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,808] INFO [Controller 8] Created partition __consumer_offsets-41 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[4], isr=[4], removingReplicas=[], addingReplicas=[], leader=4, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,808] INFO [Controller 8] Created partition __consumer_offsets-42 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[8], isr=[8], removingReplicas=[], addingReplicas=[], leader=8, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,808] INFO [Controller 8] Created partition __consumer_offsets-43 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[5], isr=[5], removingReplicas=[], addingReplicas=[], leader=5, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,808] INFO [Controller 8] Created partition __consumer_offsets-44 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[1], isr=[1], removingReplicas=[], addingReplicas=[], leader=1, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,808] INFO [Controller 8] Created partition __consumer_offsets-45 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[2], isr=[2], removingReplicas=[], addingReplicas=[], leader=2, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,808] INFO [Controller 8] Created partition __consumer_offsets-46 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[9], isr=[9], removingReplicas=[], addingReplicas=[], leader=9, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,808] INFO [Controller 8] Created partition __consumer_offsets-47 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[7], isr=[7], removingReplicas=[], addingReplicas=[], leader=7, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,808] INFO [Controller 8] Created partition __consumer_offsets-48 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[6], isr=[6], removingReplicas=[], addingReplicas=[], leader=6, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,808] INFO [Controller 8] Created partition __consumer_offsets-49 with topic ID veR5ItFETJyxVnb70roSfA and PartitionRegistration(replicas=[10], isr=[10], removingReplicas=[], addingReplicas=[], leader=10, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:16:54,810] INFO Created log for partition __consumer_offsets-7 in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8/__consumer_offsets-7 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+<h8>: [2023-02-25 09:16:54,810] INFO [Partition __consumer_offsets-7 broker=8] No checkpointed highwatermark is found for partition __consumer_offsets-7 (kafka.cluster.Partition)
+<h8>: [2023-02-25 09:16:54,810] INFO [Partition __consumer_offsets-7 broker=8] Log loaded for partition __consumer_offsets-7 with initial high watermark 0 (kafka.cluster.Partition)
+<h8>: [2023-02-25 09:16:55,036] INFO [LogLoader partition=__consumer_offsets-24, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h8>: [2023-02-25 09:16:55,038] INFO Created log for partition __consumer_offsets-24 in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8/__consumer_offsets-24 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+<h8>: [2023-02-25 09:16:55,038] INFO [Partition __consumer_offsets-24 broker=8] No checkpointed highwatermark is found for partition __consumer_offsets-24 (kafka.cluster.Partition)
+<h8>: [2023-02-25 09:16:55,038] INFO [Partition __consumer_offsets-24 broker=8] Log loaded for partition __consumer_offsets-24 with initial high watermark 0 (kafka.cluster.Partition)
+<h8>: [2023-02-25 09:16:55,307] INFO [LogLoader partition=__consumer_offsets-35, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h8>: [2023-02-25 09:16:55,311] INFO Created log for partition __consumer_offsets-35 in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8/__consumer_offsets-35 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+<h8>: [2023-02-25 09:16:55,312] INFO [Partition __consumer_offsets-35 broker=8] No checkpointed highwatermark is found for partition __consumer_offsets-35 (kafka.cluster.Partition)
+<h8>: [2023-02-25 09:16:55,312] INFO [Partition __consumer_offsets-35 broker=8] Log loaded for partition __consumer_offsets-35 with initial high watermark 0 (kafka.cluster.Partition)
+<h8>: [2023-02-25 09:16:55,657] INFO [LogLoader partition=__consumer_offsets-10, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h8>: [2023-02-25 09:16:55,659] INFO Created log for partition __consumer_offsets-10 in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8/__consumer_offsets-10 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+<h8>: [2023-02-25 09:16:55,659] INFO [Partition __consumer_offsets-10 broker=8] No checkpointed highwatermark is found for partition __consumer_offsets-10 (kafka.cluster.Partition)
+<h8>: [2023-02-25 09:16:55,659] INFO [Partition __consumer_offsets-10 broker=8] Log loaded for partition __consumer_offsets-10 with initial high watermark 0 (kafka.cluster.Partition)
+<h8>: [2023-02-25 09:16:55,883] INFO [LogLoader partition=__consumer_offsets-42, dir=/home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+<h8>: [2023-02-25 09:16:55,884] INFO Created log for partition __consumer_offsets-42 in /home/visitor/neves/amnis-data-sync/./kafka-3.1.0/logs/kafka8/__consumer_offsets-42 with properties {cleanup.policy=compact, compression.type="producer", segment.bytes=104857600} (kafka.log.LogManager)
+<h8>: [2023-02-25 09:16:55,885] INFO [Partition __consumer_offsets-42 broker=8] No checkpointed highwatermark is found for partition __consumer_offsets-42 (kafka.cluster.Partition)
+<h8>: [2023-02-25 09:16:55,885] INFO [Partition __consumer_offsets-42 broker=8] Log loaded for partition __consumer_offsets-42 with initial high watermark 0 (kafka.cluster.Partition)
+<h8>: [2023-02-25 09:16:56,075] INFO [GroupCoordinator 8]: Elected as the group coordinator for partition 10 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+<h8>: [2023-02-25 09:16:56,077] INFO [GroupMetadataManager brokerId=8] Scheduling loading of offsets and group metadata from __consumer_offsets-10 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+<h8>: [2023-02-25 09:16:56,079] INFO [GroupCoordinator 8]: Elected as the group coordinator for partition 42 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+<h8>: [2023-02-25 09:16:56,079] INFO [GroupMetadataManager brokerId=8] Scheduling loading of offsets and group metadata from __consumer_offsets-42 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+<h8>: [2023-02-25 09:16:56,079] INFO [GroupCoordinator 8]: Elected as the group coordinator for partition 7 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+<h8>: [2023-02-25 09:16:56,079] INFO [GroupMetadataManager brokerId=8] Scheduling loading of offsets and group metadata from __consumer_offsets-7 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+<h8>: [2023-02-25 09:16:56,079] INFO [GroupCoordinator 8]: Elected as the group coordinator for partition 24 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+<h8>: [2023-02-25 09:16:56,079] INFO [GroupMetadataManager brokerId=8] Scheduling loading of offsets and group metadata from __consumer_offsets-24 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+<h8>: [2023-02-25 09:16:56,079] INFO [GroupCoordinator 8]: Elected as the group coordinator for partition 35 in epoch 0 (kafka.coordinator.group.GroupCoordinator)
+<h8>: [2023-02-25 09:16:56,079] INFO [GroupMetadataManager brokerId=8] Scheduling loading of offsets and group metadata from __consumer_offsets-35 for epoch 0 (kafka.coordinator.group.GroupMetadataManager)
+<h8>: [2023-02-25 09:16:56,088] INFO [GroupMetadataManager brokerId=8] Finished loading offsets and group metadata from __consumer_offsets-10 in 10 milliseconds for epoch 0, of which 3 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+<h8>: [2023-02-25 09:16:56,089] INFO [GroupMetadataManager brokerId=8] Finished loading offsets and group metadata from __consumer_offsets-42 in 10 milliseconds for epoch 0, of which 9 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+<h8>: [2023-02-25 09:16:56,089] INFO [GroupMetadataManager brokerId=8] Finished loading offsets and group metadata from __consumer_offsets-7 in 10 milliseconds for epoch 0, of which 10 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+<h8>: [2023-02-25 09:16:56,089] INFO [GroupMetadataManager brokerId=8] Finished loading offsets and group metadata from __consumer_offsets-24 in 10 milliseconds for epoch 0, of which 10 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+<h8>: [2023-02-25 09:16:56,089] INFO [GroupMetadataManager brokerId=8] Finished loading offsets and group metadata from __consumer_offsets-35 in 10 milliseconds for epoch 0, of which 10 milliseconds was spent in the scheduler. (kafka.coordinator.group.GroupMetadataManager)
+<h8>: [2023-02-25 09:16:56,193] INFO [GroupCoordinator 8]: Dynamic Member with unknown member id joins group group-9 in Empty state. Created a new member id kafka-python-2.0.2-1aa0eae4-f6e4-41d4-baed-d5d44436a47b for this member and add to the group. (kafka.coordinator.group.GroupCoordinator)
+<h8>: [2023-02-25 09:16:56,202] INFO [GroupCoordinator 8]: Preparing to rebalance group group-9 in state PreparingRebalance with old generation 0 (__consumer_offsets-7) (reason: Adding new member kafka-python-2.0.2-1aa0eae4-f6e4-41d4-baed-d5d44436a47b with group instance id None) (kafka.coordinator.group.GroupCoordinator)
+<h8>: [2023-02-25 09:16:59,213] INFO [GroupCoordinator 8]: Stabilized group group-9 generation 1 (__consumer_offsets-7) with 1 members (kafka.coordinator.group.GroupCoordinator)
+<h8>: [2023-02-25 09:16:59,243] INFO [GroupCoordinator 8]: Assignment received from leader kafka-python-2.0.2-1aa0eae4-f6e4-41d4-baed-d5d44436a47b for group group-9 for generation 1. The group has 1 members, 0 of which are static. (kafka.coordinator.group.GroupCoordinator)
+<h8>: [2023-02-25 09:18:59,354] INFO Sent auto-creation request for Set(topic-0) to the active controller. (kafka.server.DefaultAutoTopicCreationManager)
+<h8>: [2023-02-25 09:18:59,690] INFO Sent auto-creation request for Set(topic-0) to the active controller. (kafka.server.DefaultAutoTopicCreationManager)
+<h8>: [2023-02-25 09:18:59,802] INFO Sent auto-creation request for Set(topic-0) to the active controller. (kafka.server.DefaultAutoTopicCreationManager)
+<h8>: [2023-02-25 09:18:59,914] INFO Sent auto-creation request for Set(topic-0) to the active controller. (kafka.server.DefaultAutoTopicCreationManager)
+<h8>: [2023-02-25 09:19:00,026] INFO Sent auto-creation request for Set(topic-0) to the active controller. (kafka.server.DefaultAutoTopicCreationManager)
+<h8>: [2023-02-25 09:19:00,138] INFO Sent auto-creation request for Set(topic-0) to the active controller. (kafka.server.DefaultAutoTopicCreationManager)
+<h8>: [2023-02-25 09:19:00,166] INFO [Controller 8] Created topic topic-0 with topic ID -kBPRdSvRgKAzxC1QkqV0Q. (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:19:00,166] INFO [Controller 8] Created partition topic-0-0 with topic ID -kBPRdSvRgKAzxC1QkqV0Q and PartitionRegistration(replicas=[5], isr=[5], removingReplicas=[], addingReplicas=[], leader=5, leaderEpoch=0, partitionEpoch=0). (org.apache.kafka.controller.ReplicationControlManager)
+<h8>: [2023-02-25 09:21:59,383] INFO [GroupCoordinator 8]: Preparing to rebalance group group-9 in state PreparingRebalance with old generation 1 (__consumer_offsets-7) (reason: Leader kafka-python-2.0.2-1aa0eae4-f6e4-41d4-baed-d5d44436a47b re-joining group during Stable) (kafka.coordinator.group.GroupCoordinator)
+<h8>: [2023-02-25 09:21:59,384] INFO [GroupCoordinator 8]: Stabilized group group-9 generation 2 (__consumer_offsets-7) with 1 members (kafka.coordinator.group.GroupCoordinator)
+<h8>: [2023-02-25 09:21:59,394] INFO [GroupCoordinator 8]: Assignment received from leader kafka-python-2.0.2-1aa0eae4-f6e4-41d4-baed-d5d44436a47b for group group-9 for generation 2. The group has 1 members, 0 of which are static. (kafka.coordinator.group.GroupCoordinator)
+<h8>: [2023-02-25 09:24:09,195] INFO [BrokerToControllerChannelManager broker=8 name=forwarding] Node 3 disconnected. (org.apache.kafka.clients.NetworkClient)
+<h8>: [2023-02-25 09:24:09,199] INFO [RaftManager nodeId=8] Node 3 disconnected. (org.apache.kafka.clients.NetworkClient)
+<h8>: [2023-02-25 09:24:09,200] INFO [BrokerToControllerChannelManager broker=8 name=heartbeat] Node 3 disconnected. (org.apache.kafka.clients.NetworkClient)
+<h8>: [2023-02-25 09:24:09,203] INFO [RaftManager nodeId=8] Cancelled in-flight FETCH request with correlation id 874 due to node 3 being disconnected (elapsed time since creation: 276ms, elapsed time since send: 276ms, request timeout: 120000ms) (org.apache.kafka.clients.NetworkClient)
+<h8>: [2023-02-25 09:24:09,279] INFO [ReplicaFetcher replicaId=8, leaderId=5, fetcherId=0] Node 5 disconnected. (org.apache.kafka.clients.NetworkClient)
+<h8>: [2023-02-25 09:24:09,279] INFO [ReplicaFetcher replicaId=8, leaderId=5, fetcherId=0] Cancelled in-flight FETCH request with correlation id 86 due to node 5 being disconnected (elapsed time since creation: 3142ms, elapsed time since send: 3142ms, request timeout: 300000ms) (org.apache.kafka.clients.NetworkClient)
+<h8>: [2023-02-25 09:24:09,280] INFO [ReplicaFetcher replicaId=8, leaderId=5, fetcherId=0] Client requested connection close from node 5 (org.apache.kafka.clients.NetworkClient)
+<h8>: [2023-02-25 09:24:09,282] INFO [RaftManager nodeId=8] Node 3 disconnected. (org.apache.kafka.clients.NetworkClient)
+<h8>: [2023-02-25 09:24:09,282] WARN [RaftManager nodeId=8] Connection to node 3 (/10.0.0.3:19094) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+<h8>: [2023-02-25 09:24:09,283] INFO [ReplicaFetcher replicaId=8, leaderId=5, fetcherId=0] Error sending fetch request (sessionId=543425306, epoch=86) to node 5: (org.apache.kafka.clients.FetchSessionHandler)
+<h8>: java.io.IOException: Connection to 5 was disconnected before the response was read
+<h8>: 	at org.apache.kafka.clients.NetworkClientUtils.sendAndReceive(NetworkClientUtils.java:99)
+<h8>: 	at kafka.server.ReplicaFetcherBlockingSend.sendRequest(ReplicaFetcherBlockingSend.scala:109)
+<h8>: 	at kafka.server.ReplicaFetcherThread.fetchFromLeader(ReplicaFetcherThread.scala:219)
+<h8>: 	at kafka.server.AbstractFetcherThread.processFetchRequest(AbstractFetcherThread.scala:322)
+<h8>: 	at kafka.server.AbstractFetcherThread.$anonfun$maybeFetch$3(AbstractFetcherThread.scala:137)
+<h8>: 	at kafka.server.AbstractFetcherThread.$anonfun$maybeFetch$3$adapted(AbstractFetcherThread.scala:136)
+<h8>: 	at scala.Option.foreach(Option.scala:437)
+<h8>: 	at kafka.server.AbstractFetcherThread.maybeFetch(AbstractFetcherThread.scala:136)
+<h8>: 	at kafka.server.AbstractFetcherThread.doWork(AbstractFetcherThread.scala:119)
+<h8>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)
+<h8>: [2023-02-25 09:24:09,300] WARN [ReplicaFetcher replicaId=8, leaderId=5, fetcherId=0] Error in response for fetch request (type=FetchRequest, replicaId=8, maxWait=5000, minBytes=200000, maxBytes=10485760, fetchData={topic-1-0=PartitionData(topicId=oGwPzbFSSIy6DAxOljWhiQ, fetchOffset=44799, logStartOffset=0, maxBytes=1048576, currentLeaderEpoch=Optional[0], lastFetchedEpoch=Optional[0])}, isolationLevel=READ_UNCOMMITTED, removed=, replaced=, metadata=(sessionId=543425306, epoch=86), rackId=) (kafka.server.ReplicaFetcherThread)
+<h8>: java.io.IOException: Connection to 5 was disconnected before the response was read
+<h8>: 	at org.apache.kafka.clients.NetworkClientUtils.sendAndReceive(NetworkClientUtils.java:99)
+<h8>: 	at kafka.server.ReplicaFetcherBlockingSend.sendRequest(ReplicaFetcherBlockingSend.scala:109)
+<h8>: 	at kafka.server.ReplicaFetcherThread.fetchFromLeader(ReplicaFetcherThread.scala:219)
+<h8>: 	at kafka.server.AbstractFetcherThread.processFetchRequest(AbstractFetcherThread.scala:322)
+<h8>: 	at kafka.server.AbstractFetcherThread.$anonfun$maybeFetch$3(AbstractFetcherThread.scala:137)
+<h8>: 	at kafka.server.AbstractFetcherThread.$anonfun$maybeFetch$3$adapted(AbstractFetcherThread.scala:136)
+<h8>: 	at scala.Option.foreach(Option.scala:437)
+<h8>: 	at kafka.server.AbstractFetcherThread.maybeFetch(AbstractFetcherThread.scala:136)
+<h8>: 	at kafka.server.AbstractFetcherThread.doWork(AbstractFetcherThread.scala:119)
+<h8>: 	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:96)

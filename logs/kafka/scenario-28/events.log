@@ -1,0 +1,135 @@
+INFO:Test args:
+ Namespace(acks=1, batchSize=16384, captureAll=False, compression='gzip', consumerRate=0.5, consumerSetupSleep=120, createPlots=False, disconnectDuration=60, disconnectHosts=None, disconnectKraftLeader=False, disconnectRandom=0, disconnectTopicLeaders=0, disconnectZkLeader=False, duration=300, fetchMaxWait=500, fetchMinBytes=1, kraft=True, kraftBrokerSleep=0, latencyAfterSetup=False, linger=5000, mRate=30.0, mSizeString='fixed,10', messageFilePath='message-data/xml/Cars103.xml', nBroker=10, nTopics=2, nZk=10, offsetsTopicReplication=1, relocate=False, replicaMaxWait=5000, replicaMinBytes=200000, replication=10, requestTimeout=100000, sessionTimeout=10000, singleConsumer=True, tClassString='1', topicCheckInterval=0.1, topo='tests/input/star-no-latency/star-ten-node-topo.graphml')
+INFO:Network started at 2023-02-25 09:16:01.817152
+Level 25:*** Ping: testing ping reachability
+
+Level 25:h1 -> 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:
+
+Level 25:h2 -> 
+Level 25:h1 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:
+
+Level 25:h3 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:
+
+Level 25:h4 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:
+
+Level 25:h5 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:
+
+Level 25:h6 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:
+
+Level 25:h7 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h8 
+Level 25:h9 
+Level 25:h10 
+Level 25:
+
+Level 25:h8 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h9 
+Level 25:h10 
+Level 25:
+
+Level 25:h9 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h10 
+Level 25:
+
+Level 25:h10 -> 
+Level 25:h1 
+Level 25:h2 
+Level 25:h3 
+Level 25:h4 
+Level 25:h5 
+Level 25:h6 
+Level 25:h7 
+Level 25:h8 
+Level 25:h9 
+Level 25:
+
+Level 25:*** Results: 0% dropped (90/90 received)
+
+INFO:topic-0 leader is node h5
+INFO:topic-1 leader is node h5
+INFO:Starting workload at 2023-02-25 09:19:04.227668
+INFO:topic-0 leader is node h5
+INFO:topic-1 leader is node h5
+INFO:Workload finished at 2023-02-25 09:24:08.741651
+INFO:Simulation complete at 2023-02-25 09:24:08.741766
+INFO:Network stopped at 2023-02-25 09:24:11.990799
