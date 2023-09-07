@@ -12,6 +12,8 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 
+import numpy as np
+
 interval = 5
 inputBarDraw = 0
 
@@ -83,18 +85,25 @@ def getStatsValue(switch,portNumber, portFlag):
     return bandwidth,count, maxBandwidth
          
 # aggregated plot for all switches
-def aggregatedPlot(x,y, yLabel, label):      
-    plt.plot(x,y, label = label)
+def aggregatedPlot(x,y, yLabel, label, color, ls, lw):      
+    plt.plot(x,y, label = label, color=color, linestyle=ls, linewidth=lw)
     
-    plt.xlabel('Time (sec)')
-    plt.ylabel(yLabel)
+    plt.xlabel('Time (s)', fontsize=22, fontweight='bold', labelpad=10)
+    plt.ylabel(yLabel, fontsize=22, fontweight='bold', labelpad=10)
     
-    # plt.ylim([0, 50])
-    plt.ylim(bottom=0)
+    plt.xlim([0,410])
+    plt.ylim([0, 8])
+    
+    plt.xticks(np.arange(0,401, step=100))
+    plt.yticks(np.arange(0,8.1, step=2))
+    
+    ax = plt.gca()
+    ax.xaxis.set_tick_params(labelsize=18, pad=5)
+    ax.yaxis.set_tick_params(labelsize=18, pad=5)
+    
+    #plt.title("Aggregated Bandwidth for rx bytes("+str(args.switches)+" nodes "+str(args.nTopics)+" topics "+str(args.replication)+" replication)")
 
-    plt.title("Aggregated Bandwidth for rx bytes("+str(args.switches)+" nodes "+str(args.nTopics)+" topics "+str(args.replication)+" replication)")
-
-    plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.legend(frameon=False, loc='upper left', fontsize=18)
 
 #checking input vs output to measure control traffic overhead
 def overheadCheckPlot(portFlag, msgSize,label):    
@@ -129,16 +138,17 @@ def overheadCheckPlot(portFlag, msgSize,label):
     newBandwidthSum = [x / 1000000 for x in bandwidthSum]
     newBandwidthSumLeaderLess = [x / 1000000 for x in bandwidthSumLeaderLess]
     
-    if label == 'kafka w/ tuning (scenario 28)':
+    #Discard outliers
+    if label == 'w/ tuning':
         count = len([x for x in newBandwidthSum if x >= 0.5])
         newBandwidthSum = [x for x in newBandwidthSum if x < 0.5]
         countX = countX - count
-    elif label == 'kafka w/o tuning (scenario 30)':
-        count = len([x for x in newBandwidthSum if x >= 5])
-        newBandwidthSum = [x for x in newBandwidthSum if x < 5]
+    elif label == 'w/o tuning':
+        count = len([x for x in newBandwidthSum if x >= 7.0])
+        newBandwidthSum = [x for x in newBandwidthSum if x < 7.0]
         countX = countX - count
     timeList = list(range(0,countX*interval,interval))
-
+    
     return timeList, newBandwidthSum, newBandwidthSumLeaderLess
 
 #for aggregated plot of all host entry ports
@@ -172,15 +182,31 @@ args = parser.parse_args()
 clearExistingPlot()
 
 logDirectory = "logs/kafka/scenario-30/bandwidth/"
-label = 'kafka w/o tuning (scenario 30)'
+label = 'w/o tuning'
 timeList, newBandwidthSum, newBandwidthSumLeaderLess = plotAggregatedBandwidth(label=label)
-aggregatedPlot(timeList, newBandwidthSum, "Throughput (Mbytes/sec)", label)
+aggregatedPlot(timeList, newBandwidthSum, "Throughput (Mbytes/s)", label, color='blue', ls='dashed', lw=3.0)
 print("Aggregated plot created for kafka w/o tuning (scenario 30).")
 
 logDirectory = "logs/kafka/scenario-28/bandwidth/"
-label = 'kafka w/ tuning (scenario 28)'
+label = 'w/ tuning'
 timeList, newBandwidthSum, newBandwidthSumLeaderLess = plotAggregatedBandwidth(label=label)
-aggregatedPlot(timeList, newBandwidthSum, "Throughput (Mbytes/sec)", label)
+aggregatedPlot(timeList, newBandwidthSum, "Throughput (Mbytes/s)", label, color='red', ls='solid', lw=3.0)
 print("Aggregated plot created for kafka w/ tuning (scenario 28).")                      
 
-plt.savefig("plots/PT-kafkaAggregatedThroughput",bbox_inches="tight")
+plt.savefig("plots/PT-kafkaAggregatedThroughput.pdf", format='pdf', bbox_inches="tight")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
