@@ -1,3 +1,4 @@
+
 # command: sudo python3 scripts/combinedCDF.py
 #!/usr/bin/python3
 
@@ -142,6 +143,19 @@ def combinedCDFPlot(switches, logDir, label):
 
     latencyYAxis = plotLatencyScatter()
     return latencyYAxis
+    
+
+
+#Discard outliers (i.e., cut dataset at the 95th percentile)
+def discardOutliers(data, percentile):
+    df = pd.DataFrame(data, columns=["lat"])
+    #print("Size: "+str(df.size))
+    df = df[df["lat"] < df["lat"].quantile(percentile)]
+    #print("Size: "+str(df.size))
+    #print(df.head())
+    
+    return df.lat.tolist()
+    
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Script for measuring latency for each message.')
@@ -152,9 +166,10 @@ if __name__ == '__main__':
 
     # provide log directory for Kafka low latency scenario
     logDir = "logs/kafka/scenario-28"
-    label1 = 'Kafka-low-latency'
+    label1 = 'Kafka-1ms'
     latencyYAxis1 = combinedCDFPlot(switches, logDir, label1)
-    sns.ecdfplot(latencyYAxis1)
+    latencyYAxis1 = discardOutliers(latencyYAxis1, 0.75)
+    sns.ecdfplot(latencyYAxis1, ls='solid', lw=4.0)
     print('Generated plot for '+label1)
 
     # reinitialization
@@ -162,9 +177,10 @@ if __name__ == '__main__':
 
     # provide log directory for Kafka high latency scenario
     logDir = "logs/kafka/scenario-27"
-    label2 = 'Kafka-high-latency'
+    label2 = 'Kafka-500ms'
     latencyYAxis2 = combinedCDFPlot(switches, logDir, label2)
-    sns.ecdfplot(latencyYAxis2)
+    latencyYAxis2 = discardOutliers(latencyYAxis2, .90)
+    sns.ecdfplot(latencyYAxis2, ls='dashdot', lw=4.0)
     print('Generated plot for '+label2)
 
     # # reinitialization
@@ -172,9 +188,10 @@ if __name__ == '__main__':
 
     # # provide log directory for rMQ low latency scenario
     logDir = "logs/rMQ/10node-link-lat-1ms-msg-rate-30"
-    label3 = 'rMQ-low-latency'
+    label3 = 'rMQ-1ms'
     latencyYAxis3 = combinedCDFPlot(switches, logDir, label3)
-    sns.ecdfplot(latencyYAxis3)
+    latencyYAxis3 = discardOutliers(latencyYAxis3, .90)
+    sns.ecdfplot(latencyYAxis3, ls='dashed', lw=4.0)
     print('Generated plot for '+label3)
 
     # # reinitialization
@@ -182,13 +199,37 @@ if __name__ == '__main__':
 
     # # provide log directory for rMQ high latency scenario
     logDir = "logs/rMQ/10node-link-lat-500ms-msg-rate-30"
-    label4 = 'rMQ-high-latency'
+    label4 = 'rMQ-500ms'
     latencyYAxis4 = combinedCDFPlot(switches, logDir, label4)
-    sns.ecdfplot(latencyYAxis4)
+    latencyYAxis4 = discardOutliers(latencyYAxis4, .90)
+    sns.ecdfplot(latencyYAxis4, ls='dotted', lw=4.0)
     print('Generated plot for '+label4)
+    
+    plt.xlabel('Latency (s)', fontsize=22, fontweight='bold', labelpad=10)
+    plt.ylabel('CDF', fontsize=22, fontweight='bold', labelpad=10)
+    
+    plt.xlim([0,200])
+    plt.ylim([0, 1])
+    
+    plt.xticks(np.arange(0,201, step=50))
+    plt.yticks(np.arange(0,1.1, step=0.25))
+    
+    ax = plt.gca()
+    ax.xaxis.set_tick_params(labelsize=18, pad=5)
+    ax.yaxis.set_tick_params(labelsize=18, pad=5)
 
-    plt.title('CDF of Latency')
-    plt.xlabel('Latency(s)')
-    plt.ylabel('Density')
-    plt.legend([label1,label2,label3,label4])
-    plt.savefig("plots/combined-Latency-CDF",bbox_inches="tight")
+    plt.legend([label1,label2,label3,label4], frameon=False, handlelength=2.3, fontsize=18)
+    plt.savefig("plots/combined-Latency-CDF.pdf", format='pdf', bbox_inches="tight")
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

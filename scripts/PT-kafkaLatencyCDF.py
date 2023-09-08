@@ -158,7 +158,7 @@ if __name__ == '__main__':
     #Discard outliers (i.e., cut dataset at the 95th percentile)
     df = pd.DataFrame(latencyYAxis1, columns=["lat"])
     #print("Size: "+str(df.size))
-    df = df[df["lat"] < df["lat"].quantile(.80)]
+    df = df[df["lat"] < df["lat"].quantile(.75)]
     #print("Size: "+str(df.size))
     #print(df.head())
     
