@@ -154,7 +154,15 @@ if __name__ == '__main__':
     logDir = "logs/kafka/scenario-30"
     label1 = 'Kafka-w/o-parameter-tuning'
     latencyYAxis1 = combinedCDFPlot(switches, logDir, label1)
-    sns.ecdfplot(latencyYAxis1)
+    
+    #Discard outliers (i.e., cut dataset at the 95th percentile)
+    df = pd.DataFrame(latencyYAxis1, columns=["lat"])
+    #print("Size: "+str(df.size))
+    df = df[df["lat"] < df["lat"].quantile(.80)]
+    #print("Size: "+str(df.size))
+    #print(df.head())
+    
+    sns.ecdfplot(df.lat.tolist())
     print('Generated plot for '+label1)
 
     # reinitialization
@@ -164,11 +172,35 @@ if __name__ == '__main__':
     logDir = "logs/kafka/scenario-28"
     label2 = 'Kafka-w/-parameter-tuning'
     latencyYAxis2 = combinedCDFPlot(switches, logDir, label2)
-    sns.ecdfplot(latencyYAxis2)
+
+    #Discard outliers (i.e., cut dataset at the 95th percentile)
+    df = pd.DataFrame(latencyYAxis2, columns=["lat"])
+    #print("Size: "+str(df.size))
+    df = df[df["lat"] < df["lat"].quantile(.80)]
+    #print("Size: "+str(df.size))
+    #print(df.head())
+
+    sns.ecdfplot(df.lat.tolist())
     print('Generated plot for '+label2)
 
     plt.title('CDF of Latency')
     plt.xlabel('Latency(s)')
     plt.ylabel('Density')
     plt.legend([label1,label2])
-    plt.savefig("plots/PT-kafkaLatencyCDF",bbox_inches="tight")
+    plt.savefig("plots/PT-kafkaLatencyCDF.pdf", format='pdf', bbox_inches="tight")
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
