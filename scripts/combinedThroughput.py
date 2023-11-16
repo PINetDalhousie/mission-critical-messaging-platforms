@@ -138,11 +138,11 @@ def overheadCheckPlot(portFlag, msgSize,scenario, label, color, ls, lw, cap):
     
     #Discard warm-up phase data for rMQ
     if scenario == 0:
-    	#print(len(timeList))
-    	timeList = timeList[30:]
-    	timeList = [x-120 for x in timeList]
-    	#print(len(timeList))
-    	bandwidthSum = bandwidthSum[30:]
+        #print(len(timeList))
+        timeList = timeList[30:]
+        timeList = [x-120 for x in timeList]
+        #print(len(timeList))
+        bandwidthSum = bandwidthSum[30:]
     	#print(len(bandwidthSum))
     	    
     if portFlag=="rx pkts" or portFlag=="tx pkts":
@@ -165,8 +165,6 @@ def overheadCheckPlot(portFlag, msgSize,scenario, label, color, ls, lw, cap):
         handles, labels = plt.gca().get_legend_handles_labels()
         order = [0,2,1]
         plt.legend([handles[idx] for idx in order],[labels[idx] for idx in order], frameon=False, loc='upper left', fontsize=18)
-
-    
         plt.savefig("plots/scalability-throughput.pdf", format='pdf', bbox_inches="tight")
     # else:    
     #     plt.savefig(logDirectory+args.portType+" aggregated "+portFlag+"("+str(args.switches)+" nodes "+str(args.nTopics)+" topics "+str(args.replication)+" replication)",bbox_inches="tight")         
