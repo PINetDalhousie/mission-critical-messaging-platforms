@@ -1,4 +1,9 @@
 # mission-critical-messaging-platforms
+This project takes help from two other repositories:
+[Military Coordination Applition using Apache Kafka](https://github.com/PINetDalhousie/amnis-data-sync)
+[Military Coordination Applition using RabbitMQ](https://github.com/PINetDalhousie/amnis-data-sync-rabbitmq)
+
+## Plot generation
 1. To get the kafka and rMQ combined aggregated throughput plot, run:
     sudo python3 scripts/combinedThroughput.py
 
