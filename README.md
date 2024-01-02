@@ -4,9 +4,17 @@ This project takes help from two other repositories:
 - [Case study with RabbitMQ](https://github.com/PINetDalhousie/amnis-data-sync-rabbitmq)
 
 ## Dependency
+
+
 > `cd mission-critical-messaging-platforms`
+
+
 > `python3 -m venv .env`
+
+
 > `source .env/bin/activate`
+
+
 > `pip install -r requirements.txt`
 
 
