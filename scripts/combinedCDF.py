@@ -219,7 +219,7 @@ if __name__ == '__main__':
     ax.yaxis.set_tick_params(labelsize=18, pad=5)
 
     plt.legend([label1,label2,label3,label4], frameon=False, handlelength=2.3, fontsize=18)
-    plt.savefig("plots/combined-Latency-CDF.pdf", format='pdf', bbox_inches="tight")
+    plt.savefig("result-plots/combined-Latency-CDF.pdf", format='pdf', bbox_inches="tight")
     
     
     

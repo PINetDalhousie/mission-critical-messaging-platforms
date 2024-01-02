@@ -193,7 +193,7 @@ timeList, newBandwidthSum, newBandwidthSumLeaderLess = plotAggregatedBandwidth(l
 aggregatedPlot(timeList, newBandwidthSum, "Throughput (Mbytes/s)", label, color='red', ls='solid', lw=3.0)
 print("Aggregated plot created for kafka w/ tuning (scenario 28).")                      
 
-plt.savefig("plots/PT-kafkaAggregatedThroughput.pdf", format='pdf', bbox_inches="tight")
+plt.savefig("result-plots/PT-kafkaAggregatedThroughput.pdf", format='pdf', bbox_inches="tight")
 
 
 

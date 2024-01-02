@@ -165,7 +165,7 @@ def overheadCheckPlot(portFlag, msgSize,scenario, label, color, ls, lw, cap):
         handles, labels = plt.gca().get_legend_handles_labels()
         order = [0,2,1]
         plt.legend([handles[idx] for idx in order],[labels[idx] for idx in order], frameon=False, loc='upper left', fontsize=18)
-        plt.savefig("plots/scalability-throughput.pdf", format='pdf', bbox_inches="tight")
+        plt.savefig("result-plots/scalability-throughput.pdf", format='pdf', bbox_inches="tight")
     # else:    
     #     plt.savefig(logDirectory+args.portType+" aggregated "+portFlag+"("+str(args.switches)+" nodes "+str(args.nTopics)+" topics "+str(args.replication)+" replication)",bbox_inches="tight")         
 

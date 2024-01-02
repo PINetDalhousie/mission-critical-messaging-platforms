@@ -187,7 +187,7 @@ if __name__ == '__main__':
     plt.xlabel('Latency(s)')
     plt.ylabel('Density')
     plt.legend([label1,label2])
-    plt.savefig("plots/PT-kafkaLatencyCDF.pdf", format='pdf', bbox_inches="tight")
+    plt.savefig("result-plots/PT-kafkaLatencyCDF.pdf", format='pdf', bbox_inches="tight")
     
     
     
