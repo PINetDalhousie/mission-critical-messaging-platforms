@@ -3,6 +3,20 @@ This project takes help from two other repositories:
 - [Case study with Apache Kafka](https://github.com/PINetDalhousie/amnis-data-sync)
 - [Case study with RabbitMQ](https://github.com/PINetDalhousie/amnis-data-sync-rabbitmq)
 
+## Usage
+
+
+> `cd mission-critical-messaging-platforms`
+
+
+> `python3 -m venv .env`
+
+
+> `source .env/bin/activate`
+
+
+> `pip install -r requirements.txt`
+
 ## Plot generation
 1. To get the Kafka and rMQ combined aggregated throughput plot, run:
     sudo python3 scripts/combinedThroughput.py
