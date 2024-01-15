@@ -181,19 +181,19 @@ args = parser.parse_args()
 
 clearExistingPlot()
 
-logDirectory = "logs/kafka/scenario-30/bandwidth/"
+logDirectory = "../logs/kafka/scenario-30/bandwidth/"
 label = 'w/o tuning'
 timeList, newBandwidthSum, newBandwidthSumLeaderLess = plotAggregatedBandwidth(label=label)
 aggregatedPlot(timeList, newBandwidthSum, "Throughput (Mbytes/s)", label, color='blue', ls='dashed', lw=3.0)
 print("Aggregated plot created for kafka w/o tuning (scenario 30).")
 
-logDirectory = "logs/kafka/scenario-28/bandwidth/"
+logDirectory = "../logs/kafka/scenario-28/bandwidth/"
 label = 'w/ tuning'
 timeList, newBandwidthSum, newBandwidthSumLeaderLess = plotAggregatedBandwidth(label=label)
 aggregatedPlot(timeList, newBandwidthSum, "Throughput (Mbytes/s)", label, color='red', ls='solid', lw=3.0)
 print("Aggregated plot created for kafka w/ tuning (scenario 28).")                      
 
-plt.savefig("results/PT-kafkaAggregatedThroughput.pdf", format='pdf', bbox_inches="tight")
+plt.savefig("../results/PT-kafkaAggregatedThroughput.pdf", format='pdf', bbox_inches="tight")
 
 
 

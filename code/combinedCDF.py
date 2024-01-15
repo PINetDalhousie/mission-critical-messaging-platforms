@@ -165,7 +165,7 @@ if __name__ == '__main__':
     switches = args.switches
 
     # provide log directory for Kafka low latency scenario
-    logDir = "logs/kafka/scenario-28"
+    logDir = "../logs/kafka/scenario-28"
     label1 = 'Kafka-1ms'
     latencyYAxis1 = combinedCDFPlot(switches, logDir, label1)
     latencyYAxis1 = discardOutliers(latencyYAxis1, 0.75)
@@ -176,7 +176,7 @@ if __name__ == '__main__':
     reinitialization()
 
     # provide log directory for Kafka high latency scenario
-    logDir = "logs/kafka/scenario-27"
+    logDir = "../logs/kafka/scenario-27"
     label2 = 'Kafka-500ms'
     latencyYAxis2 = combinedCDFPlot(switches, logDir, label2)
     latencyYAxis2 = discardOutliers(latencyYAxis2, .90)
@@ -187,7 +187,7 @@ if __name__ == '__main__':
     reinitialization()
 
     # # provide log directory for rMQ low latency scenario
-    logDir = "logs/rMQ/10node-link-lat-1ms-msg-rate-30"
+    logDir = "../logs/rMQ/10node-link-lat-1ms-msg-rate-30"
     label3 = 'rMQ-1ms'
     latencyYAxis3 = combinedCDFPlot(switches, logDir, label3)
     latencyYAxis3 = discardOutliers(latencyYAxis3, .90)
@@ -198,7 +198,7 @@ if __name__ == '__main__':
     reinitialization()
 
     # # provide log directory for rMQ high latency scenario
-    logDir = "logs/rMQ/10node-link-lat-500ms-msg-rate-30"
+    logDir = "../logs/rMQ/10node-link-lat-500ms-msg-rate-30"
     label4 = 'rMQ-500ms'
     latencyYAxis4 = combinedCDFPlot(switches, logDir, label4)
     latencyYAxis4 = discardOutliers(latencyYAxis4, .90)
@@ -219,7 +219,7 @@ if __name__ == '__main__':
     ax.yaxis.set_tick_params(labelsize=18, pad=5)
 
     plt.legend([label1,label2,label3,label4], frameon=False, handlelength=2.3, fontsize=18)
-    plt.savefig("results/combined-Latency-CDF.pdf", format='pdf', bbox_inches="tight")
+    plt.savefig("../results/combined-Latency-CDF.pdf", format='pdf', bbox_inches="tight")
     
     
     

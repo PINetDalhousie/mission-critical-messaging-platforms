@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 
 # Generate plots for combined CDF of latency and throughput plots for Apache Kafka and RabbitMQ
-sudo python3 code/combinedCDF.py
-sudo python3 code/combinedThroughput.py
+sudo python3 combinedCDF.py
+sudo python3 combinedThroughput.py
 
 # Generate plots for throughput and latency CDF plots for Apache Kafka (parameter tuning scenario)
-sudo python3 code/PT-kafkaAggregatedThroughput.py
-sudo python3 code/PT-kafkaLatencyCDF.py
+sudo python3 PT-kafkaAggregatedThroughput.py
+sudo python3 PT-kafkaLatencyCDF.py

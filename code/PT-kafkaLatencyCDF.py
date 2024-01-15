@@ -151,7 +151,7 @@ if __name__ == '__main__':
     switches = args.switches
 
     # provide log directory for Kafka low latency scenario
-    logDir = "logs/kafka/scenario-30"
+    logDir = "../logs/kafka/scenario-30"
     label1 = 'Kafka-w/o-parameter-tuning'
     latencyYAxis1 = combinedCDFPlot(switches, logDir, label1)
     
@@ -169,7 +169,7 @@ if __name__ == '__main__':
     reinitialization()
 
     # provide log directory for Kafka high latency scenario
-    logDir = "logs/kafka/scenario-28"
+    logDir = "../logs/kafka/scenario-28"
     label2 = 'Kafka-w/-parameter-tuning'
     latencyYAxis2 = combinedCDFPlot(switches, logDir, label2)
 
@@ -187,7 +187,7 @@ if __name__ == '__main__':
     plt.xlabel('Latency(s)')
     plt.ylabel('Density')
     plt.legend([label1,label2])
-    plt.savefig("results/PT-kafkaLatencyCDF.pdf", format='pdf', bbox_inches="tight")
+    plt.savefig("../results/PT-kafkaLatencyCDF.pdf", format='pdf', bbox_inches="tight")
     
     
     

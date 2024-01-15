@@ -165,7 +165,7 @@ def overheadCheckPlot(portFlag, msgSize,scenario, label, color, ls, lw, cap):
         handles, labels = plt.gca().get_legend_handles_labels()
         order = [0,2,1]
         plt.legend([handles[idx] for idx in order],[labels[idx] for idx in order], frameon=False, loc='upper left', fontsize=18)
-        plt.savefig("results/scalability-throughput.pdf", format='pdf', bbox_inches="tight")
+        plt.savefig("../results/scalability-throughput.pdf", format='pdf', bbox_inches="tight")
     # else:    
     #     plt.savefig(logDirectory+args.portType+" aggregated "+portFlag+"("+str(args.switches)+" nodes "+str(args.nTopics)+" topics "+str(args.replication)+" replication)",bbox_inches="tight")         
 
@@ -193,7 +193,7 @@ parser.add_argument('--message-rate', dest='mRate', type=float, default=3.0, hel
 parser.add_argument('--ntopics', dest='nTopics', type=int, default=2, help='Number of topics')
 parser.add_argument('--replication', dest='replication', type=int, default=10, help='Replication factor')
 parser.add_argument('--nzk', dest='nZk', type=int, default=0, help='Kafka/Kraft')
-parser.add_argument('--log-dir', dest='logDir', type=str, default='logs/kafka/scenario-30', help='Producer log directory')
+parser.add_argument('--log-dir', dest='logDir', type=str, default='../logs/kafka/scenario-30', help='Producer log directory')
 
 args = parser.parse_args()
 
