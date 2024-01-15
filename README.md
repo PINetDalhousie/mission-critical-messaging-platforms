@@ -5,6 +5,7 @@ This project takes help from two other repositories:
 
 ## Dependency
 
+We tested the plot generating codes over Ubuntu 20.04.6 and is based on Python 3.8.10.
 
 > `cd mission-critical-messaging-platforms`
 

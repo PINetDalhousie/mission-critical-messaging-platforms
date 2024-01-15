@@ -1,4 +1,4 @@
-# command: sudo python3 scripts/PT-kafkaLatencyCDF.py
+# command: sudo python3 code/PT-kafkaLatencyCDF.py
 #!/usr/bin/python3
 
 import os
@@ -187,7 +187,7 @@ if __name__ == '__main__':
     plt.xlabel('Latency(s)')
     plt.ylabel('Density')
     plt.legend([label1,label2])
-    plt.savefig("result-plots/PT-kafkaLatencyCDF.pdf", format='pdf', bbox_inches="tight")
+    plt.savefig("results/PT-kafkaLatencyCDF.pdf", format='pdf', bbox_inches="tight")
     
     
     
