@@ -8,12 +8,13 @@ they remain operational upon a battle unit disconnection.
 ![alt text](image.png)
 
 ## [Parameter Tuning Experiment Result]
-![alt text](PT-kafkaAggregatedThroughput.pdf)
+![plot](PT-kafkaAggregatedThroughput.pdf)
 
 we observe approximately 85% decrease in the total bandwidth demand from Kafka post optimization. This finding is a testament to the significant network bandwidth savings that can be achieved through meticulous parameter tuning up to an order of magnitude in certain instances.
 
 ## [Disconnection Experiment Result]
 ![alt text](network-partition-heatmap.png)
+
 To test the system behavior under network-partitioned conditions, we randomly disconnect the node hosting the leader broker for one of the two topics for 120 seconds (approximately 20% of the total experiment duration).
 
 Figure shows the data delivery matrix for the producer that is co-located with the disconnected broker. Each cell indicates whether a message was received by a given consumer (light color) or not (dark color). We can observe intermittent losses for messages produced during the disconnection period (dark vertical bars). Moreover, all lost messages come from the topic whose leader got disconnected. This is in line with previous results found in the literature and is due to the ZooKeeper (the distributed coordination service used by Apache Kafka) data consolidation mechanism, which may discard data (or pull it from an outdated log) during the partition merging process after a re-connection. We were not able to observe a similar behavior in the more recent Raft-based Kafka.
