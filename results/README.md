@@ -7,12 +7,12 @@ they remain operational upon a battle unit disconnection.
 
 ![alt text](image.png)
 
-## [Parameter Tuning Experiment Result]
+## Parameter Tuning Experiment Result
 ![plot](PT-kafkaAggregatedThroughput.pdf)
 
 we observe approximately 85% decrease in the total bandwidth demand from Kafka post optimization. This finding is a testament to the significant network bandwidth savings that can be achieved through meticulous parameter tuning up to an order of magnitude in certain instances.
 
-## [Disconnection Experiment Result]
+## Disconnection Experiment Result
 ![alt text](network-partition-heatmap.png)
 
 To test the system behavior under network-partitioned conditions, we randomly disconnect the node hosting the leader broker for one of the two topics for 120 seconds (approximately 20% of the total experiment duration).
