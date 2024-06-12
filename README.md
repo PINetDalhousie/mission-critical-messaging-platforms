@@ -33,7 +33,7 @@ We tested the plot generating codes over Ubuntu 20.04.6 and is based on Python 3
     sudo python3 scripts/PT-kafkaAggregatedThroughput.py
 
 ## Additional Results
-Additional evaluation plots that stated in the [paper] (https://www.techrxiv.org/doi/full/10.36227/techrxiv.171340979.91183191) can be found under the [results](https://github.com/PINetDalhousie/mission-critical-messaging-platforms/tree/main/results) directory along with a description.
+Additional evaluation plots that stated in the [paper](https://www.techrxiv.org/doi/full/10.36227/techrxiv.171340979.91183191) can be found under the [results](https://github.com/PINetDalhousie/mission-critical-messaging-platforms/tree/main/results) directory along with a description.
 
 ## Configurable parameter list
   The following table provides an overview of the parameters available for tuning in the Apache Kafka case study:
@@ -70,4 +70,4 @@ If you find our work relevant to your research, please consider citing:
 
 ## Contact
 
-Jae-Won Chung (jwnchung@umich.edu)
+Md. Monzurul Amin Ifath (monzurul.amin@dal.ca)
