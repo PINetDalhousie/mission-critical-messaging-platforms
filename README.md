@@ -32,7 +32,8 @@ We tested the plot generating codes over Ubuntu 20.04.6 and is based on Python 3
 4. In terms of Parameter Tuning, to get the Kafka aggregated throughput plot, run:
     sudo python3 scripts/PT-kafkaAggregatedThroughput.py
 
-* Additional evaluation plots (stated in the paper) can be found under the result-plots directory.
+## Additional Results
+Additional evaluation plots that stated in the [paper] (https://www.techrxiv.org/doi/full/10.36227/techrxiv.171340979.91183191) can be found under the [results](https://github.com/PINetDalhousie/mission-critical-messaging-platforms/tree/main/results) directory along with a description.
 
 ## Configurable parameter list
   The following table provides an overview of the parameters available for tuning in the Apache Kafka case study:
@@ -52,3 +53,21 @@ We tested the plot generating codes over Ubuntu 20.04.6 and is based on Python 3
 |     offsets-replication     |     The replication factor for the offsets topic                                                                                             |     Integer value >=0. Default = 1                                                                                                                                                                                 |     Kafka with Zookeeper only, no support for KRaft                                                              |
 |     ssl                     |     Enable encryption using SSL                                                                                                              |     N/A. Specify attribute to enable                                                                                                                                                                               |     KRaft only, no support for Kafka with Zookeeper. Not supported by   Java Consumer                            |
 |     auth                    |     Enable authentication                                                                                                                    |     N/A. Specify attribute to enable                                                                                                                                                                               |     KRaft only, no support for  Kafka   with Zookeeper                                                           |
+
+
+## Research
+If you find our work relevant to your research, please consider citing:
+
+```bibtex
+@article{missionCriticalStreamingPlatforms2024,
+  title={Are data streaming platforms ready for a mission critical world?},
+  author={Ifath, Md Monzurul Amin and Neves, Miguel and Bremner, Brandon and White, Jeff and Szeredi, Tomas and Haque, Israat},
+  journal={Authorea Preprints},
+  year={2024},
+  publisher={Authorea}
+}
+```
+
+## Contact
+
+Jae-Won Chung (jwnchung@umich.edu)
