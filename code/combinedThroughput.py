@@ -1,4 +1,4 @@
-# command: sudo python3 code/combinedThroughput.py
+# command: sudo python3 combinedThroughput.py
 #!/usr/bin/python3
 
 import os
@@ -13,6 +13,7 @@ import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 
 import numpy as np
+import textwrap
 
 interval = 5
 inputBarDraw = 0
@@ -90,6 +91,10 @@ def aggregatedPlot(portFlag,x,y, yLeaderLess, yLabel, msgSize, countX,
     plt.plot(x,y, label = label, color=color, linestyle=ls, linewidth=lw)
     
     plt.xlabel('Time (s)', fontsize=22, fontweight='bold', labelpad=10)
+    
+    # Split the ylabel into multiple lines if it's too long
+    yLabel = '\n'.join(textwrap.wrap(yLabel, 16))
+    
     plt.ylabel(yLabel, fontsize=22, fontweight='bold', labelpad=10)
     
     plt.xlim([0,400])
@@ -103,6 +108,7 @@ def aggregatedPlot(portFlag,x,y, yLeaderLess, yLabel, msgSize, countX,
     ax.yaxis.set_tick_params(labelsize=18, pad=5)
 
     plt.legend(frameon=False, loc='upper left', fontsize=18)
+
     
 
 #checking input vs output to measure control traffic overhead
@@ -158,7 +164,7 @@ def overheadCheckPlot(portFlag, msgSize,scenario, label, color, ls, lw, cap):
         timeList = timeList[:len(newBandwidthSum)]
 
         newBandwidthSumLeaderLess = [x / 1000000 for x in bandwidthSumLeaderLess]
-        aggregatedPlot(portFlag,timeList, newBandwidthSum, newBandwidthSumLeaderLess, "Throughput (Mbytes/s)", msgSize, countX, label, color, ls, lw)    
+        aggregatedPlot(portFlag,timeList, newBandwidthSum, newBandwidthSumLeaderLess, "Bandwidth demand (Mbytes/s)", msgSize, countX, label, color, ls, lw)    
     
     if portFlag=="bytes" and scenario==31:
         #Change legend order
@@ -215,15 +221,3 @@ logDirectory = args.logDir.replace("scenario-30", "scenario-31")
 logDirectory = logDirectory + "/bandwidth/"
 plotAggregatedBandwidth(scenario=31, label='Kafka-20-nodes', color='green', ls='dotted', lw=3.0, cap=40.0)      #for aggregated plot    
 print("Aggregated plot for all created.")                       
-
-
-
-
-
-
-
-
-
-
-
-
