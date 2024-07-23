@@ -1,4 +1,4 @@
-# command: sudo python3 code/PT-kafkaAggregatedThroughput.py
+# command: sudo python3 PT-kafkaAggregatedThroughput.py
 #!/usr/bin/python3
 
 import os
@@ -13,6 +13,7 @@ import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 
 import numpy as np
+import textwrap
 
 interval = 5
 inputBarDraw = 0
@@ -89,6 +90,8 @@ def aggregatedPlot(x,y, yLabel, label, color, ls, lw):
     plt.plot(x,y, label = label, color=color, linestyle=ls, linewidth=lw)
     
     plt.xlabel('Time (s)', fontsize=22, fontweight='bold', labelpad=10)
+    # Split the ylabel into multiple lines if it's too long
+    yLabel = '\n'.join(textwrap.wrap(yLabel, 16))
     plt.ylabel(yLabel, fontsize=22, fontweight='bold', labelpad=10)
     
     plt.xlim([0,410])
@@ -184,13 +187,13 @@ clearExistingPlot()
 logDirectory = "../logs/kafka/scenario-30/bandwidth/"
 label = 'w/o tuning'
 timeList, newBandwidthSum, newBandwidthSumLeaderLess = plotAggregatedBandwidth(label=label)
-aggregatedPlot(timeList, newBandwidthSum, "Throughput (Mbytes/s)", label, color='blue', ls='dashed', lw=3.0)
+aggregatedPlot(timeList, newBandwidthSum, "Bandwidth demand (Mbytes/s)", label, color='blue', ls='dashed', lw=3.0)
 print("Aggregated plot created for kafka w/o tuning (scenario 30).")
 
 logDirectory = "../logs/kafka/scenario-28/bandwidth/"
 label = 'w/ tuning'
 timeList, newBandwidthSum, newBandwidthSumLeaderLess = plotAggregatedBandwidth(label=label)
-aggregatedPlot(timeList, newBandwidthSum, "Throughput (Mbytes/s)", label, color='red', ls='solid', lw=3.0)
+aggregatedPlot(timeList, newBandwidthSum, "Bandwidth demand (Mbytes/s)", label, color='red', ls='solid', lw=3.0)
 print("Aggregated plot created for kafka w/ tuning (scenario 28).")                      
 
 plt.savefig("../results/PT-kafkaAggregatedThroughput.pdf", format='pdf', bbox_inches="tight")
