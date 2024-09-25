@@ -1,4 +1,4 @@
-# command: sudo python3 code/PT-kafkaLatencyCDF.py
+# command: sudo python3 PT-kafkaLatencyCDF.py
 #!/usr/bin/python3
 
 import os
