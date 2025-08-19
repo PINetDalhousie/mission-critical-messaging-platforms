@@ -171,7 +171,7 @@ def overheadCheckPlot(portFlag, msgSize,scenario, label, color, ls, lw, cap):
         handles, labels = plt.gca().get_legend_handles_labels()
         order = [0,2,1]
         plt.legend([handles[idx] for idx in order],[labels[idx] for idx in order], frameon=False, loc='upper left', fontsize=18)
-        plt.savefig("../results/scalability-throughput.pdf", format='pdf', bbox_inches="tight")
+        plt.savefig("../results/scalability-throughput00.pdf", format='pdf', bbox_inches="tight")
     # else:    
     #     plt.savefig(logDirectory+args.portType+" aggregated "+portFlag+"("+str(args.switches)+" nodes "+str(args.nTopics)+" topics "+str(args.replication)+" replication)",bbox_inches="tight")         
 
@@ -209,7 +209,7 @@ clearExistingPlot()
 plotAggregatedBandwidth(scenario=30, label='Kafka-10-nodes', color='blue', ls='solid', lw=3.0, cap=20.0)      #for aggregated plot    
 print("Aggregated plot created for kafka 10 node scenario (scenario 30).")
 
-# task C: 20 node Kafka aggregated plot
+# task C: 10 node rMQ aggregated plot
 logDirectory = args.logDir.replace("kafka/scenario-30", "rMQ/10node-link-lat-1ms-msg-rate-30")
 logDirectory = logDirectory + "/bandwidth/"
 plotAggregatedBandwidth(scenario=0, label='rMQ-10-nodes', color='red', ls='dashed', lw=3.0, cap=100.0)      #for aggregated plot    
@@ -220,4 +220,5 @@ args.replication = 20
 logDirectory = args.logDir.replace("scenario-30", "scenario-31")
 logDirectory = logDirectory + "/bandwidth/"
 plotAggregatedBandwidth(scenario=31, label='Kafka-20-nodes', color='green', ls='dotted', lw=3.0, cap=40.0)      #for aggregated plot    
-print("Aggregated plot for all created.")                       
+print("Aggregated plot for all created.")                      
+
