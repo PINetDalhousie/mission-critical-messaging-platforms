@@ -19,7 +19,7 @@ We tested the plot generating codes over Ubuntu 20.04.6 and is based on Python 3
 > `pip install -r requirements.txt`
 
 
-## Plot generation
+<!-- ## Plot generation
 1. To get the Kafka and rMQ combined aggregated throughput plot, run:
     sudo python3 scripts/combinedThroughput.py
 
@@ -30,7 +30,7 @@ We tested the plot generating codes over Ubuntu 20.04.6 and is based on Python 3
     sudo python3 scripts/PT-kafkaLatencyCDF.py
 
 4. In terms of Parameter Tuning, to get the Kafka aggregated throughput plot, run:
-    sudo python3 scripts/PT-kafkaAggregatedThroughput.py
+    sudo python3 scripts/PT-kafkaAggregatedThroughput.py -->
 
 <!-- ## Additional Results
 Additional evaluation plots that stated in the [paper](https://www.techrxiv.org/doi/full/10.36227/techrxiv.171340979.91183191) can be found under the [results](https://github.com/PINetDalhousie/mission-critical-messaging-platforms/tree/main/results) directory along with a description. -->
