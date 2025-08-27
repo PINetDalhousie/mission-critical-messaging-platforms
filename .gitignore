@@ -1,3 +1,7 @@
 **/latency-log.txt
-code/smart-grid-combinedCDF.py
-code/sslPlotScript.py
+# code/smart-grid-combinedCDF.py
+# code/sslPlotScript.py
+code/
+results/network-partition-heatmap.png
+results/image.png
+results/README.md
